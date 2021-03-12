@@ -15,11 +15,11 @@ C:/Users/janca/Documents/HKU/Jaar 4/Afstudeer/MiniNatura
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54572
+55649
 Successfully changed project path to: C:/Users/janca/Documents/HKU/Jaar 4/Afstudeer/MiniNatura
 C:/Users/janca/Documents/HKU/Jaar 4/Afstudeer/MiniNatura
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 104.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 99.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,464 +35,300 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001778 seconds.
+Registered in 0.001802 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 97.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
+- Completed reload, in  1.040 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002048 seconds.
+Registered in 0.002188 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 101.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.535 seconds
+- Completed reload, in  1.455 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.10 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3969 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 227.1 MB.
 System memory in use after: 227.2 MB.
 
 Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 4419.
-Total: 4.713600 ms (FindLiveObjects: 0.412900 ms CreateObjectMapping: 0.333600 ms MarkObjects: 3.649800 ms  DeleteObjects: 0.315500 ms)
+Total: 4.331100 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.257400 ms MarkObjects: 3.311100 ms  DeleteObjects: 0.334900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57b58948d9b5290a0a5b2868f4b2e75') in 0.933635 seconds
-  Import took 0.942947 seconds .
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Models
+  artifactKey: Guid(a1f513abb0f333c4d860c59f3b1c1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Models using Guid(a1f513abb0f333c4d860c59f3b1c1c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2de84bcbbf94da50773b003959a5f07') in 0.011137 seconds
+  Import took 0.019304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 249.914723 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf3d61a02a57c5f8393373d87a73212') in 0.091505 seconds
-  Import took 0.105560 seconds .
+  Time since last request: 0.000549 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Prefabs
+  artifactKey: Guid(9c613d2ca1f9d7545be64468d1b906cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Prefabs using Guid(9c613d2ca1f9d7545be64468d1b906cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f0b37fc5f05e1a19bdbb7469731f44') in 0.006304 seconds
+  Import took 0.012365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.871771 seconds.
-  path: Assets/2D/Blockout Wasser.mat
-  artifactKey: Guid(42542d811527cf6409749c80ee718a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D/Blockout Wasser.mat using Guid(42542d811527cf6409749c80ee718a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634288d3feffb58e4de6ee19352ebce1') in 0.283457 seconds
-  Import took 0.299953 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d
+  artifactKey: Guid(c9022de591fcffc42961cb08382fa016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d using Guid(c9022de591fcffc42961cb08382fa016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b737aa0b8870ff44b43df3bb24b6b60') in 0.005143 seconds
+  Import took 0.010935 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4974.168796 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff19335ec919b0a443800f401df85581') in 0.132101 seconds
-  Import took 0.146972 seconds .
+  Time since last request: 0.000193 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Textures
+  artifactKey: Guid(32d3fdde4f103794f9dc9888e8b6740d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Textures using Guid(32d3fdde4f103794f9dc9888e8b6740d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9fda2a1ce53530c7345584b42e8ffd') in 0.006463 seconds
+  Import took 0.012593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25b0d325010b474990893d83dd19907') in 0.122317 seconds
-  Import took 0.130489 seconds .
+  Time since last request: 21.953542 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d
+  artifactKey: Guid(4683c6f25c09815479b333817c54e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d using Guid(4683c6f25c09815479b333817c54e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0125343422387d9dca9b3258f2b9160') in 0.005502 seconds
+  Import took 0.016620 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.019295 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c061eecc1db70443ae743143dc5edeb3') in 0.122512 seconds
-  Import took 0.132759 seconds .
+  Time since last request: 0.008953 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d
+  artifactKey: Guid(4683c6f25c09815479b333817c54e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d using Guid(4683c6f25c09815479b333817c54e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0125343422387d9dca9b3258f2b9160') in 0.002095 seconds
+  Import took 0.007390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.396761 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc906caac00e981b72743edfc9485a7') in 0.098623 seconds
-  Import took 0.109238 seconds .
+  Time since last request: 1.295716 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs
+  artifactKey: Guid(cb74232e4d8a29048845228664b2d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs using Guid(cb74232e4d8a29048845228664b2d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63da28eadca1be7678411ac17815818f') in 0.002149 seconds
+  Import took 0.013377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.118890 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e80f0837d126cfedd698ae05909b31') in 0.095086 seconds
-  Import took 0.105056 seconds .
+  Time since last request: 0.012127 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs
+  artifactKey: Guid(cb74232e4d8a29048845228664b2d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs using Guid(cb74232e4d8a29048845228664b2d0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63da28eadca1be7678411ac17815818f') in 0.002340 seconds
+  Import took 0.008625 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.262901 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc49777e6380cf70e19b3c5f8bcb3262') in 0.130659 seconds
-  Import took 0.143314 seconds .
+  Time since last request: 21.823179 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Mushroom_Var3.prefab
+  artifactKey: Guid(d9a701f242a904b4e866a6eaa4ea572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Mushroom_Var3.prefab using Guid(d9a701f242a904b4e866a6eaa4ea572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca1056c655234388297893747a8faf5') in 0.697708 seconds
+  Import took 0.708396 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.683887 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1940ead1edbb2581c4866dc0effeafdf') in 0.092811 seconds
-  Import took 0.103084 seconds .
+  Time since last request: 6.657164 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Mushroom_Var2.prefab
+  artifactKey: Guid(a94b7b9ed45fdfa4bace42da544340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Mushroom_Var2.prefab using Guid(a94b7b9ed45fdfa4bace42da544340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fe15f9a6e0e63c55bb10017390bc73') in 0.086181 seconds
+  Import took 0.095831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.827025 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431d63c10b6f369e0c3a9e9e38f86119') in 0.091787 seconds
-  Import took 0.098863 seconds .
+  Time since last request: 8.903279 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var1.prefab
+  artifactKey: Guid(cd6d2d51f07ad264885ef30c2f981d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var1.prefab using Guid(cd6d2d51f07ad264885ef30c2f981d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4b106a9e44e3b8bd240be973bf95f4') in 0.091643 seconds
+  Import took 0.102373 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.831642 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f5f1f0089014af894c3052752c975f') in 0.123037 seconds
-  Import took 0.133848 seconds .
+  Time since last request: 4.310935 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var5.prefab
+  artifactKey: Guid(1127361fa01d40c4ea3bc04d5f3cd16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var5.prefab using Guid(1127361fa01d40c4ea3bc04d5f3cd16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea7b0733fa1366a3e252f86fdf7ee60') in 0.077183 seconds
+  Import took 0.087685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.288056 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380bc54efb4de55b09a714b7da1d0c23') in 0.086666 seconds
-  Import took 0.098406 seconds .
+  Time since last request: 6.745893 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var4.prefab
+  artifactKey: Guid(f575009cf8cd555468346796cb365152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var4.prefab using Guid(f575009cf8cd555468346796cb365152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5bae4effa2f8587f610fdfd2eb2f34') in 0.070654 seconds
+  Import took 0.080095 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.340501 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c552751a11d0e212f43d684adf34b240') in 0.085423 seconds
-  Import took 0.093878 seconds .
+  Time since last request: 4.658418 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var2.prefab
+  artifactKey: Guid(a94b7b9ed45fdfa4bace42da544340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var2.prefab using Guid(a94b7b9ed45fdfa4bace42da544340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71783ffd77e8fcc614cff073558c8f9') in 0.060187 seconds
+  Import took 0.070483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.379933 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b6c9859c149f8a8c2fe3703175fc27') in 0.105177 seconds
-  Import took 0.112145 seconds .
+  Time since last request: 4.349135 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var3.prefab
+  artifactKey: Guid(d9a701f242a904b4e866a6eaa4ea572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_fungus_fungi_set_rlms3_rlms3_3d/Prefabs/scatter_mushroom_small_Brown_Var3.prefab using Guid(d9a701f242a904b4e866a6eaa4ea572e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2c42e2b786112fe1aa6cc403fdf40c') in 0.072673 seconds
+  Import took 0.087925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.114105 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e44d5a7fa01d65588b8f1b9a0bd5229') in 0.109503 seconds
-  Import took 0.119892 seconds .
+  Time since last request: 16.661634 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set
+  artifactKey: Guid(4683c6f25c09815479b333817c54e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set using Guid(4683c6f25c09815479b333817c54e87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9895209656fde00625098f35a2707db0') in 0.005985 seconds
+  Import took 0.016788 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.770609 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f789f79dcff61c81071f3b88548fe477') in 0.092511 seconds
-  Import took 0.106052 seconds .
+  Time since last request: 2.551077 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Materials
+  artifactKey: Guid(2eeacdd594da82144902258fec19507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Materials using Guid(2eeacdd594da82144902258fec19507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3deb8ff58e5fda89c3cedf2606c6ec7') in 0.005456 seconds
+  Import took 0.015093 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.606432 seconds.
-  path: Assets/3D/blockout v1.fbx
-  artifactKey: Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v1.fbx using Guid(7c8deef7890142f4699fafafa46481d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc96a510182edded0136daab2086026b') in 0.093250 seconds
-  Import took 0.104773 seconds .
+  Time since last request: 0.010593 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Materials
+  artifactKey: Guid(2eeacdd594da82144902258fec19507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Materials using Guid(2eeacdd594da82144902258fec19507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3deb8ff58e5fda89c3cedf2606c6ec7') in 0.002463 seconds
+  Import took 0.008055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.851901 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Models
+  artifactKey: Guid(250f5a892f25f4f40b57701fb7d84d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Models using Guid(250f5a892f25f4f40b57701fb7d84d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076241eb3aba6ac4fff607b6716531a3') in 0.003096 seconds
+  Import took 0.013626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011429 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Models
+  artifactKey: Guid(250f5a892f25f4f40b57701fb7d84d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Models using Guid(250f5a892f25f4f40b57701fb7d84d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076241eb3aba6ac4fff607b6716531a3') in 0.002398 seconds
+  Import took 0.008969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.663229 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Textures
+  artifactKey: Guid(877d039ccc288054684e695e38a618ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Textures using Guid(877d039ccc288054684e695e38a618ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fce15afce3fd0aea3d4a175686b4ab') in 0.002646 seconds
+  Import took 0.013232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012315 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Textures
+  artifactKey: Guid(877d039ccc288054684e695e38a618ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/scatter_mushroom_small_Brown_Mushroom_set/Textures using Guid(877d039ccc288054684e695e38a618ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fce15afce3fd0aea3d4a175686b4ab') in 0.002449 seconds
+  Import took 0.008273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.454991 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Materials
+  artifactKey: Guid(1f9c7f301f143b540913bd69c6332c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Materials using Guid(1f9c7f301f143b540913bd69c6332c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab58b9b7efb5695580a23c7bd6eebcb2') in 0.002409 seconds
+  Import took 0.012170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013388 seconds.
+  path: Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Materials
+  artifactKey: Guid(1f9c7f301f143b540913bd69c6332c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quixel/Megascans/3D_Scatter_Assets/forest mushrooms_rfgkhra_3d/Materials using Guid(1f9c7f301f143b540913bd69c6332c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab58b9b7efb5695580a23c7bd6eebcb2') in 0.002852 seconds
+  Import took 0.008452 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002066 seconds.
+Registered in 0.001884 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.507 seconds
+- Completed reload, in  1.439 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.4 MB.
-System memory in use after: 220.5 MB.
+Unloading 3622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 218.8 MB.
+System memory in use after: 218.9 MB.
 
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 4592.
-Total: 3.313600 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.219600 ms MarkObjects: 2.472300 ms  DeleteObjects: 0.239300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.251015 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac25956778f4c9818e998554b70f308') in 1.103856 seconds
-  Import took 1.114427 seconds .
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4555.
+Total: 5.290800 ms (FindLiveObjects: 0.719200 ms CreateObjectMapping: 0.506600 ms MarkObjects: 3.673000 ms  DeleteObjects: 0.389800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.692643 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164873454066ce1a66e60991f73eb9d8') in 0.111084 seconds
-  Import took 0.122870 seconds .
+  Time since last request: 334.820268 seconds.
+  path: Assets/ExampleAssets/Materials
+  artifactKey: Guid(08926ba083f53d746952ad51d0e9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials using Guid(08926ba083f53d746952ad51d0e9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1fb84bbffd9df572596d460227bc16') in 0.011708 seconds
+  Import took 0.023269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.975777 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56ed473f8e89e90bb830fc08aac0869') in 0.126160 seconds
-  Import took 0.134163 seconds .
+  Time since last request: 0.002240 seconds.
+  path: Assets/ExampleAssets/Materials
+  artifactKey: Guid(08926ba083f53d746952ad51d0e9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials using Guid(08926ba083f53d746952ad51d0e9d30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1fb84bbffd9df572596d460227bc16') in 0.002278 seconds
+  Import took 0.007885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.487053 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7cd82d65c32d40f483eb56dc8f261d') in 0.152454 seconds
-  Import took 0.162878 seconds .
+  Time since last request: 2.506897 seconds.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(757f6be72dedcb9468cddd9431ff8b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(757f6be72dedcb9468cddd9431ff8b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e46d1d2b06bdb5306ef41a69869b10c') in 0.005841 seconds
+  Import took 0.017741 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 162.921462 seconds.
-  path: Assets/3D/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ea5b69221b32ffb8a18f0bbd07d561') in 0.266056 seconds
-  Import took 0.279805 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002027 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.451 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3620 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.7 MB.
-System memory in use after: 220.8 MB.
-
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 4697.
-Total: 5.001700 ms (FindLiveObjects: 0.565700 ms CreateObjectMapping: 0.266900 ms MarkObjects: 3.805300 ms  DeleteObjects: 0.362300 ms)
+  Time since last request: 0.006737 seconds.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(757f6be72dedcb9468cddd9431ff8b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(757f6be72dedcb9468cddd9431ff8b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e46d1d2b06bdb5306ef41a69869b10c') in 0.002268 seconds
+  Import took 0.009069 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 379.993713 seconds.
-  path: Assets/Quixel/Megascans/3D_Plants
-  artifactKey: Guid(10585042a83f57149b9f909b67d61c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/3D_Plants using Guid(10585042a83f57149b9f909b67d61c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3758b4e229b9f39f71515aa983db3772') in 0.018024 seconds
-  Import took 0.025836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003709 seconds.
-  path: Assets/Quixel/Megascans/3D_Plants
-  artifactKey: Guid(10585042a83f57149b9f909b67d61c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/3D_Plants using Guid(10585042a83f57149b9f909b67d61c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3758b4e229b9f39f71515aa983db3772') in 0.002695 seconds
-  Import took 0.009236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.680631 seconds.
-  path: Assets/Quixel/Megascans/3D_Scatter_Assets
-  artifactKey: Guid(c08c839c02429334f80615d3746647fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/3D_Scatter_Assets using Guid(c08c839c02429334f80615d3746647fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce70b067602405f36823ed9dd2f7d127') in 0.006602 seconds
-  Import took 0.012928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.302035 seconds.
-  path: Assets/Quixel/Megascans/Surfaces
-  artifactKey: Guid(7df1b37e40ee76a43a2ac6dac7760e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces using Guid(7df1b37e40ee76a43a2ac6dac7760e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0988ed9c4898ff2c7ee87c31bb91b405') in 0.006643 seconds
-  Import took 0.016926 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.699558 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Jagged Mossy Rock 2x2 M_umsleeclw_surface
-  artifactKey: Guid(316d893a56474c345b82d34ae896c550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Jagged Mossy Rock 2x2 M_umsleeclw_surface using Guid(316d893a56474c345b82d34ae896c550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5107125a477e9e9db5cbe38b2d1e06c9') in 0.009052 seconds
-  Import took 0.015487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.677542 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Jagged Mossy Rock 2x2 M_umsleeclw_surface/Textures
-  artifactKey: Guid(20207e6d7ebbdba4699de602e14bdad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Jagged Mossy Rock 2x2 M_umsleeclw_surface/Textures using Guid(20207e6d7ebbdba4699de602e14bdad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535a5f7d64b72cf85e10a4cc2ce575eb') in 0.006205 seconds
-  Import took 0.012352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.302460 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Jagged Mossy Rock 2x2 M_umsleeclw_surface/Materials
-  artifactKey: Guid(03b82367cb831974ba78d94bef56e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Jagged Mossy Rock 2x2 M_umsleeclw_surface/Materials using Guid(03b82367cb831974ba78d94bef56e88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c558897f55025d0441ed410e57eb6fe7') in 0.005961 seconds
-  Import took 0.012620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.572687 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Swamp Water_ti4hadnr_surface
-  artifactKey: Guid(4d8f080601c83124daddfcc18a4b8eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Swamp Water_ti4hadnr_surface using Guid(4d8f080601c83124daddfcc18a4b8eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c458baa6c5419d0b78b195b535c1e3') in 0.006243 seconds
-  Import took 0.015414 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.936741 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Swamp Water_ti4hadnr_surface/Textures
-  artifactKey: Guid(9fa87e2ab333ec843ac3a9e48a73aa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Swamp Water_ti4hadnr_surface/Textures using Guid(9fa87e2ab333ec843ac3a9e48a73aa03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8153c0748c25a7e165835a977dafee9d') in 0.002550 seconds
-  Import took 0.011700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.525798 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Mossy Ground 2x2 M_umkkfcolw_surface/Textures/Normal_8K__umkkfcolw.png
-  artifactKey: Guid(553952dfb5a5eed43863531ef30fd636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Mossy Ground 2x2 M_umkkfcolw_surface/Textures/Normal_8K__umkkfcolw.png using Guid(553952dfb5a5eed43863531ef30fd636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d24241799406d26e1bb3c8988e344e') in 0.094627 seconds
-  Import took 0.102624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.569938 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Creek Mossy Stones_ujqmejtr_surface
-  artifactKey: Guid(28a28d62c17dc894282192c2fd1d2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Creek Mossy Stones_ujqmejtr_surface using Guid(28a28d62c17dc894282192c2fd1d2669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0cc38d56afb6f2752cb522828fb5f0') in 0.005936 seconds
-  Import took 0.015649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.763556 seconds.
-  path: Assets/Quixel/Megascans/Surfaces/Creek Mossy Stones_ujqmejtr_surface/Textures
-  artifactKey: Guid(e727c8a6ca8f5d94697da27700c22403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quixel/Megascans/Surfaces/Creek Mossy Stones_ujqmejtr_surface/Textures using Guid(e727c8a6ca8f5d94697da27700c22403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93253587181e48b4e2fcab55b90d6ce') in 0.002580 seconds
-  Import took 0.012330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.415708 seconds.
-  path: Assets/ScreenshotUtility
-  artifactKey: Guid(0515f2e8f0550fb40ba2dfbf18cbe01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScreenshotUtility using Guid(0515f2e8f0550fb40ba2dfbf18cbe01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5eebb7696562e5905695367c572925') in 0.009796 seconds
-  Import took 0.016382 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003279 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.376 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3620 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.6 MB.
-System memory in use after: 220.7 MB.
-
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 4703.
-Total: 4.935200 ms (FindLiveObjects: 0.490800 ms CreateObjectMapping: 0.292500 ms MarkObjects: 3.875100 ms  DeleteObjects: 0.275000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.215206 seconds.
-  path: Assets/ScreenshotUtility/Editor/ScreenshotUtility.cs
-  artifactKey: Guid(968fd279e77f36b49bb9809f97314077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScreenshotUtility/Editor/ScreenshotUtility.cs using Guid(968fd279e77f36b49bb9809f97314077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ca5c4306f40c9342e4adfe4b0a1b6') in 0.034170 seconds
-  Import took 0.043096 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001968 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.299 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3620 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.6 MB.
-System memory in use after: 220.8 MB.
-
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 4706.
-Total: 3.481000 ms (FindLiveObjects: 0.386000 ms CreateObjectMapping: 0.222100 ms MarkObjects: 2.594400 ms  DeleteObjects: 0.277100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002938 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.445 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3620 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.7 MB.
-System memory in use after: 220.8 MB.
-
-Unloading 110 unused Assets to reduce memory usage. Loaded Objects now: 4709.
-Total: 4.441700 ms (FindLiveObjects: 0.556500 ms CreateObjectMapping: 0.288400 ms MarkObjects: 3.303500 ms  DeleteObjects: 0.292000 ms)
+  Time since last request: 155.730594 seconds.
+  path: Assets/Scenes/Blockout.unity
+  artifactKey: Guid(b1ce953debf09334c9c5eeb0eb288c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout.unity using Guid(b1ce953debf09334c9c5eeb0eb288c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f43c9263891aa71dd7dbe14d2def2f') in 0.109068 seconds
+  Import took 0.115834 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

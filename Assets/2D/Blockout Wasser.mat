@@ -29,7 +29,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_35e601e96c1148329d5e61414cf0bf4a:
-        m_Texture: {fileID: 2800000, guid: 43079feb996de9f41876f3fe0e6ffea9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_40BD0406:
@@ -373,7 +373,7 @@ Material:
     - DiffusionProfile_261f48f1fbc94ccbafc421414859c159: 0
     - DiffusionProfile_bfbe0deb8ec4428a9cfcdb968651903c: 0
     - Vector1_06bf0c7da66f42bbbdf2bebe8b18e814: 0.001
-    - Vector1_09128e2a46de4bdaa826f7aeeda937df: 1
+    - Vector1_09128e2a46de4bdaa826f7aeeda937df: 0.65
     - Vector1_2D21A623: 0.05
     - Vector1_45446F90: 1
     - Vector1_49C490F5: 0.8
@@ -383,10 +383,10 @@ Material:
     - Vector1_70564D59: 0
     - Vector1_76BF2124: 0
     - Vector1_7c3bde8d3f164219baeb3ada2dcba42e: 0.02
-    - Vector1_7d94157d32ec4293b024f3daf3eac049: -0.005
+    - Vector1_7d94157d32ec4293b024f3daf3eac049: -0.01
     - Vector1_8AFDFB0C: 0
     - Vector1_8F0D1174: 0
-    - Vector1_932de8276a484a8ebd7051c342038a9e: 1
+    - Vector1_932de8276a484a8ebd7051c342038a9e: 0.3
     - Vector1_94E1614A: 0.01
     - Vector1_9FF40171: 1
     - Vector1_9c33d15997d14c9ab00f03b4c7ab0d55: 0
@@ -703,8 +703,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_38e3a146ddde43fea886c975fde3e9b3: {r: 0, g: 0, b: 0, a: 0.28235295}
-    - Color_4b7e5ba405684501b18b535f4377fd3c: {r: 0, g: 0, b: 0, a: 0.4745098}
+    - Color_38e3a146ddde43fea886c975fde3e9b3: {r: 0, g: 0.16862746, b: 0.11372549, a: 0.48235294}
+    - Color_4b7e5ba405684501b18b535f4377fd3c: {r: 1, g: 1, b: 1, a: 0.44705883}
     - Color_62F24D98: {r: 1, g: 1, b: 1, a: 1}
     - Color_75e4918e12cb4ce09668de15b3fbe529: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
     - Color_7657C1FD: {r: 0, g: 0, b: 0, a: 0}
@@ -715,7 +715,7 @@ Material:
     - Color_f55afba9bd22457eb922892afe3962f9: {r: 1, g: 1, b: 1, a: 0}
     - DiffusionProfile_261f48f1fbc94ccbafc421414859c159_Asset: {r: 0, g: 0, b: 0, a: 0}
     - DiffusionProfile_bfbe0deb8ec4428a9cfcdb968651903c_Asset: {r: 0, g: 0, b: 0, a: 0}
-    - Vector2_156a342cd3004738a0799ffba2cfebff: {r: 4, g: 4, b: 4, a: 0}
+    - Vector2_156a342cd3004738a0799ffba2cfebff: {r: 1.5, g: 1.5, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColor1: {r: 1, g: 1, b: 1, a: 1}
