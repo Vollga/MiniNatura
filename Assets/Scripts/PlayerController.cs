@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         Player = this;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Start is called before the first frame update
@@ -42,6 +44,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonUp("Quit"))
+        {
+            Application.Quit();
+        }
+        if (Input.GetButtonDown("Reset"))
+        {
+            print("reset scene");
+            SceneManager.LoadScene(0);
+            
+        }
+
         groundedPlayer = character.isGrounded;
         if (groundedPlayer)
         {
