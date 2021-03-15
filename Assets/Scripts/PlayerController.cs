@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
     int coyoteTimer;
     bool hasJumped = false;
 
+    [Header("Collectibles Indicator")]
+    public CollectiblesController collectiblesController;
+
     private void Awake()
     {
         Player = this;

@@ -5,26 +5,39 @@ using UnityEngine.Rendering.HighDefinition;
 
 public class Collectible : MonoBehaviour
 {
+    public bool _isCollected = false;
+    public bool _useDecal = false;
+
     DecalProjector glowDecal;
-    
+    Light glowLight;
+
+    float targetIntensity;
+
     // Start is called before the first frame update
     void Start()
     {
-        this.GetComponent<MeshRenderer>().enabled = false;
         glowDecal = this.GetComponentInChildren<DecalProjector>();
+        glowLight = this.GetComponentInChildren<Light>();
+        targetIntensity = glowLight.intensity;
+        glowLight.intensity = 0;
+        glowLight.enabled = false;
+        if (_useDecal)
+        {
+            glowDecal.transform.localPosition = new Vector3(0, -0.01f, 0);
+            glowDecal.enabled = true;
+        }
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && _isCollected == false)
         {
             StartCoroutine(startGlow());
             this.GetComponent<AudioSource>().Play();
+            other.GetComponent<PlayerController>().collectiblesController.CollectSeed();
+            _isCollected = true;
         }
     }
     
@@ -32,11 +45,23 @@ public class Collectible : MonoBehaviour
     {
         float timer = 0f;
         float maxTimer = 2f;
+        if (!_useDecal)
+        {
+            glowLight.enabled = true;
+        }
         while (timer < maxTimer)
         {
-            glowDecal.fadeFactor = Mathf.SmoothStep(0, 1, timer/maxTimer );
+            if (_useDecal)
+            {
+                glowDecal.fadeFactor = Mathf.SmoothStep(0, 1, timer / maxTimer);
+            }
+            else
+            {
+                glowLight.intensity = Mathf.SmoothStep(0, targetIntensity, timer / maxTimer);
+            }
+
             timer += Time.deltaTime;
-            print (timer/maxTimer);
+            //print (timer/maxTimer);
             yield return new WaitForEndOfFrame();
         }
 

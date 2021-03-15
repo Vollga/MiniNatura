@@ -154,6 +154,7 @@ MonoBehaviour:
   gravity: -0.6
   maxCoyote: 30
   playerModel: {fileID: 1493110144106234910}
+  collectiblesController: {fileID: 0}
 --- !u!81 &7354185354144830339
 AudioListener:
   m_ObjectHideFlags: 0

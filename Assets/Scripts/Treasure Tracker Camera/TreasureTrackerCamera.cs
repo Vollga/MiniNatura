@@ -129,8 +129,9 @@ public class TreasureTrackerCamera : MonoBehaviour
         {
             //Smoothstep pivot rotation
             Vector3 finalRot = new Vector3(ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y), tOrigin.eulerAngles.y + Input.GetAxis("Mouse X") * mouseMultiplier, 0);
-            Vector3 smootRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles,ref hVelocity, mouseSpeed);
-            tOrigin.eulerAngles = smootRot;
+            Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles,ref hVelocity, mouseSpeed);
+            smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
+            tOrigin.eulerAngles = smoothRot;
 
             //Apply camera position & offset
             cam.transform.position = tOffset.position + tOffset.TransformVector(verticalPos);
