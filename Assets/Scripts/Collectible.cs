@@ -36,7 +36,7 @@ public class Collectible : MonoBehaviour
         {
             StartCoroutine(startGlow());
             this.GetComponent<AudioSource>().Play();
-            other.GetComponent<PlayerController>().collectiblesController.CollectSeed();
+            other.GetComponent<DemoPlayerController>().collectiblesController.CollectSeed();
             this.GetComponent<SphereCollider>().enabled = false;
             _isCollected = true;
         }
