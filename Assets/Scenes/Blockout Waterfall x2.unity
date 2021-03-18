@@ -4707,7 +4707,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh96370
+  m_Name: pb_Mesh22188
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -67683,15 +67683,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: zoomSpeed
-      value: 0.8
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: zoomStrength
-      value: 13
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: verticalOffset
-      value: 0.02
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: mouseVerticalMinMax.x
