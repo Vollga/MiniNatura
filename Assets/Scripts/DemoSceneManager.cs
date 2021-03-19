@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class DemoSceneManager : MonoBehaviour
 {
     [Header("Make sure to put backslash at the end")]
-    public string saveLocation;
+    public string saveLocation = "C:\\Users\\janca\\Documents\\HKU\\Jaar 4\\Afstudeer\\Screenshots\\";
     public int resolutionMultiplier = 2;
 
     Scene currentScene;
