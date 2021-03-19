@@ -23,6 +23,7 @@ public class TreasureTrackerCamera : MonoBehaviour
     [Range(0.0f, 1.0f)]
     public float zoomSpeed = 0.5f;
     public float focusSize = 0.3f;
+    public float focusEnd = 1f;
     public float zoomStrength = 3;
 
     public float mouseMultiplier = 0.5f;
@@ -163,8 +164,8 @@ public class TreasureTrackerCamera : MonoBehaviour
 
         float focusDistance = Vector3.Distance(cam.transform.position, player.position);
         tDOF.nearFocusEnd.Override(focusDistance - (Mathf.Lerp(focusSize, focusSize/zoomStrength,smoothZoomLevel) / 2));
-        tDOF.farFocusStart.Override(focusDistance + (Mathf.Lerp(focusSize, focusSize / zoomStrength, smoothZoomLevel) / 2));
-        tDOF.farFocusEnd.Override(focusDistance + Mathf.Lerp(1, 1/zoomStrength, smoothZoomLevel));
+        tDOF.farFocusStart.Override(focusDistance + (Mathf.Lerp(focusSize, focusSize*2 / zoomStrength, smoothZoomLevel) / 2));
+        tDOF.farFocusEnd.Override(focusDistance + Mathf.Lerp(focusEnd, focusEnd/zoomStrength, smoothZoomLevel));
 
     }
 

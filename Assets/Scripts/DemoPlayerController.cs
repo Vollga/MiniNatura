@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class DemoPlayerController : MonoBehaviour
 {
@@ -47,13 +47,6 @@ public class DemoPlayerController : MonoBehaviour
         if (Input.GetButtonUp("Quit"))
         {
             Application.Quit();
-        }
-        if (Input.GetButtonDown("Reset"))
-        {
-            print("reset scene");
-            
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            
         }
 
         groundedPlayer = character.isGrounded;
