@@ -46,14 +46,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03936d60fb9c2b349a3385abb16caeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _usingV2: 1
   isTrackingPlayer: 0
   horizontalSpeed: 0.75
   verticalSpeed: 0.1
   mouseSpeed: 0.623
-  focusSize: 0.2
-  zoomStrength: 3
   mouseMultiplier: 0.5
-  mouseVerticalMinMax: {x: -40, y: 35}
+  mouseVerticalMinMax: {x: -65, y: 10}
+  zoomToggleSpeed: 0.5
+  zoomTrackingSpeed: 0.25
+  zoomStrength: 3
+  envSize: 0
+  afLayers:
+    serializedVersion: 2
+    m_Bits: 379
+  autofocusSpeed: 0.2
+  focusSize: 0.2
+  focusEnd: 1
+  _showAFDebug: 0
+  _afOnPlayer: 0
   player: {fileID: 0}
   verticalOffset: 0.03
   cam: {fileID: 0}

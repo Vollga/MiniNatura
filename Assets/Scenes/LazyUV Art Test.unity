@@ -10785,6 +10785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b33ce9e14f9cb34bad2e315716c5536, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  saveLocation: C:\Users\janca\Documents\HKU\Jaar 4\Afstudeer\Screenshots\
+  resolutionMultiplier: 2
 --- !u!4 &1088679513
 Transform:
   m_ObjectHideFlags: 0
@@ -19773,6 +19775,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 838167177}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: envSize
+      value: 1.62
+      objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: focusSize
       value: 0.3

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7136039661619082939}
   - component: {fileID: 3080500432667051938}
   - component: {fileID: 2197288357870511665}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fern_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 5155654000317505948}
   - component: {fileID: 542121395957740500}
   - component: {fileID: 6800629976718622487}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fern_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6136894776257658072}
   - component: {fileID: 1391405875367040949}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fern
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3360584762010446596}
   - component: {fileID: 5803800289739285141}
   - component: {fileID: 1560357791240847658}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BladePlant
   m_TagString: Untagged
   m_Icon: {fileID: 0}

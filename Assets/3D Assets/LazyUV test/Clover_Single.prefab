@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722348271707094886}
   - component: {fileID: 5502365497132926999}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clover_Single
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 8698338470433153526}
   - component: {fileID: 2514770299804333646}
   - component: {fileID: 6194034498630550123}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clover_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 7647514672984789054}
   - component: {fileID: 7258216157782419935}
   - component: {fileID: 6025485277831097898}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Clover_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

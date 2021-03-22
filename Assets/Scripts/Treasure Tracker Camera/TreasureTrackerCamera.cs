@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.HighDefinition;
@@ -10,7 +8,10 @@ public class TreasureTrackerCamera : MonoBehaviour
     #region Singleton
     public static TreasureTrackerCamera mainCamera;
     #endregion
-
+    public bool _usingV2 = true;
+    
+    
+    //public bool _isHittingPlayer;
 
     [Header("Camera Controls")]
     public bool isTrackingPlayer = true;
@@ -20,15 +21,26 @@ public class TreasureTrackerCamera : MonoBehaviour
     public float verticalSpeed = 0.75f;
     [Range(0.0f, 1.0f)]
     public float mouseSpeed = 0.1f;
-    [Range(0.0f, 1.0f)]
-    public float zoomSpeed = 0.5f;
-    public float focusSize = 0.3f;
-    public float focusEnd = 1f;
-    public float zoomStrength = 3;
-
     public float mouseMultiplier = 0.5f;
     public Vector2 mouseVerticalMinMax = new Vector2(-10, 50);
 
+    [Header("Zoom Controls")]
+    [Range(0.0f, 1.0f)]
+    public float zoomToggleSpeed = 0.75f;
+    [Range(0.0f, 1.0f)]
+    public float zoomTrackingSpeed = 0.25f;
+    public float zoomStrength = 3;
+    public float envSize;
+    [SerializeField] private AnimationCurve zoomCurve = AnimationCurve.Linear(0,0,1,1);
+
+    [Header("Autofocus Controls")]
+    public LayerMask afLayers;
+    [Range(0.0f, 1.0f)]
+    public float autofocusSpeed = 0.2f;
+    public float focusSize = 0.3f;
+    public float focusEnd = 1f;
+    public bool _showAFDebug = false;
+    public bool _afOnPlayer;
 
     [Header("Targets")]
     public Transform player;
@@ -52,6 +64,18 @@ public class TreasureTrackerCamera : MonoBehaviour
     private float zoomVelocity = 0;
     private float maxFoV;
     private bool zoomToggle = false;
+
+    private Vector3 dampPlayerPos;
+    private Vector3 smoothPlayerPos;
+
+
+    private Ray afRay;
+    private RaycastHit afHit;
+    private GameObject afDebug;
+    private float focusDistance;
+    private float dampFocus;
+    private float smoothFocus;
+    private float focusVelocity = 0;
 
     private void Awake()
     {
@@ -78,12 +102,20 @@ public class TreasureTrackerCamera : MonoBehaviour
         }
 
         maxFoV = cam.fieldOfView;
+
+        if (_showAFDebug)
+        {
+            afDebug = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+            afDebug.name = "afDebug";
+            afDebug.transform.SetParent(tFindPlayer);
+            afDebug.GetComponent<SphereCollider>().enabled = false;
+        }
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        if(Input.GetButtonDown("Middle Mouse"))
+        /*if(Input.GetButtonDown("Middle Mouse"))
         {
             zoomToggle = !zoomToggle;
             if (zoomToggle == true)
@@ -96,77 +128,159 @@ public class TreasureTrackerCamera : MonoBehaviour
             }
         }
 
+        print(Input.GetAxis("Mouse ScrollWheel"));
         //Smooth Zoom Level
         float finalZoom = Mathf.Clamp(zoomLevel + Input.GetAxis("Mouse ScrollWheel"),0f,1f) ;
-        float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, finalZoom, ref zoomVelocity, zoomSpeed);
+        float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, finalZoom, ref zoomVelocity, zoomToggleSpeed);
+        smoothZoomLevel = Mathf.Clamp(dampZoom + Input.GetAxis("Mouse ScrollWheel"), 0f, 1f);*/
+
+        if (Input.GetButtonDown("Middle Mouse"))
+        {
+            zoomToggle = !zoomToggle;
+            if (zoomToggle == true)
+            {
+                zoomLevel = 1;
+            }
+            else
+            {
+                zoomLevel = 0;
+            }
+        }
+        zoomLevel = Mathf.Clamp(zoomLevel + Input.GetAxis("Mouse ScrollWheel"),0f,1f);
+
+        float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, zoomLevel, ref zoomVelocity, zoomToggleSpeed);
         smoothZoomLevel = dampZoom;
 
-
-        if (isTrackingPlayer) //Automatic Follow
+        if (!_usingV2) //Old system
         {
-            // Orient Origin
-            tOrigin.LookAt(new Vector3(player.position.x, tOrigin.position.y, player.position.z));
+            if (isTrackingPlayer) //Automatic Follow
+            {
+                // Orient Origin
+                tOrigin.LookAt(new Vector3(player.position.x, tOrigin.position.y, player.position.z));
             
-            //Smoothstep Camera Position
-            Vector3 finalPos = new Vector3(tOffset.position.x, verticalPos.y, tOffset.position.z);
-            Vector3 smoothPos = Vector3.SmoothDamp(cam.transform.position, finalPos, ref hVelocity, horizontalSpeed);
-            cam.transform.position = smoothPos;
+                //Smoothstep Camera Position
+                Vector3 finalPos = new Vector3(tOffset.position.x, verticalPos.y, tOffset.position.z);
+                Vector3 smoothPos = Vector3.SmoothDamp(cam.transform.position, finalPos, ref hVelocity, horizontalSpeed);
+                cam.transform.position = smoothPos;
 
-            //Smoothstep Vertical Target position
-            float finalV = player.position.y + verticalOffset;
-            float smoothV = Mathf.SmoothStep(tTarget.position.y, finalV, verticalSpeed);
-            tTarget.position = new Vector3(player.position.x, smoothV, player.position.z);
+                //Smoothstep Vertical Target position
+                float finalV = player.position.y + verticalOffset;
+                float smoothV = Mathf.SmoothStep(tTarget.position.y, finalV, verticalSpeed);
+                tTarget.position = new Vector3(player.position.x, smoothV, player.position.z);
 
-            //Get Vertical Rotation by looking at player
-            tFindPlayer.LookAt(tTarget);
-            float rotX = tFindPlayer.eulerAngles.x;
+                //Get Vertical Rotation by looking at player
+                tFindPlayer.LookAt(tTarget);
+                float rotX = tFindPlayer.eulerAngles.x;
 
-            //Aim Camera at origin and replace vertical rotation
-            cam.transform.LookAt(tOrigin);
-            cam.transform.eulerAngles = new Vector3(rotX, cam.transform.eulerAngles.y, 0);
+                //Aim Camera at origin and replace vertical rotation
+                cam.transform.LookAt(tOrigin);
+                cam.transform.eulerAngles = new Vector3(rotX, cam.transform.eulerAngles.y, 0);
 
-        } 
-        else //Manual Control
+            } 
+            else //Manual Control
+            {
+                //Smoothstep pivot rotation
+                Vector3 finalRot = new Vector3(ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y), tOrigin.eulerAngles.y + Input.GetAxis("Mouse X") * mouseMultiplier, 0);
+                Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles,ref hVelocity, mouseSpeed);
+                smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
+                tOrigin.eulerAngles = smoothRot;
+
+                //Apply camera position & offset
+                cam.transform.position = tOffset.position + tOffset.TransformVector(verticalPos);
+
+                ////Camera target Smoothstep
+                //Vector3 finalTarget = Vector3.Lerp(tOrigin.position, player.position + new Vector3(0,verticalOffset,0), zoomLevel);//   new Vector3(Mathf.Lerp(tOrigin.position.x , player.position.x, zoomLevel), player.position.y, Mathf.Lerp(tOrigin.position.z, player.position.z, zoomLevel));;
+                //Vector3 smoothTarget = Vector3.SmoothDamp(tTarget.position, finalTarget, ref vVelocity, horizontalSpeed);
+                //tTarget.position = smoothTarget;
+
+                //cam.transform.LookAt(tTarget);
+
+                //Origin Position Smoothstep
+                //Vector3 finalPos = Vector3.Lerp(originPos, player.position + new Vector3(0, verticalOffset, 0), zoomLevel);
+                //Vector3 smoothPos = Vector3.SmoothDamp(tOrigin.position, finalPos, ref vVelocity, horizontalSpeed);
+
+                //Zoom Target
+                Vector3 finalTarget = player.position + new Vector3(0, verticalOffset, 0);
+                Vector3 smoothTarget = Vector3.SmoothDamp(tTarget.position, finalTarget, ref vVelocity, zoomTrackingSpeed);
+                tTarget.position = smoothTarget;
+
+                tOrigin.position = Vector3.Lerp(originPos, tTarget.position, smoothZoomLevel);
+
+
+                cam.transform.LookAt(tOrigin);
+            }
+
+            cam.fieldOfView = Mathf.Lerp(maxFoV, maxFoV/zoomStrength, smoothZoomLevel);
+        }
+        else //new system
         {
             //Smoothstep pivot rotation
-            Vector3 finalRot = new Vector3(ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y), tOrigin.eulerAngles.y + Input.GetAxis("Mouse X") * mouseMultiplier, 0);
-            Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles,ref hVelocity, mouseSpeed);
+            Vector3 finalRot = new Vector3(0, tOrigin.eulerAngles.y + Input.GetAxis("Mouse X") * mouseMultiplier, 0);
+            Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles, ref hVelocity, mouseSpeed);
             smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
             tOrigin.eulerAngles = smoothRot;
 
             //Apply camera position & offset
             cam.transform.position = tOffset.position + tOffset.TransformVector(verticalPos);
 
-            ////Camera target Smoothstep
-            //Vector3 finalTarget = Vector3.Lerp(tOrigin.position, player.position + new Vector3(0,verticalOffset,0), zoomLevel);//   new Vector3(Mathf.Lerp(tOrigin.position.x , player.position.x, zoomLevel), player.position.y, Mathf.Lerp(tOrigin.position.z, player.position.z, zoomLevel));;
-            //Vector3 smoothTarget = Vector3.SmoothDamp(tTarget.position, finalTarget, ref vVelocity, horizontalSpeed);
-            //tTarget.position = smoothTarget;
+            //Smooth player tracking position
+            dampPlayerPos = Vector3.SmoothDamp(smoothPlayerPos, player.position + new Vector3(0, verticalOffset, 0), ref vVelocity, zoomTrackingSpeed);
+            smoothPlayerPos = dampPlayerPos;
 
-            //cam.transform.LookAt(tTarget);
+            //Lerp target between origin and player
+            Vector3 finalTarget = Vector3.Lerp(tOrigin.position, smoothPlayerPos, CurveSmooth(smoothZoomLevel));
 
-            //Origin Position Smoothstep
-            //Vector3 finalPos = Vector3.Lerp(originPos, player.position + new Vector3(0, verticalOffset, 0), zoomLevel);
-            //Vector3 smoothPos = Vector3.SmoothDamp(tOrigin.position, finalPos, ref vVelocity, horizontalSpeed);
+            cam.fieldOfView = Mathf.Lerp(maxFoV, (maxFoV / zoomStrength) / (Vector3.Distance(player.position,cam.transform.position)/ envSize), smoothZoomLevel); //Zoom FOV adjusted based on distance of player to camera so player always stays the same size
 
-            //Zoom Target
-            Vector3 finalTarget = player.position + new Vector3(0, verticalOffset, 0);
-            Vector3 smoothTarget = Vector3.SmoothDamp(tTarget.position, finalTarget, ref vVelocity, zoomSpeed);
-            tTarget.position = smoothTarget;
+            cam.transform.LookAt(finalTarget);
+        }
+        
 
-            tOrigin.position = Vector3.Lerp(originPos, tTarget.position, smoothZoomLevel);
+        
 
 
-            cam.transform.LookAt(tOrigin);
+
+        //Ray-based autofocus
+        tFindPlayer.LookAt(player.position);
+        afRay = new Ray(tFindPlayer.position, tFindPlayer.forward);
+
+        if (Physics.Raycast(afRay, out afHit, afLayers))
+        {
+            focusDistance = Vector3.Distance(cam.transform.position, afHit.point);
+            //print("Name: " + afHit.collider.name + ", Tag: " + afHit.collider.tag + ", Layer: " + afHit.collider.gameObject.layer);
+        }
+        else
+        {
+            focusDistance = Vector3.Distance(cam.transform.position, player.position); //fallback focus distance
         }
 
-        cam.fieldOfView = Mathf.Lerp(maxFoV, maxFoV/zoomStrength, smoothZoomLevel);
+        if (afHit.collider.CompareTag("Player"))    //If player in view, lock autofocus (no smoothing)
+        {
+            //focusDistance = Vector3.Distance(cam.transform.position, player.position);
+            smoothFocus = focusDistance;
+            _afOnPlayer = true;
+        }
+        else // Smooth AF when player not in view
+        {
+            dampFocus = Mathf.SmoothDamp(smoothFocus, focusDistance, ref focusVelocity, autofocusSpeed);
+            smoothFocus = dampFocus;
+            _afOnPlayer = false;
+        }
 
+        if (_showAFDebug)
+        {
+            afDebug.transform.localPosition = new Vector3(0, 0, smoothFocus);
+        }
 
-        float focusDistance = Vector3.Distance(cam.transform.position, player.position);
-        tDOF.nearFocusEnd.Override(focusDistance - (Mathf.Lerp(focusSize, focusSize/zoomStrength,smoothZoomLevel) / 2));
-        tDOF.farFocusStart.Override(focusDistance + (Mathf.Lerp(focusSize, focusSize*2 / zoomStrength, smoothZoomLevel) / 2));
-        tDOF.farFocusEnd.Override(focusDistance + Mathf.Lerp(focusEnd, focusEnd/zoomStrength, smoothZoomLevel));
+        //apply focus distances
+        tDOF.nearFocusEnd.Override(smoothFocus - (Mathf.Lerp(focusSize, focusSize/zoomStrength,smoothZoomLevel) / 2));
+        tDOF.farFocusStart.Override(smoothFocus + (Mathf.Lerp(focusSize, focusSize*2 / zoomStrength, smoothZoomLevel) / 2));
+        tDOF.farFocusEnd.Override(smoothFocus + Mathf.Lerp(focusEnd, focusEnd/zoomStrength, smoothZoomLevel));
+    }
 
+    float CurveSmooth(float x)
+    {
+        return zoomCurve.Evaluate(x);
     }
 
     public static float ClampAngle(float angle, float min, float max)

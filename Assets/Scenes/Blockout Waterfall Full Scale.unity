@@ -4707,7 +4707,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh358954
+  m_Name: pb_Mesh31856
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15678,7 +15678,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -15778,7 +15782,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
@@ -59015,7 +59019,7 @@ GameObject:
   - component: {fileID: 1701357111}
   - component: {fileID: 1701357110}
   - component: {fileID: 1701357109}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Invisible Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64520,6 +64524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveLocation: C:\Users\janca\Documents\HKU\Jaar 4\Afstudeer\Screenshots\
+  resolutionMultiplier: 2
 --- !u!4 &1887389050
 Transform:
   m_ObjectHideFlags: 0
@@ -67758,7 +67763,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -67858,7 +67867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
@@ -67891,16 +67900,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 838167177}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: envSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: focusEnd
-      value: 150
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: debugCube
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: focusSize
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
-      propertyPath: zoomSpeed
-      value: 0.5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: zoomStrength
@@ -67911,12 +67924,28 @@ PrefabInstance:
       value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
-      propertyPath: mouseVerticalMinMax.x
-      value: -65
+      propertyPath: zoomCurve.m_Curve.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
-      propertyPath: mouseVerticalMinMax.y
-      value: 10
+      propertyPath: zoomCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: zoomCurve.m_Curve.Array.data[1].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: zoomCurve.m_Curve.Array.data[0].inSlope
+      value: 0.53333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: zoomCurve.m_Curve.Array.data[0].outSlope
+      value: 0.53333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: zoomCurve.m_Curve.Array.data[0].outWeight
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_RootOrder
@@ -67992,7 +68021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338450, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: near clip plane
-      value: 20
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338450, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_AllowDynamicResolution
@@ -68050,6 +68079,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 125
       objectReference: {fileID: 0}
+    - target: {fileID: 1062437759546587229, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411760033797160032, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131518474567092469, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
 --- !u!4 &1478650755268722670
@@ -68075,7 +68116,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -68175,7 +68220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
@@ -68201,7 +68246,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -68301,7 +68350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
@@ -68327,7 +68376,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -68427,7 +68480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
@@ -68453,7 +68506,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -68553,7 +68610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
@@ -68970,7 +69027,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 500000
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
+      propertyPath: m_LightUnit
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_SlopeBias
@@ -69070,7 +69131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Intensity
-      value: 39788.734
+      value: 262144
       objectReference: {fileID: 0}
     - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_ShadowRadius
