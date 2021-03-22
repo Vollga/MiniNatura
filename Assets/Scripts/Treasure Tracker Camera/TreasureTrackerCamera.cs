@@ -29,6 +29,7 @@ public class TreasureTrackerCamera : MonoBehaviour
     public float zoomToggleSpeed = 0.75f;
     [Range(0.0f, 1.0f)]
     public float zoomTrackingSpeed = 0.25f;
+    public bool _enableToggle = false;
     public float zoomStrength = 3;
     public float envSize;
     [SerializeField] private AnimationCurve zoomCurve = AnimationCurve.Linear(0,0,1,1);
@@ -37,8 +38,10 @@ public class TreasureTrackerCamera : MonoBehaviour
     public LayerMask afLayers;
     [Range(0.0f, 1.0f)]
     public float autofocusSpeed = 0.2f;
+    public bool _enableZoomCoyote = true;
     public float focusSize = 0.3f;
-    public float focusEnd = 1f;
+    public float nearFocusStrength = 0f;
+    public float farFocusStrength = 1f;
     public bool _showAFDebug = false;
     public bool _afOnPlayer;
 
@@ -76,7 +79,14 @@ public class TreasureTrackerCamera : MonoBehaviour
     private float dampFocus;
     private float smoothFocus;
     private float focusVelocity = 0;
+    private int focusCoyote = 0;
 
+    //Input 
+    string horizontalCamAxis = "Camera Horizontal";
+    string verticalCamAxis = "Camera Vertical";
+    string zoomAxis = "Zoom Axis";
+    string zoomToggleButton = "Zoom Toggle";
+    
     private void Awake()
     {
         mainCamera = this;
@@ -115,7 +125,7 @@ public class TreasureTrackerCamera : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        /*if(Input.GetButtonDown("Middle Mouse"))
+        /*if(Input.GetButtonDown(zoomToggleButton))
         {
             zoomToggle = !zoomToggle;
             if (zoomToggle == true)
@@ -132,27 +142,47 @@ public class TreasureTrackerCamera : MonoBehaviour
         //Smooth Zoom Level
         float finalZoom = Mathf.Clamp(zoomLevel + Input.GetAxis("Mouse ScrollWheel"),0f,1f) ;
         float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, finalZoom, ref zoomVelocity, zoomToggleSpeed);
-        smoothZoomLevel = Mathf.Clamp(dampZoom + Input.GetAxis("Mouse ScrollWheel"), 0f, 1f);*/
+        smoothZoomLevel = Mathf.Clamp(dampZoom + Input.GetAxis("Mouse ScrollWheel"), 0f, 1f);
 
-        if (Input.GetButtonDown("Middle Mouse"))
+        if (Input.GetButtonDown(zoomToggleButton) && _enableToggle)
         {
-            zoomToggle = !zoomToggle;
-            if (zoomToggle == true)
+            if (zoomLevel < 0.5f)
             {
-                zoomLevel = 1;
+                zoomLevel = 0.85f;
             }
             else
             {
-                zoomLevel = 0;
+                zoomLevel = 0.15f;
             }
         }
-        zoomLevel = Mathf.Clamp(zoomLevel + Input.GetAxis("Mouse ScrollWheel"),0f,1f);
+        zoomLevel = Mathf.Clamp(zoomLevel + Input.GetAxis(zoomAxis),0f,1f);
 
         float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, zoomLevel, ref zoomVelocity, zoomToggleSpeed);
         smoothZoomLevel = dampZoom;
+        */
 
         if (!_usingV2) //Old system
         {
+            //Zoom Toggle
+            if (Input.GetButtonDown(zoomToggleButton))
+            {
+                zoomToggle = !zoomToggle;
+                if (zoomToggle == true)
+                {
+                    zoomLevel = 1;
+                }
+                else
+                {
+                    zoomLevel = 0;
+                }
+            }
+
+            //print(Input.GetAxis("Mouse ScrollWheel"));
+            //Smooth Zoom Level
+            float finalZoom = Mathf.Clamp(zoomLevel + Input.GetAxis(zoomAxis), 0f, 1f);
+            float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, finalZoom, ref zoomVelocity, zoomToggleSpeed);
+            smoothZoomLevel = dampZoom;
+
             if (isTrackingPlayer) //Automatic Follow
             {
                 // Orient Origin
@@ -180,9 +210,9 @@ public class TreasureTrackerCamera : MonoBehaviour
             else //Manual Control
             {
                 //Smoothstep pivot rotation
-                Vector3 finalRot = new Vector3(ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y), tOrigin.eulerAngles.y + Input.GetAxis("Mouse X") * mouseMultiplier, 0);
+                Vector3 finalRot = new Vector3(0, tOrigin.eulerAngles.y + Input.GetAxis(horizontalCamAxis) * mouseMultiplier, 0);
                 Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles,ref hVelocity, mouseSpeed);
-                smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
+                smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis(verticalCamAxis) * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
                 tOrigin.eulerAngles = smoothRot;
 
                 //Apply camera position & offset
@@ -214,10 +244,27 @@ public class TreasureTrackerCamera : MonoBehaviour
         }
         else //new system
         {
+            //Zoom V2   
+            if (Input.GetButtonDown(zoomToggleButton) && _enableToggle)
+            {
+                if (zoomLevel < 0.5f)
+                {
+                    zoomLevel = 0.85f;
+                }
+                else
+                {
+                    zoomLevel = 0.15f;
+                }
+            }
+            zoomLevel = Mathf.Clamp(zoomLevel + Input.GetAxis(zoomAxis), 0f, 1f);
+
+            float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, zoomLevel, ref zoomVelocity, zoomToggleSpeed);
+            smoothZoomLevel = dampZoom;
+
             //Smoothstep pivot rotation
-            Vector3 finalRot = new Vector3(0, tOrigin.eulerAngles.y + Input.GetAxis("Mouse X") * mouseMultiplier, 0);
+            Vector3 finalRot = new Vector3(0, tOrigin.eulerAngles.y + Input.GetAxis(horizontalCamAxis) * mouseMultiplier, 0);
             Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles, ref hVelocity, mouseSpeed);
-            smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis("Mouse Y") * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
+            smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + Input.GetAxis(verticalCamAxis) * mouseMultiplier, mouseVerticalMinMax.x, mouseVerticalMinMax.y);
             tOrigin.eulerAngles = smoothRot;
 
             //Apply camera position & offset
@@ -254,10 +301,17 @@ public class TreasureTrackerCamera : MonoBehaviour
             focusDistance = Vector3.Distance(cam.transform.position, player.position); //fallback focus distance
         }
 
+        focusCoyote++;
         if (afHit.collider.CompareTag("Player"))    //If player in view, lock autofocus (no smoothing)
         {
             //focusDistance = Vector3.Distance(cam.transform.position, player.position);
             smoothFocus = focusDistance;
+            _afOnPlayer = true;
+            focusCoyote = 0;
+        }
+        else if(focusCoyote < 60 && _enableZoomCoyote)
+        {
+            smoothFocus = Vector3.Distance(cam.transform.position, player.position);
             _afOnPlayer = true;
         }
         else // Smooth AF when player not in view
@@ -273,9 +327,10 @@ public class TreasureTrackerCamera : MonoBehaviour
         }
 
         //apply focus distances
+        tDOF.nearFocusStart.Override(smoothFocus - Mathf.Lerp(nearFocusStrength, (nearFocusStrength/2)/zoomStrength,smoothZoomLevel));
         tDOF.nearFocusEnd.Override(smoothFocus - (Mathf.Lerp(focusSize, focusSize/zoomStrength,smoothZoomLevel) / 2));
         tDOF.farFocusStart.Override(smoothFocus + (Mathf.Lerp(focusSize, focusSize*2 / zoomStrength, smoothZoomLevel) / 2));
-        tDOF.farFocusEnd.Override(smoothFocus + Mathf.Lerp(focusEnd, focusEnd/zoomStrength, smoothZoomLevel));
+        tDOF.farFocusEnd.Override(smoothFocus + Mathf.Lerp(farFocusStrength, farFocusStrength/zoomStrength, smoothZoomLevel));
     }
 
     float CurveSmooth(float x)
