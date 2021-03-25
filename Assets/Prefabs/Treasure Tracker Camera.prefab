@@ -48,13 +48,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _usingV2: 1
   isTrackingPlayer: 0
-  horizontalSpeed: 0.75
-  verticalSpeed: 0.1
-  mouseSpeed: 0.623
-  mouseMultiplier: 0.5
-  mouseVerticalMinMax: {x: -65, y: 15}
-  zoomToggleSpeed: 0.75
-  zoomTrackingSpeed: 0.25
+  VerticalAngleMinMax: {x: -65, y: 15}
+  horizontalDampen: 0.75
+  verticalDampen: 0.1
+  mouseDampen: 0.65
+  mouseSensitivity: 0.5
+  joystickSensitivity: 1
+  zoomToggleSpeed: 0.5
+  zoomTrackingDampen: 0.25
+  zoomSensitivity: 1
   _enableToggle: 1
   zoomStrength: 3
   envSize: 0
@@ -66,14 +68,14 @@ MonoBehaviour:
       value: 0
       inSlope: 0
       outSlope: 0
-      tangentMode: 69
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 0.15
       value: 0
-      inSlope: 1
+      inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
@@ -103,14 +105,23 @@ MonoBehaviour:
   afLayers:
     serializedVersion: 2
     m_Bits: 379
-  autofocusSpeed: 0.2
+  autofocusDampen: 0.2
+  _enableZoomCoyote: 1
+  afCoyoteFrames: 60
   focusSize: 0.2
-  focusEnd: 1
+  nearFocusStrength: 1
+  farFocusStrength: 1
   _showAFDebug: 0
   _afOnPlayer: 0
   player: {fileID: 0}
   verticalOffset: 0.03
   cam: {fileID: 0}
+  horizontalCamAxis: Camera Horizontal
+  verticalCamAxis: Camera Vertical
+  horizontalCamAxisGamepad: Camera Horizontal Gamepad
+  verticalCamAxisGamepad: Camera Vertical Gamepad
+  zoomAxis: Zoom Axis
+  zoomToggleButton: Zoom Toggle
 --- !u!1 &609574480641017919
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,8 +179,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609574480697338454}
-  m_LocalRotation: {x: 0.12186928, y: 0, z: 0, w: 0.9925462}
-  m_LocalPosition: {x: 0, y: 0.45, z: -1.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 609574480641017912}
@@ -201,13 +212,13 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 3
-  field of view: 27
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 511
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

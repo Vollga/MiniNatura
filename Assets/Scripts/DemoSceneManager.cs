@@ -32,7 +32,7 @@ public class DemoSceneManager : MonoBehaviour
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        } else if (Input.GetKeyDown("c"))
+        } else if (Input.GetButtonDown("Screenshot") && Input.GetKey(KeyCode.LeftAlt))
         {
             ScreenCapture.CaptureScreenshot(saveLocation + System.DateTime.Now.ToString("yyyy-MM-dd").Replace("-", ".") + "_" + System.DateTime.Now.ToString("HH-mm-ss") + "_" + currentScene.name + "_x" + resolutionMultiplier + ".png", resolutionMultiplier);
         }
