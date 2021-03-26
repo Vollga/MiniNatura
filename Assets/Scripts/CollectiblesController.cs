@@ -16,6 +16,7 @@ public class CollectiblesController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.GetComponent<Image>().enabled = false;
         seedSprites = new GameObject[seedLocations.Length];
         for (int i = 0; i < seedSprites.Length; i++)
         {

@@ -15,11 +15,11 @@ C:/Users/janca/Documents/HKU/Jaar 4/Afstudeer/MiniNatura
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50588
+49186
 Successfully changed project path to: C:/Users/janca/Documents/HKU/Jaar 4/Afstudeer/MiniNatura
 C:/Users/janca/Documents/HKU/Jaar 4/Afstudeer/MiniNatura
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 95.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -39,135 +39,861 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001778 seconds.
+Registered in 0.002540 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 78.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 145.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.991 seconds
+- Completed reload, in  1.234 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002369 seconds.
+Registered in 0.002117 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 111.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 98.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.617 seconds
+- Completed reload, in  1.698 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3964 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 233.1 MB.
-System memory in use after: 233.2 MB.
+System memory in use before: 233.2 MB.
+System memory in use after: 233.3 MB.
 
 Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 4413.
-Total: 3.027200 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.231500 ms MarkObjects: 2.176600 ms  DeleteObjects: 0.264700 ms)
+Total: 3.597500 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.213700 ms MarkObjects: 2.713200 ms  DeleteObjects: 0.272000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/3D Assets/blockout scale test.fbx
-  artifactKey: Guid(e94dd9a2a17d74c4288555d5788e1a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout scale test.fbx using Guid(e94dd9a2a17d74c4288555d5788e1a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfa9c01bf821094ca2ae34f9e716a05') in 0.887790 seconds
-  Import took 0.897300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/3D Assets/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98eb4a09fd5b4f802cf4191458ffbff') in 0.118924 seconds
-  Import took 0.126824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.000692 seconds.
-  path: Assets/3D Assets/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0771502e4ee91983a8ae17f575efd225') in 0.114117 seconds
-  Import took 0.121569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.911304 seconds.
-  path: Assets/3D Assets/blockout scale test.fbx
-  artifactKey: Guid(e94dd9a2a17d74c4288555d5788e1a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout scale test.fbx using Guid(e94dd9a2a17d74c4288555d5788e1a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bdc45355c7a99599723180db4e748b') in 0.165735 seconds
-  Import took 0.172788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4363.821845 seconds.
-  path: Assets/3D Assets/blockout scale test.fbx
-  artifactKey: Guid(e94dd9a2a17d74c4288555d5788e1a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout scale test.fbx using Guid(e94dd9a2a17d74c4288555d5788e1a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641bcbb9775b06252fd073e5d1377915') in 0.381817 seconds
-  Import took 0.400222 seconds .
+  path: Assets/Prefabs/Treasure Tracker Camera.prefab
+  artifactKey: Guid(0ab90eef29492b8439e70e2474ad1fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Treasure Tracker Camera.prefab using Guid(0ab90eef29492b8439e70e2474ad1fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e06fa69eb8cc0f339e7f7a448c8fa2') in 0.063174 seconds
+  Import took 0.072457 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002099 seconds.
+Registered in 0.002312 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.803 seconds
+- Completed reload, in  1.320 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3626 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.8 MB.
-System memory in use after: 226.0 MB.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.8 MB.
+System memory in use after: 215.9 MB.
 
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4585.
-Total: 7.318500 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.377200 ms MarkObjects: 6.099100 ms  DeleteObjects: 0.262800 ms)
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4415.
+Total: 3.641100 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.214400 ms MarkObjects: 2.700600 ms  DeleteObjects: 0.256700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 448.335121 seconds.
+  path: Assets/Scenes/LazyUV Art Test.unity
+  artifactKey: Guid(bca098874b286bb43b5e8c7bfd957371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LazyUV Art Test.unity using Guid(bca098874b286bb43b5e8c7bfd957371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5360d2a0e400ffc89e4d1481addd8e34') in 0.012162 seconds
+  Import took 0.021706 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002028 seconds.
+Registered in 0.001957 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
+- Completed reload, in  1.381 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.0 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4417.
+Total: 4.406100 ms (FindLiveObjects: 0.423600 ms CreateObjectMapping: 0.258200 ms MarkObjects: 3.453000 ms  DeleteObjects: 0.269700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.0 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4419.
+Total: 5.094300 ms (FindLiveObjects: 0.533400 ms CreateObjectMapping: 0.450600 ms MarkObjects: 3.800800 ms  DeleteObjects: 0.307600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4421.
+Total: 3.458800 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.220300 ms MarkObjects: 2.621900 ms  DeleteObjects: 0.265400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.513527 seconds.
+  path: Assets/Scenes/Blockout Garden.unity
+  artifactKey: Guid(9a2c175cdda847f41a8e0599873f10a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Garden.unity using Guid(9a2c175cdda847f41a8e0599873f10a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4291bfa8231093bac3a9779f508e1b7') in 0.011935 seconds
+  Import took 0.019103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.943275 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale.unity
+  artifactKey: Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale.unity using Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5af5803771f3545e58669db32bf263') in 0.006420 seconds
+  Import took 0.015450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023615 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale.unity
+  artifactKey: Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale.unity using Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5af5803771f3545e58669db32bf263') in 0.002635 seconds
+  Import took 0.008265 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001975 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 4.794600 ms (FindLiveObjects: 0.533900 ms CreateObjectMapping: 0.223700 ms MarkObjects: 3.649900 ms  DeleteObjects: 0.385200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4425.
+Total: 3.583100 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.234000 ms MarkObjects: 2.638300 ms  DeleteObjects: 0.334000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.340576 seconds.
+  path: Assets/Scenes/LazyUV Art Test.unity
+  artifactKey: Guid(bca098874b286bb43b5e8c7bfd957371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LazyUV Art Test.unity using Guid(bca098874b286bb43b5e8c7bfd957371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c445e476e95f565864aff783885bfc8') in 0.009576 seconds
+  Import took 0.019409 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4427.
+Total: 3.674700 ms (FindLiveObjects: 0.521300 ms CreateObjectMapping: 0.255600 ms MarkObjects: 2.610000 ms  DeleteObjects: 0.286500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.916192 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale.unity
+  artifactKey: Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale.unity using Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa60bdb3e43a81113e07e794957b9dd') in 0.007131 seconds
+  Import took 0.017852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006323 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale.unity
+  artifactKey: Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale.unity using Guid(51552f2ed84e7134d97a1a15ab84e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa60bdb3e43a81113e07e794957b9dd') in 0.002908 seconds
+  Import took 0.008380 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.418 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4429.
+Total: 4.182500 ms (FindLiveObjects: 0.573000 ms CreateObjectMapping: 0.341800 ms MarkObjects: 2.931500 ms  DeleteObjects: 0.333800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001917 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4431.
+Total: 5.744100 ms (FindLiveObjects: 0.707200 ms CreateObjectMapping: 0.332200 ms MarkObjects: 4.148100 ms  DeleteObjects: 0.553700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4433.
+Total: 5.727100 ms (FindLiveObjects: 0.588400 ms CreateObjectMapping: 0.297500 ms MarkObjects: 4.444200 ms  DeleteObjects: 0.395400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001905 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.358 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4435.
+Total: 3.514500 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.211400 ms MarkObjects: 2.598600 ms  DeleteObjects: 0.285200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.0 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4437.
+Total: 3.745100 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.242200 ms MarkObjects: 2.840000 ms  DeleteObjects: 0.296300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.390 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.4 MB.
-System memory in use after: 225.5 MB.
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
 
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4587.
-Total: 3.513800 ms (FindLiveObjects: 0.409800 ms CreateObjectMapping: 0.226800 ms MarkObjects: 2.630800 ms  DeleteObjects: 0.245100 ms)
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4439.
+Total: 3.782300 ms (FindLiveObjects: 0.505400 ms CreateObjectMapping: 0.298700 ms MarkObjects: 2.712400 ms  DeleteObjects: 0.263900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001916 seconds.
+Registered in 0.001946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.364 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4441.
+Total: 6.127000 ms (FindLiveObjects: 0.639400 ms CreateObjectMapping: 0.384100 ms MarkObjects: 4.693900 ms  DeleteObjects: 0.407100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4443.
+Total: 3.644300 ms (FindLiveObjects: 0.412300 ms CreateObjectMapping: 0.258000 ms MarkObjects: 2.696100 ms  DeleteObjects: 0.276400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.412 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4445.
+Total: 4.369100 ms (FindLiveObjects: 0.562900 ms CreateObjectMapping: 0.295000 ms MarkObjects: 3.234000 ms  DeleteObjects: 0.275700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4447.
+Total: 3.631900 ms (FindLiveObjects: 0.379100 ms CreateObjectMapping: 0.239000 ms MarkObjects: 2.636300 ms  DeleteObjects: 0.376300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4449.
+Total: 4.944700 ms (FindLiveObjects: 0.409700 ms CreateObjectMapping: 0.273600 ms MarkObjects: 3.879600 ms  DeleteObjects: 0.379600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001900 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4451.
+Total: 5.971600 ms (FindLiveObjects: 0.915500 ms CreateObjectMapping: 0.477900 ms MarkObjects: 4.310200 ms  DeleteObjects: 0.265900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002161 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.457 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4453.
+Total: 3.998000 ms (FindLiveObjects: 0.521600 ms CreateObjectMapping: 0.346200 ms MarkObjects: 2.842400 ms  DeleteObjects: 0.285700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1278.716921 seconds.
+  path: Assets/2D Assets/Moss Tess Test.mat
+  artifactKey: Guid(b1643db13967b5342bbfb75ac95be3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Moss Tess Test.mat using Guid(b1643db13967b5342bbfb75ac95be3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360257463eacea24e0f0a3dad9818408') in 8.936743 seconds
+  Import took 8.976275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.010984 seconds.
+  path: Assets/2D Assets/mat_water.mat
+  artifactKey: Guid(b11ad8d62efa49f46bfa4d3b3aad101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/mat_water.mat using Guid(b11ad8d62efa49f46bfa4d3b3aad101e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7995ecb81c9df7edfe3d0b0e034543') in 0.048783 seconds
+  Import took 0.057581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.671874 seconds.
+  path: Assets/Settings/TreasureTrackerCam Scale 100.preset
+  artifactKey: Guid(fd907004d85220e488fe376ecf87175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/TreasureTrackerCam Scale 100.preset using Guid(fd907004d85220e488fe376ecf87175e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed597cab59d8ddebabfdec129b96427') in 0.021277 seconds
+  Import took 0.030466 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.5 MB.
+System memory in use after: 225.7 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4622.
+Total: 5.265100 ms (FindLiveObjects: 0.465700 ms CreateObjectMapping: 0.193900 ms MarkObjects: 4.083200 ms  DeleteObjects: 0.520600 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4622.
+Total: 20.164600 ms (FindLiveObjects: 0.882800 ms CreateObjectMapping: 1.190400 ms MarkObjects: 17.935300 ms  DeleteObjects: 0.154600 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4622.
+Total: 4.560500 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.265300 ms MarkObjects: 3.647200 ms  DeleteObjects: 0.137800 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4622.
+Total: 4.109800 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.299500 ms MarkObjects: 3.212500 ms  DeleteObjects: 0.123700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003853 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.1 MB.
+System memory in use after: 225.3 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4624.
+Total: 4.606200 ms (FindLiveObjects: 0.432500 ms CreateObjectMapping: 0.265100 ms MarkObjects: 3.508500 ms  DeleteObjects: 0.398300 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4624.
+Total: 4.154000 ms (FindLiveObjects: 0.637600 ms CreateObjectMapping: 0.266000 ms MarkObjects: 3.116900 ms  DeleteObjects: 0.131400 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4624.
+Total: 3.804200 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.219200 ms MarkObjects: 3.060200 ms  DeleteObjects: 0.124700 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4624.
+Total: 5.058700 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.244800 ms MarkObjects: 3.965400 ms  DeleteObjects: 0.215300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.3 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4626.
+Total: 4.650200 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.327500 ms MarkObjects: 3.431300 ms  DeleteObjects: 0.281500 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4626.
+Total: 5.842300 ms (FindLiveObjects: 1.153000 ms CreateObjectMapping: 0.381400 ms MarkObjects: 3.938700 ms  DeleteObjects: 0.366000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2928.128628 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale/Waterfall Blockout Minimap.asset
+  artifactKey: Guid(25f713f0d8aa4294fa35f074ea6ab4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale/Waterfall Blockout Minimap.asset using Guid(25f713f0d8aa4294fa35f074ea6ab4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae3165b7f0621e386803758e32fe56') in 0.067590 seconds
+  Import took 0.076744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002849 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale/Waterfall Blockout Minimap.asset
+  artifactKey: Guid(25f713f0d8aa4294fa35f074ea6ab4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale/Waterfall Blockout Minimap.asset using Guid(25f713f0d8aa4294fa35f074ea6ab4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae3165b7f0621e386803758e32fe56') in 0.006320 seconds
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.3 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 4.931700 ms (FindLiveObjects: 0.553500 ms CreateObjectMapping: 0.337500 ms MarkObjects: 3.750900 ms  DeleteObjects: 0.287700 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 4.062000 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.305900 ms MarkObjects: 2.977900 ms  DeleteObjects: 0.212600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.425028 seconds.
+  path: Assets/Scenes/Blockout Waterfall Full Scale/Waterfall Blockout Full Scale.asset
+  artifactKey: Guid(b5193df157efdb745972e10d2ad6a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Blockout Waterfall Full Scale/Waterfall Blockout Full Scale.asset using Guid(b5193df157efdb745972e10d2ad6a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fd19a32e615a4659c270f54885cb43') in 0.080538 seconds
+  Import took 0.088968 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001950 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
@@ -180,103 +906,413 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.4 MB.
-System memory in use after: 225.6 MB.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.3 MB.
 
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4589.
-Total: 4.071000 ms (FindLiveObjects: 0.370200 ms CreateObjectMapping: 0.216700 ms MarkObjects: 3.191700 ms  DeleteObjects: 0.290700 ms)
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4631.
+Total: 4.451600 ms (FindLiveObjects: 0.395100 ms CreateObjectMapping: 0.234400 ms MarkObjects: 3.474300 ms  DeleteObjects: 0.345800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.385 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4633.
+Total: 3.916200 ms (FindLiveObjects: 0.401900 ms CreateObjectMapping: 0.233000 ms MarkObjects: 2.871600 ms  DeleteObjects: 0.408400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.373 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4635.
+Total: 3.703900 ms (FindLiveObjects: 0.531900 ms CreateObjectMapping: 0.249300 ms MarkObjects: 2.641100 ms  DeleteObjects: 0.279600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.2 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4637.
+Total: 3.879300 ms (FindLiveObjects: 0.408000 ms CreateObjectMapping: 0.216900 ms MarkObjects: 2.964800 ms  DeleteObjects: 0.288300 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4637.
+Total: 5.254600 ms (FindLiveObjects: 0.704800 ms CreateObjectMapping: 0.439300 ms MarkObjects: 3.919200 ms  DeleteObjects: 0.189300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.3 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4639.
+Total: 5.801000 ms (FindLiveObjects: 0.487300 ms CreateObjectMapping: 0.220900 ms MarkObjects: 4.541700 ms  DeleteObjects: 0.549700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001910 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.394 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.3 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4641.
+Total: 6.111600 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.330100 ms MarkObjects: 4.969600 ms  DeleteObjects: 0.355200 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4641.
+Total: 5.467200 ms (FindLiveObjects: 0.558400 ms CreateObjectMapping: 0.333200 ms MarkObjects: 4.398400 ms  DeleteObjects: 0.175200 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4641.
+Total: 4.063600 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.245300 ms MarkObjects: 3.245000 ms  DeleteObjects: 0.144200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002148 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.521 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.3 MB.
+System memory in use after: 225.4 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4643.
+Total: 4.315600 ms (FindLiveObjects: 0.469700 ms CreateObjectMapping: 0.248700 ms MarkObjects: 3.286900 ms  DeleteObjects: 0.308900 ms)
+
+========================================================================
+Received Prepare
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 4643.
+Total: 5.669600 ms (FindLiveObjects: 1.621900 ms CreateObjectMapping: 0.605800 ms MarkObjects: 3.291500 ms  DeleteObjects: 0.148700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61699.377901 seconds.
-  path: Assets/3D Assets/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0daaf987d00d9785b89c28109355f70') in 1.865798 seconds
-  Import took 1.875488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024339 seconds.
-  path: Assets/3D Assets/blockout v2.fbx
-  artifactKey: Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/blockout v2.fbx using Guid(bb7fbe8b5a2e70848a9d4b65415bff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0daaf987d00d9785b89c28109355f70') in 0.108144 seconds
-  Import took 0.117032 seconds .
+  Time since last request: 1656.873498 seconds.
+  path: Assets/3D Assets/Mother Tree/model.dae
+  artifactKey: Guid(6b778c75be1749b499854079944794f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Mother Tree/model.dae using Guid(6b778c75be1749b499854079944794f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e347fac8800d68c77e1b45dd4d1af1') in 0.971859 seconds
+  Import took 0.980321 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003073 seconds.
+Registered in 0.001929 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.404 seconds
+- Completed reload, in  1.673 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 226.1 MB.
-System memory in use after: 226.2 MB.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.2 MB.
+System memory in use after: 226.3 MB.
 
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4693.
-Total: 4.581000 ms (FindLiveObjects: 0.612700 ms CreateObjectMapping: 0.277200 ms MarkObjects: 3.396200 ms  DeleteObjects: 0.293400 ms)
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4750.
+Total: 4.055700 ms (FindLiveObjects: 0.497500 ms CreateObjectMapping: 0.236500 ms MarkObjects: 3.053400 ms  DeleteObjects: 0.267000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001959 seconds.
+Registered in 0.002541 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.443 seconds
+- Completed reload, in  1.349 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.9 MB.
-System memory in use after: 226.0 MB.
-
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4695.
-Total: 4.014300 ms (FindLiveObjects: 0.762100 ms CreateObjectMapping: 0.310100 ms MarkObjects: 2.674100 ms  DeleteObjects: 0.266700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002411 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3614 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.9 MB.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.0 MB.
 System memory in use after: 226.1 MB.
 
-Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4697.
-Total: 3.225200 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.404300 ms  DeleteObjects: 0.256200 ms)
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4752.
+Total: 3.810300 ms (FindLiveObjects: 0.468600 ms CreateObjectMapping: 0.236800 ms MarkObjects: 2.833400 ms  DeleteObjects: 0.270600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001943 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.336 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.0 MB.
+System memory in use after: 226.1 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4754.
+Total: 3.627200 ms (FindLiveObjects: 0.421000 ms CreateObjectMapping: 0.232500 ms MarkObjects: 2.682900 ms  DeleteObjects: 0.288900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.480 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.0 MB.
+System memory in use after: 226.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4756.
+Total: 6.318200 ms (FindLiveObjects: 1.408600 ms CreateObjectMapping: 0.562200 ms MarkObjects: 4.024700 ms  DeleteObjects: 0.320700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001930 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.414 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.0 MB.
+System memory in use after: 226.2 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4758.
+Total: 3.980200 ms (FindLiveObjects: 0.417000 ms CreateObjectMapping: 0.221800 ms MarkObjects: 3.048300 ms  DeleteObjects: 0.291900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1074.578248 seconds.
+  path: Assets/Prefabs/Character.prefab
+  artifactKey: Guid(fc22f483edfe52f4b86cab2f8608c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Character.prefab using Guid(fc22f483edfe52f4b86cab2f8608c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fa63eae2fead904d0d9c74b323e3bb') in 0.650312 seconds
+  Import took 0.658062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefabs/Treasure Tracker Camera.prefab
+  artifactKey: Guid(0ab90eef29492b8439e70e2474ad1fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Treasure Tracker Camera.prefab using Guid(0ab90eef29492b8439e70e2474ad1fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f6a17dfd44690ff365130fdaac9352') in 0.012934 seconds
+  Import took 0.019491 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001908 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3615 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.4 MB.
+System memory in use after: 226.6 MB.
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 4864.
+Total: 5.570100 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.217400 ms MarkObjects: 4.414300 ms  DeleteObjects: 0.435800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.522885 seconds.
+  path: Assets/Prefabs/Triforce.prefab
+  artifactKey: Guid(afbc3f0a712e08f48914d0e56a6b3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Triforce.prefab using Guid(afbc3f0a712e08f48914d0e56a6b3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ba5dbe8f1b50973c4752fca5d457ba') in 0.085633 seconds
+  Import took 0.097415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.420205 seconds.
+  path: Assets/Prefabs/Triforce.prefab
+  artifactKey: Guid(afbc3f0a712e08f48914d0e56a6b3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Triforce.prefab using Guid(afbc3f0a712e08f48914d0e56a6b3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75c585f54952bb6deead5d4a405dfc0') in 0.004775 seconds
+  Import took 0.014467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.296550 seconds.
+  path: Assets/Prefabs/Triforce.prefab
+  artifactKey: Guid(afbc3f0a712e08f48914d0e56a6b3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Triforce.prefab using Guid(afbc3f0a712e08f48914d0e56a6b3b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d607de110c26d71203692d42463a697') in 0.004840 seconds
+  Import took 0.015320 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

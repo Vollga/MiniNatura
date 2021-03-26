@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4997764595048105833}
   - component: {fileID: 6809474024011270513}
   - component: {fileID: 7354185354144830339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5273231148294444961}
   - component: {fileID: 8936811299267125865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decal Projector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 8321813252077015407}
   - component: {fileID: 1900156512457453838}
   - component: {fileID: 5613107643721009235}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}

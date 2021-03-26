@@ -62,11 +62,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: zoomToggleSpeed
-    value: 0.75
+    value: 0.5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: zoomTrackingDampen
     value: 0.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: zoomSensitivity
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _enableToggle
@@ -237,16 +241,20 @@ Preset:
     value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: afCoyoteFrames
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: focusSize
-    value: 30
+    value: 40
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: nearFocusStrength
-    value: 150
+    value: 200
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: farFocusStrength
-    value: 100
+    value: 150
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _showAFDebug
@@ -267,5 +275,29 @@ Preset:
   - target: {fileID: 0}
     propertyPath: cam
     value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horizontalCamAxis
+    value: Camera Horizontal
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: verticalCamAxis
+    value: Camera Vertical
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: horizontalCamAxisGamepad
+    value: Camera Horizontal Gamepad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: verticalCamAxisGamepad
+    value: Camera Vertical Gamepad
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: zoomAxis
+    value: Zoom Axis
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: zoomToggleButton
+    value: Zoom Toggle
     objectReference: {fileID: 0}
   m_ExcludedProperties: []
