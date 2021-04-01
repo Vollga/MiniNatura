@@ -5133,7 +5133,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Noise",
+    "m_Name": "Planar Noise",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -13695,7 +13695,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Noise",
+    "m_Name": "Planar Noise",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
