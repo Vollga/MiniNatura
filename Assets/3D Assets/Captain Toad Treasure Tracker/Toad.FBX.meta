@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: 08dafd4d845373b44b2aa5a640cfe15e
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioBodyMat00
+    second: {fileID: 2100000, guid: a8e43fcd18bb90d4584360980c0464a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioBodyMat01
+    second: {fileID: 2100000, guid: 61cbf471665092742b0ccdb4d5e2ee08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioEyeMat00
+    second: {fileID: 2100000, guid: 2ce6897088245a643bacf8d18ddbeacd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioFaceMat00
+    second: {fileID: 2100000, guid: 821d955155f08054b912176aa5ec8ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioFaceMouthMat00
+    second: {fileID: 2100000, guid: 356b43f9aacdb934f80058d8f1995566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioHandMat00
+    second: {fileID: 2100000, guid: 1e20a940a66b988449bf6a50604eff0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioHeadMat00
+    second: {fileID: 2100000, guid: ba1faec40bd504b458f7cd6137e0bf38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioLightMat00
+    second: {fileID: 2100000, guid: 78d2d386b96374d46949f871111085c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioMetalMat00
+    second: {fileID: 2100000, guid: d2c0906ed9e8b9140b575aba2f54b305, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioRuckMat00
+    second: {fileID: 2100000, guid: dfd7886c4a21aff41b72b6d5ae778242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioShoesMat00
+    second: {fileID: 2100000, guid: 8a25b94c63984fd42a287b93a6fe7dfb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KinopioSkinMat00
+    second: {fileID: 2100000, guid: f19dedebd3dcb174aa304a97a082c4a6, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Toad(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: nw4f_root
+      parentName: Toad(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 1.110223e-16, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AllRoot
+      parentName: nw4f_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: JointRoot
+      parentName: AllRoot
+      position: {x: -0, y: 1.0741787, z: -0.1267013}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: JointRoot
+      position: {x: -0, y: 0.0635, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: Spine1
+      position: {x: -0.18618098, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruck1
+      parentName: Spine2
+      position: {x: 0.010668632, y: -0.33680406, z: 0}
+      rotation: {x: -0.00000017881393, y: 1, z: 0.000000059604645, w: -1.4599734e-23}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ruck2
+      parentName: Ruck1
+      position: {x: -0.49861723, y: 0, z: 0}
+      rotation: {x: 3.8116483e-21, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ShoulderR
+      parentName: Spine2
+      position: {x: -0.34052262, y: 0.021912131, z: -0.099173285}
+      rotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmR1
+      parentName: ShoulderR
+      position: {x: -0.35877502, y: 0, z: 0}
+      rotation: {x: -0, y: -0.023971677, z: -0.057063222, w: 0.99808276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmR2
+      parentName: ArmR1
+      position: {x: -0.29845, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandR
+      parentName: ArmR2
+      position: {x: -0.31114998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ShoulderL
+      parentName: Spine2
+      position: {x: -0.34052262, y: 0.021912131, z: 0.09917329}
+      rotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmL1
+      parentName: ShoulderL
+      position: {x: -0.35877502, y: 0, z: 0}
+      rotation: {x: -0, y: 0.023971558, z: -0.057063222, w: 0.99808276}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ArmL2
+      parentName: ArmL1
+      position: {x: -0.29845, y: 0, z: 0.000000072669984}
+      rotation: {x: 0, y: -8.4703295e-22, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL
+      parentName: ArmL2
+      position: {x: -0.31114998, y: 0.00000058135987, z: -0.000000048446655}
+      rotation: {x: 0, y: -8.4703295e-22, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Spine2
+      position: {x: -0.5127625, y: 0.000018797302, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HairL1
+      parentName: Head
+      position: {x: 0.28753057, y: -0.6047792, z: 0.5461}
+      rotation: {x: -0.31040448, y: -0.4433555, z: 0.4843767, w: 0.6873603}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+    - name: HairL2
+      parentName: HairL1
+      position: {x: 0.66802025, y: -0.0000011627197, z: 0.000000024223327}
+      rotation: {x: -0.00055850827, y: -0.00020112541, z: 0.00029834316, w: 0.9999998}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
+    - name: HairL3
+      parentName: HairL2
+      position: {x: 0.45212027, y: 0.000001259613, z: -0.0000004965782}
+      rotation: {x: -0.00014406008, y: -0.000051793282, z: 0.00022294372, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: HairR1
+      parentName: Head
+      position: {x: 0.28753057, y: -0.6047792, z: -0.5461}
+      rotation: {x: 0.44335544, y: -0.31040442, z: 0.6873603, w: -0.48437685}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.99999976}
+    - name: HairR2
+      parentName: HairR1
+      position: {x: -0.6680194, y: 0.00000029067994, z: -0.00000010900497}
+      rotation: {x: -0.0005582973, y: -0.00020119373, z: 0.00029826863, w: 0.9999998}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: HairR3
+      parentName: HairR2
+      position: {x: -0.45219612, y: 0.00000029067994, z: -0.000000072669984}
+      rotation: {x: -0.00014398407, y: -0.000051835956, z: 0.00022285423, w: 1}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000004}
+    - name: HeadBelt
+      parentName: Head
+      position: {x: 0.20876235, y: -1.3252755, z: 0}
+      rotation: {x: 0.69183517, y: 0.1461647, z: -0.69183517, w: 0.1461647}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: HeadLight
+      parentName: HeadBelt
+      position: {x: -0.0000001289496, y: -0.03452231, z: 1.4322095}
+      rotation: {x: 0.20670794, y: -0.000000029158668, z: -0.000000006160379, w: 0.9784027}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: Hip
+      parentName: JointRoot
+      position: {x: -0, y: -0.063629836, z: 0}
+      rotation: {x: 0.3609798, y: 0.4924053, z: 0.7823226, w: 0.12329677}
+      scale: {x: 0.9999997, y: 0.9999999, z: 0.9999998}
+    - name: LegL1
+      parentName: Hip
+      position: {x: -0.11112519, y: 0.23445828, z: -0.3622675}
+      rotation: {x: 0.09162854, y: -0.35793602, z: -0.21105696, w: 0.90495366}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: LegL2
+      parentName: LegL1
+      position: {x: -0.32227498, y: 0.00000009689331, z: 0.000000024223327}
+      rotation: {x: -0.00000002379593, y: -0.0000000061911196, z: 0.28401557, w: 0.9588197}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: FootL
+      parentName: LegL2
+      position: {x: -0.25003967, y: 0.00000012111664, z: 0}
+      rotation: {x: -0.16343902, y: -0.12102937, z: -0.41590932, w: 0.88637406}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1}
+    - name: ToeL
+      parentName: FootL
+      position: {x: -0.38639733, y: 0.000000024223327, z: -0.000000024223327}
+      rotation: {x: 0.0000000042805635, y: 0.000000040889507, z: -0.21643956, w: 0.976296}
+      scale: {x: 0.99999964, y: 0.99999964, z: 1}
+    - name: LegR1
+      parentName: Hip
+      position: {x: -0.1111249, y: 0.23445827, z: 0.36226743}
+      rotation: {x: 5.5223146e-14, y: -0.0000020414589, z: 0.000000026252067, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: LegR2
+      parentName: LegR1
+      position: {x: -0.32227543, y: -0.000000012111664, z: -0.0000016956329}
+      rotation: {x: 0.0000000078589, y: -0.0000000026330358, z: 0.28401557, w: 0.9588197}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: FootR
+      parentName: LegR2
+      position: {x: -0.25003952, y: 0, z: -0.000000024223327}
+      rotation: {x: -0.000000024401572, y: 0.000000048414936, z: -0.7547097, w: 0.65605885}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: ToeR
+      parentName: FootR
+      position: {x: -0.38639757, y: -0.000000024223327, z: 0.000000072669984}
+      rotation: {x: 0.000000031643335, y: -0.00000003316432, z: -0.21643952, w: 0.976296}
+      scale: {x: 1.0000005, y: 1.0000001, z: 0.9999999}
+    - name: Kinopio
+      parentName: nw4f_root
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeAngry
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeAngry__KinopioEyeMat00
+      parentName: EyeAngry
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeBall
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeBall__KinopioEyeMat00
+      parentName: EyeBall
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeBallBig
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeBallBig__KinopioEyeMat00
+      parentName: EyeBallBig
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeSad
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: EyeSad__KinopioEyeMat00
+      parentName: EyeSad
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelid00
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelid00__KinopioEyeMat00
+      parentName: Eyelid00
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelid01
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelid01__KinopioEyeMat00
+      parentName: Eyelid01
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelid02
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelid02__KinopioEyeMat00
+      parentName: Eyelid02
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face00
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face00__KinopioFaceMat00
+      parentName: Face00
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face01
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face01__KinopioFaceMat00
+      parentName: Face01
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face02
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face02__KinopioFaceMat00
+      parentName: Face02
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face02__KinopioFaceMouthMat00
+      parentName: Face02
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face03
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face03__KinopioFaceMat00
+      parentName: Face03
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face03__KinopioFaceMouthMat00
+      parentName: Face03
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face04
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face04__KinopioFaceMat00
+      parentName: Face04
+      position: {x: -0, y: -0.0000007751465, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face05
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face05__KinopioFaceMat00
+      parentName: Face05
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face05__KinopioFaceMouthMat00
+      parentName: Face05
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face06
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face06__KinopioFaceMat00
+      parentName: Face06
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face06__KinopioFaceMouthMat00
+      parentName: Face06
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face07
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face07__KinopioFaceMat00
+      parentName: Face07
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face08
+      parentName: Kinopio
+      position: {x: -0, y: 1.8366232, z: -0.1266825}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face08__KinopioFaceMat00
+      parentName: Face08
+      position: {x: -0, y: -0.0000009689331, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL00
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL00__KinopioHandMat00
+      parentName: HandL00
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandL01
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL01__KinopioHandMat00
+      parentName: HandL01
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandL02
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL02__KinopioHandMat00
+      parentName: HandL02
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandL03
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL03__KinopioHandMat00
+      parentName: HandL03
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandL04
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL04__KinopioHandMat00
+      parentName: HandL04
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandL05
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL05__KinopioHandMat00
+      parentName: HandL05
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandL06
+      parentName: Kinopio
+      position: {x: -1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandL06__KinopioHandMat00
+      parentName: HandL06
+      position: {x: 0.00000019378662, y: 0.0000019378663, z: -0.0000009689331}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: -0.5}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: HandR00
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR00__KinopioHandMat00
+      parentName: HandR00
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandR01
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR01__KinopioHandMat00
+      parentName: HandR01
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HandR02
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR02__KinopioHandMat00
+      parentName: HandR02
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HandR03
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR03__KinopioHandMat00
+      parentName: HandR03
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HandR04
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR04__KinopioHandMat00
+      parentName: HandR04
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HandR05
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR05__KinopioHandMat00
+      parentName: HandR05
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: HandR06
+      parentName: Kinopio
+      position: {x: 1.0675492, y: 1.6643808, z: -0.10478922}
+      rotation: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 0.99999976, y: 1, z: 0.99999976}
+    - name: HandR06__KinopioHandMat00
+      parentName: HandR06
+      position: {x: -0.00000009689331, y: 0.000001550293, z: -0.0000007751465}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Kinopio__KinopioBodyMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioBodyMat01
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioHeadMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioLightMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioMetalMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioRuckMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioShoesMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Kinopio__KinopioSkinMat00
+      parentName: Kinopio
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: nw4f_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

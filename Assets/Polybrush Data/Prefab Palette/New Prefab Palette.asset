@@ -18,16 +18,16 @@ MonoBehaviour:
       m_Strength: 50
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_ScaleRangeMin: {x: 100, y: 100, z: 100}
+      m_ScaleRangeMax: {x: 150, y: 120, z: 150}
+      m_UniformScale: {x: 100, y: 150}
       m_UniformBool: 0
       m_XRotationBool: 0
       m_YRotationBool: 0
       m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
     name: moss test
   - gameObject: {fileID: 9167800001945981628, guid: e0e7f2fed149b4d4b8c2ad4229410b79, type: 3}
     settings:
@@ -61,3 +61,19 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: Pebble_B
+  - gameObject: {fileID: 5554998814145862407, guid: 174cca1d207ad0f47aec87cd3901fa66, type: 3}
+    settings:
+      m_Strength: 68
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 150, y: 150, z: 150}
+      m_ScaleRangeMax: {x: 200, y: 170, z: 200}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Moss Tesselation

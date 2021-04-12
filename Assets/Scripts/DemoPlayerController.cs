@@ -18,6 +18,9 @@ public class DemoPlayerController : MonoBehaviour
     [Header("Player Model")]
     public Transform playerModel;
 
+    [Header("Player Animator")]
+    public Animator animator;
+
     CharacterController character;
     Transform cam;
     Vector3 moveDirection = Vector3.zero;
@@ -74,12 +77,15 @@ public class DemoPlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && coyoteTimer <= maxCoyote && !hasJumped)
         {
             moveDirection.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
-            hasJumped = true;
+            hasJumped = true;       
         }
 
         moveDirection.y += gravity * Time.deltaTime;
         character.Move(moveDirection * Time.deltaTime);
         coyoteTimer += 1;
+
+        animator.SetFloat("velocity", move.magnitude);
+        animator.SetFloat("running", Input.GetAxis("Run"));
 
         //if (character.isGrounded)
         //{
