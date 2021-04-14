@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.HighDefinition;
+using UnityEngine.VFX;
 
 
 public class TreasureTrackerCamera : MonoBehaviour
@@ -343,6 +344,8 @@ public class TreasureTrackerCamera : MonoBehaviour
         tDOF.farFocusEnd.Override(smoothFocus + Mathf.Lerp(farFocusStrength, farFocusStrength/zoomStrength, smoothZoomLevel));
 
         //print(Input.GetAxis(zoomAxis));
+
+
     }
 
     public static float ClampAngle(float angle, float min, float max)
