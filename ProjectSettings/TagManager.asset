@@ -18,8 +18,8 @@ TagManager:
   - PostProcessing
   - Invisible
   - Minimap
-  - Environment
-  - EnvironmentCollision
+  - NoPlayerCollision
+  - 
   - 
   - 
   - 

@@ -422,6 +422,9 @@
     "m_ActiveTargets": [
         {
             "m_Id": "440457833f5d418c99489ec3583c789d"
+        },
+        {
+            "m_Id": "3d800bbba4b740a2b3462ba11d92fc1c"
         }
     ]
 }
@@ -781,7 +784,7 @@
     },
     "m_Name": "Strength",
     "m_DefaultReferenceName": "Vector1_2429db84a2be4b519b733d114731fe2b",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_Strength",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
@@ -880,7 +883,7 @@
     },
     "m_Name": "Speed",
     "m_DefaultReferenceName": "Vector1_2ced8886d18b47239b27a68835a5d146",
-    "m_OverrideReferenceName": "",
+    "m_OverrideReferenceName": "_Speed",
     "m_GeneratePropertyBlock": true,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
@@ -919,6 +922,14 @@
         "y": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.VFXTarget",
+    "m_ObjectId": "3d800bbba4b740a2b3462ba11d92fc1c",
+    "m_Lit": true,
+    "m_AlphaTest": false
 }
 
 {
