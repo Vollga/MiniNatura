@@ -7,7 +7,7 @@
     "com.unity.polybrush": "1.0.2",
     "com.unity.probuilder": "4.4.0",
     "com.unity.render-pipelines.high-definition": "10.2.2",
-    "com.unity.render-pipelines.high-definition-config": "file:C:\\Users\\janca\\Documents\\HKU\\Jaar 4\\Afstudeer\\MiniNatura\\LocalPackages\\com.unity.render-pipelines.high-definition-config",
+    "com.unity.render-pipelines.high-definition-config": "file:..\\LocalPackages\\com.unity.render-pipelines.high-definition-config",
     "com.unity.test-framework": "1.1.20",
     "com.unity.textmeshpro": "3.0.1",
     "com.unity.timeline": "1.4.6",

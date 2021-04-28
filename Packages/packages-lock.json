@@ -79,7 +79,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.high-definition-config": {
-      "version": "file:C:\\Users\\janca\\Documents\\HKU\\Jaar 4\\Afstudeer\\MiniNatura\\LocalPackages\\com.unity.render-pipelines.high-definition-config",
+      "version": "file:..\\LocalPackages\\com.unity.render-pipelines.high-definition-config",
       "depth": 0,
       "source": "local",
       "dependencies": {
