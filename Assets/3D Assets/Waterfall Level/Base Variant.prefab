@@ -67,6 +67,17 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: cd7e1a35fa242104b8cb8a1629d587c3, type: 2}
+    - target: {fileID: 2248506821417124045, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6548375665509122818, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: 8797708440413680725, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: -6017098354962686930, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: -769647927302221236, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: 8574071598583992277, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: 5165846179477674887, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: 4050624574001489609, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
+    - {fileID: -6149820618326091853, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ddd2b3539aeed284e8a0ee7b86838f82, type: 3}
