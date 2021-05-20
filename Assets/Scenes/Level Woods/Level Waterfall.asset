@@ -216,15 +216,15 @@ MonoBehaviour:
     min: 0
   nearFocusEnd:
     m_OverrideState: 1
-    m_Value: 85
+    m_Value: 175
     min: 0
   farFocusStart:
     m_OverrideState: 1
-    m_Value: 115
+    m_Value: 250
     min: 0
   farFocusEnd:
     m_OverrideState: 1
-    m_Value: 150
+    m_Value: 300
     min: 0
   m_NearSampleCount:
     m_OverrideState: 1
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_Value: 1
   opacity:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.75
     min: 0
     max: 1
 --- !u!114 &-2397852821626058057
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_AdvancedMode: 0
   maxShadowDistance:
     m_OverrideState: 1
-    m_Value: 210
+    m_Value: 300
     min: 0
   directionalTransmissionMultiplier:
     m_OverrideState: 0

@@ -29,6 +29,9 @@
         },
         {
             "m_Id": "fca98022660f4e809acd61350bb4cc64"
+        },
+        {
+            "m_Id": "0260f68e80b64aafb5221b30252d97ca"
         }
     ],
     "m_Keywords": [],
@@ -523,6 +526,29 @@
             "m_Id": "561b4eae314945149f7f1b19f5de75ba"
         }
     ]
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "0260f68e80b64aafb5221b30252d97ca",
+    "m_Guid": {
+        "m_GuidSerialized": "903d4a4a-4da5-443c-a024-49bc0868108f"
+    },
+    "m_Name": "Blend",
+    "m_DefaultReferenceName": "Vector1_0260f68e80b64aafb5221b30252d97ca",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 1.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
 }
 
 {
@@ -1740,7 +1766,7 @@
     "m_ObjectId": "674fe6f001b64c698c1f82336b20b3ec",
     "m_Title": "Normal",
     "m_Position": {
-        "x": -2592.0,
+        "x": -2368.0,
         "y": 161.0
     }
 }
@@ -2778,7 +2804,7 @@
     "m_ObjectId": "aea470842f1042e4b82903039010faf6",
     "m_Title": "Base Color",
     "m_Position": {
-        "x": -1477.0001220703125,
+        "x": -1476.9998779296875,
         "y": -891.0
     }
 }
@@ -3076,7 +3102,7 @@
         "y": 0.0
     },
     "m_Labels": [],
-    "m_Channel": 0
+    "m_Channel": 1
 }
 
 {
@@ -3508,7 +3534,7 @@
         "y": 0.0
     },
     "m_Labels": [],
-    "m_Channel": 0
+    "m_Channel": 1
 }
 
 {

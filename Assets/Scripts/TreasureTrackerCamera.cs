@@ -29,6 +29,8 @@ public class TreasureTrackerCamera : MonoBehaviour
 
     [Header("Zoom Controls")]
     [Range(0.0f, 1.0f)]
+    public float zoomLevel;
+    [Range(0.0f, 1.0f)]
     public float zoomToggleSpeed = 0.75f;
     [Range(0.0f, 1.0f)]
     public float zoomTrackingDampen = 0.25f;
@@ -68,7 +70,6 @@ public class TreasureTrackerCamera : MonoBehaviour
     private Vector3 hVelocity = Vector3.zero;
     private Vector3 vVelocity = Vector3.zero;
 
-    private float zoomLevel;
     private float smoothZoomLevel;
     private float zoomVelocity = 0;
     private float maxFoV;
@@ -296,12 +297,22 @@ public class TreasureTrackerCamera : MonoBehaviour
 
 
 
-
+        
 
         //Ray-based autofocus
-        tFindPlayer.LookAt(playerModel.transform.position);
-        afRay = new Ray(tFindPlayer.position, tFindPlayer.forward);
+       
+        //Create Ray, if fully zoomed out, focus on the middle of the screen
+        if ( zoomLevel < 0.2f)
+        {
+            afRay = new Ray(cam.transform.position,cam.transform.forward);
+        }
+        else
+        {
+            tFindPlayer.LookAt(playerModel.transform.position);
+            afRay = new Ray(tFindPlayer.position, tFindPlayer.forward);
+        }
 
+        //cast Ray, take distance of hit
         if (Physics.Raycast(afRay, out afHit, afLayers))
         {
             focusDistance = Vector3.Distance(cam.transform.position, afHit.point);
@@ -309,7 +320,7 @@ public class TreasureTrackerCamera : MonoBehaviour
         }
         else
         {
-            focusDistance = Vector3.Distance(cam.transform.position, player.position); //fallback focus distance
+            focusDistance = Vector3.Distance(cam.transform.position, player.position); //fallback focus distance if ray hits nothing
         }
 
         focusCoyote++;

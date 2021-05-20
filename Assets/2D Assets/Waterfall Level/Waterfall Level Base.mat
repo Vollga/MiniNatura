@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 4f79ccc75f5f204448fc2cfe85fe972a, type: 3}
   m_ShaderKeywords: _DEPTHOFFSET_ON _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2225
   stringTagMap:
@@ -345,6 +345,7 @@ Material:
     m_Floats:
     - Boolean_9107d35d26a14a0e82ed0e2275388544: 1
     - Boolean_f03b8c262d0745c4a0a585fdb8ef6750: 0
+    - Vector1_0260f68e80b64aafb5221b30252d97ca: 12.5
     - Vector1_05f491608f21436ab06eb94d386fc1ba: 16.2
     - Vector1_3ef1f6d3208c44a4a4276b02f1f7bf38: 15
     - Vector1_40e0cdd6d2cc446ead1eb44b6d76fe2f: 0.01
@@ -632,7 +633,7 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - Color_9a64592748a442b091a6d73758fb6af2: {r: 1, g: 1, b: 1, a: 0}
+    - Color_9a64592748a442b091a6d73758fb6af2: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 0}
     - Vector2_55a0842506ad48328f2b66e1e99f1dc5: {r: 0.3, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 0.43529412, g: 0.37254903, b: 0.27058825, a: 1}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}
