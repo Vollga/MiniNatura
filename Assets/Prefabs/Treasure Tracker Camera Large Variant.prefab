@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: envSize
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: focusEnd
@@ -29,27 +29,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: focusSize
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: zoomStrength
       value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: afCoyoteFrames
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: verticalOffset
-      value: 0.5
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: farFocusStrength
-      value: 150
+      value: 225
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: nearFocusStrength
-      value: 200
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: VerticalAngleMinMax.y
       value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: zoomCurve.m_Curve.Array.data[1].time
+      value: 0.074999996
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_RootOrder
@@ -73,7 +81,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -97,23 +105,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 28.94
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 22.4
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699147, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 609574480697338448, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: SMAAQuality
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 609574480697338450, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: far clip plane
-      value: 225
+      value: 337.5
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338450, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: near clip plane
-      value: 50
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338450, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_AllowDynamicResolution
@@ -129,7 +141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338455, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -125
+      value: -187.5
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338455, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -137,7 +149,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338460, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_Range
-      value: 175
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 609574480697338460, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_Enabled
@@ -147,9 +159,13 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 131072
       objectReference: {fileID: 0}
+    - target: {fileID: 609574480697338460, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 609574481472796276, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 125
+      value: 187.5
       objectReference: {fileID: 0}
     - target: {fileID: 1062437759546587229, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: m_IsActive

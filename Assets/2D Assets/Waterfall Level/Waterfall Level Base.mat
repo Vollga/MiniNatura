@@ -17,12 +17,11 @@ Material:
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
-  - DistortionVectors
+  - MOTIONVECTORS
   - RayTracingPrepass
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
-  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -342,6 +341,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Boolean_9107d35d26a14a0e82ed0e2275388544: 1
     - Boolean_f03b8c262d0745c4a0a585fdb8ef6750: 0
@@ -351,7 +351,7 @@ Material:
     - Vector1_40e0cdd6d2cc446ead1eb44b6d76fe2f: 0.01
     - Vector1_7d2a3cb0e73542029eb6871919393f09: 0.025
     - Vector1_dd845a29df9846019339bd050c48a8e5: 1
-    - Vector1_fca98022660f4e809acd61350bb4cc64: 5
+    - Vector1_fca98022660f4e809acd61350bb4cc64: 3
     - _AORemapMax: 1
     - _AORemapMax0: 1
     - _AORemapMax1: 1

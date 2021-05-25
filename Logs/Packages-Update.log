@@ -56,3 +56,17 @@ The following packages were updated:
   com.unity.ide.vscode from version 1.2.1 to 1.2.3
   com.unity.render-pipelines.high-definition from version 8.2.0 to 10.2.2
   com.unity.test-framework from version 1.1.16 to 1.1.20
+
+=== Fri May 21 16:53:57 2021
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ide.rider from version 2.0.7 to 3.0.6
+  com.unity.polybrush from version 1.0.2 to 1.1.2
+  com.unity.probuilder from version 4.4.0 to 5.0.3
+  com.unity.render-pipelines.high-definition from version 10.2.2 to 11.0.0
+  com.unity.test-framework from version 1.1.20 to 1.1.24
+  com.unity.textmeshpro from version 3.0.1 to 3.0.4
+  com.unity.timeline from version 1.4.6 to 1.5.4
