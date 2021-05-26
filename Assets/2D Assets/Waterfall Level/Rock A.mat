@@ -156,14 +156,14 @@ Material:
     m_Ints: []
     m_Floats:
     - Ambient_Occlusion_Strength: 1
-    - Gradient_Scale: 20
+    - Gradient_Scale: 15
     - Metallic: 0
-    - Normal_Strength: 2
+    - Normal_Strength: 1
     - Smoothness: 0
     - Specular_Occclusion: 0
-    - Texture_Strength: 0.5
+    - Texture_Strength: 0.252
     - Triplanar_Blend: 10
-    - Triplanar_Tile: 0.015
+    - Triplanar_Tile: 0.025
     - Vector1_9c33d15997d14c9ab00f03b4c7ab0d55: 0
     - Vector1_a1b9ee8295284cfc9b4c1620b151df59: 1
     - Vector1_bc61604139854834b37a35d8ca484a69: 1
@@ -282,8 +282,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_75e4918e12cb4ce09668de15b3fbe529: {r: 1, g: 1, b: 1, a: 1}
-    - Color_A: {r: 0.6603774, g: 0.62066126, b: 0.501513, a: 1}
-    - Color_B: {r: 0.74509805, g: 0.6687621, b: 0.48235294, a: 1}
+    - Color_A: {r: 0.36862743, g: 0.3019608, b: 0.2509804, a: 1}
+    - Color_B: {r: 0.32156864, g: 0.29411766, b: 0.21960784, a: 1}
     - Main_Color: {r: 0.8113208, g: 0.7524185, b: 0.5855287, a: 1}
     - _BaseColor: {r: 0.6132076, g: 0.57163084, b: 0.4078409, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}

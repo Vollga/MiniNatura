@@ -41,7 +41,7 @@ public class DemoPlayerController : MonoBehaviour
     private void Start()
     {
         character = this.GetComponent<CharacterController>();
-        cam = TreasureTrackerCamera.mainCamera.cam.transform;
+        cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
     }
 
     // Update is called once per frame

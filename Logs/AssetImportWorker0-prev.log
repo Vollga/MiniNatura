@@ -15,11 +15,11 @@ C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52614
+54201
 Successfully changed project path to: C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 102.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,61 +35,181 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009596 seconds.
+Registered in 0.002514 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 99.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 10.351 seconds
+- Completed reload, in  1.419 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002034 seconds.
+Registered in 0.001602 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 111.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.250 seconds
+- Completed reload, in  1.779 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3999 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.0 MB.
-System memory in use after: 215.1 MB.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.8 MB.
+System memory in use after: 217.9 MB.
 
-Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4457.
-Total: 6.722000 ms (FindLiveObjects: 0.512800 ms CreateObjectMapping: 0.423800 ms MarkObjects: 5.428300 ms  DeleteObjects: 0.354700 ms)
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4459.
+Total: 5.224500 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.205100 ms MarkObjects: 4.273100 ms  DeleteObjects: 0.356500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Shaders/Snow.shadergraph
-  artifactKey: Guid(baae5ac473a71ce46a234ac900437477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Snow.shadergraph using Guid(baae5ac473a71ce46a234ac900437477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc12f60fa9db02437cd483e822f0fa68') in 0.055115 seconds 
+  path: Assets/Prefabs/Nature/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+ -> (artifact id: 'd9161cc2197894fe96d3e7f1e580ce41') in 0.962277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.751558 seconds.
-  path: Assets/Shaders/Snow.mat
-  artifactKey: Guid(acf111fba9f33e249a97634d555e44ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Snow.mat using Guid(acf111fba9f33e249a97634d555e44ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
- -> (artifact id: '877fb2483570615c4d4cbe49395048a5') in 1.960763 seconds 
+  Time since last request: 0.000424 seconds.
+  path: Assets/Prefabs/Nature/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f753444f6e253f9d8bb09ebc078627') in 0.033259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.632847 seconds.
+  path: Assets/Prefabs/Nature/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88d92f88daa8b5f9f3073ef4deae13d') in 0.026986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.320129 seconds.
+  path: Assets/Prefabs/Nature/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88d92f88daa8b5f9f3073ef4deae13d') in 0.024129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.427592 seconds.
+  path: Assets/2D Assets/Clover Flower.mat
+  artifactKey: Guid(66fd29b9353800541b4ec6b649b2e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Clover Flower.mat using Guid(66fd29b9353800541b4ec6b649b2e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0a7d65e0a2b6379b508166a7d2f009') in 0.944250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.807746 seconds.
+  path: Assets/2D Assets/Textures/lazyUV.psd
+  artifactKey: Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Textures/lazyUV.psd using Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965d0ecae63defc8a0f90b299467b35a') in 0.097811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.103557 seconds.
+  path: Assets/2D Assets/LazyUV.mat
+  artifactKey: Guid(8dedc2cbf95741e44abbc45a08a65431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/LazyUV.mat using Guid(8dedc2cbf95741e44abbc45a08a65431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b91825764c20861829402f8eb16a5e3') in 0.041687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.893671 seconds.
+  path: Assets/3D Assets/Props/Clover.fbx
+  artifactKey: Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Clover.fbx using Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc86f94a9f774dbe23e7f659a4fb587b') in 0.343168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.564412 seconds.
+  path: Assets/3D Assets/Props/Clover.fbx
+  artifactKey: Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Clover.fbx using Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc5462bc516fbbc1543bba9fb5b5f5a') in 0.265874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.148449 seconds.
+  path: Assets/Prefabs/Nature/Clover Bundle 1.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Bundle 1.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114c5490bca48773e76c1a5a07d49e1b') in 0.022215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.118510 seconds.
+  path: Assets/Prefabs/Nature/Clover Bundle red.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Bundle red.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4e90a51cf4d2367dc679ed938b4f9c') in 0.034440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 290.280858 seconds.
+  path: Assets/3D Assets/Props/Clover.fbx
+  artifactKey: Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Clover.fbx using Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93735f84fcd63d9cf6e8a16be57dfa7e') in 0.129743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.328841 seconds.
+  path: Assets/Prefabs/Nature/Clover Bundle red.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Bundle red.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b3fcb1249e328453a73a8a1248861c') in 0.020445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.977597 seconds.
+  path: Assets/Prefabs/Nature/Clover Bundle red.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Bundle red.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37101200dd47d151287bfb41f528abbe') in 0.020189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.581953 seconds.
+  path: Assets/3D Assets/Props/Clover.fbx
+  artifactKey: Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Clover.fbx using Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a002fb0bbf7005e4f6c1f3aa5ca795') in 0.131261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.220594 seconds.
+  path: Assets/Prefabs/Nature/Clover Bundle red.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Bundle red.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef99c2ec4ca3d056d49b3406198afe5') in 0.015605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.526283 seconds.
+  path: Assets/Prefabs/Nature/Clover Bundle red.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Bundle red.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3cecdbc95232692b11ac28763966d0') in 0.015237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.238365 seconds.
+  path: Assets/Prefabs/Nature/Clover Single 1.prefab
+  artifactKey: Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single 1.prefab using Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543191934e33c6beb346cf023afb5c6c') in 0.021853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.638224 seconds.
+  path: Assets/Prefabs/Nature/Clover Single red.prefab
+  artifactKey: Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single red.prefab using Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d35157a166fdc75ddcfc853a792f92') in 0.022936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.484443 seconds.
+  path: Assets/Prefabs/Nature/Clover Single red.prefab
+  artifactKey: Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single red.prefab using Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f9323296edd5b0868432acc8b5bc26') in 0.026672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.890213 seconds.
+  path: Assets/Prefabs/Nature/Clover Single red.prefab
+  artifactKey: Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Single red.prefab using Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ca3cdbea8e37272b433b295d72705d') in 0.016629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 532.285703 seconds.
+  path: Assets/Prefabs/Nature/Clover Flower.prefab
+  artifactKey: Guid(aa61c0e46fd54af42afd09678bcb72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Nature/Clover Flower.prefab using Guid(aa61c0e46fd54af42afd09678bcb72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59cba3ff7aeb48bfe97eb1b828cd7a3') in 0.063382 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003365 seconds.
+Registered in 0.001667 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -101,56 +221,26 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.386 seconds
+- Completed reload, in  2.093 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.8 MB.
-System memory in use after: 204.9 MB.
+System memory in use before: 207.3 MB.
+System memory in use after: 207.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4629.
-Total: 5.700900 ms (FindLiveObjects: 0.571800 ms CreateObjectMapping: 0.454400 ms MarkObjects: 4.569200 ms  DeleteObjects: 0.104100 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4649.
+Total: 5.373800 ms (FindLiveObjects: 0.433700 ms CreateObjectMapping: 0.289700 ms MarkObjects: 4.548000 ms  DeleteObjects: 0.100700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 526.631673 seconds.
-  path: Assets/2D Assets/Textures/heightmap.png
-  artifactKey: Guid(e3aafdc99223fd94582e58612fd1139e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/heightmap.png using Guid(e3aafdc99223fd94582e58612fd1139e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697992b523ff26e77b1fbeb360d9ab4b') in 0.119174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2481.092337 seconds.
-  path: Assets/Prefabs/Waterfall Level/Treestump low Variant.prefab
-  artifactKey: Guid(67905cdd04f5cdc4cbbc3eabe0d873eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Treestump low Variant.prefab using Guid(67905cdd04f5cdc4cbbc3eabe0d873eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4462479b2d1f9e6c203eb840f09821') in 0.965636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.471394 seconds.
-  path: Assets/Prefabs/Waterfall Level/Tree Stump.prefab
-  artifactKey: Guid(67905cdd04f5cdc4cbbc3eabe0d873eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Tree Stump.prefab using Guid(67905cdd04f5cdc4cbbc3eabe0d873eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489b703d8136597f6335ce6e073eedc7') in 0.089397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.427912 seconds.
-  path: Assets/Prefabs/Waterfall Level/logv2 low Variant.prefab
-  artifactKey: Guid(c9f4bd0f11e7c644f872a5cd8346762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/logv2 low Variant.prefab using Guid(c9f4bd0f11e7c644f872a5cd8346762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574f4914a9e1facfc4ae654e7b5ac841') in 0.029093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.651146 seconds.
-  path: Assets/Prefabs/Waterfall Level/Log.prefab
-  artifactKey: Guid(c9f4bd0f11e7c644f872a5cd8346762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Log.prefab using Guid(c9f4bd0f11e7c644f872a5cd8346762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103f55a52d3c1055a8bf25cbc56be4f2') in 0.038773 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001863 seconds.
+Registered in 0.001613 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -162,17 +252,1505 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
+- Completed reload, in  1.637 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4652.
+Total: 9.522700 ms (FindLiveObjects: 0.459000 ms CreateObjectMapping: 0.207300 ms MarkObjects: 8.750000 ms  DeleteObjects: 0.104800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.433 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.5 MB.
+System memory in use after: 206.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4655.
+Total: 4.740300 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.274500 ms MarkObjects: 3.990500 ms  DeleteObjects: 0.099500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001920 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.820 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 3.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3661 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.5 MB.
+System memory in use after: 206.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4658.
+Total: 5.493300 ms (FindLiveObjects: 0.361200 ms CreateObjectMapping: 0.306300 ms MarkObjects: 4.728000 ms  DeleteObjects: 0.095900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1555.662508 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(22a92dda8b126ff4796f9e84ae1c8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(22a92dda8b126ff4796f9e84ae1c8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab007a007a85d015f8f3e09b06dd393') in 0.012330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.056148 seconds.
+  path: Assets/Scripts/FollowCam.cs
+  artifactKey: Guid(3afe860aa48f8c041bdd97c07e77aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FollowCam.cs using Guid(3afe860aa48f8c041bdd97c07e77aad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fce2c50620f35ed9a684597fdcc097') in 0.026621 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.770 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.5 MB.
-System memory in use after: 205.7 MB.
+System memory in use before: 206.5 MB.
+System memory in use after: 206.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4751.
-Total: 5.658900 ms (FindLiveObjects: 0.575100 ms CreateObjectMapping: 0.437600 ms MarkObjects: 4.536400 ms  DeleteObjects: 0.108400 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4662.
+Total: 4.005400 ms (FindLiveObjects: 0.319900 ms CreateObjectMapping: 0.169500 ms MarkObjects: 3.419700 ms  DeleteObjects: 0.095200 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 25.074101 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(e8a636f62116c0a40bbfefdf876d4608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498b1f1f7d116ca76fdfcec54306dce6') in 0.012821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.484569 seconds.
+  path: Assets/Scripts/TreasureTrackerCamera.cs
+  artifactKey: Guid(03936d60fb9c2b349a3385abb16caeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TreasureTrackerCamera.cs using Guid(03936d60fb9c2b349a3385abb16caeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75692bdf7b9658fde440a2d96b5a9802') in 0.009401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.640665 seconds.
+  path: Assets/Scripts/TreasureTrackerCameraBackup.cs
+  artifactKey: Guid(c9be9f37cb90646478892f7a25eefcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TreasureTrackerCameraBackup.cs using Guid(c9be9f37cb90646478892f7a25eefcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00fe3f94f5d2900004b3cc1eba7adb4') in 0.008916 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002515 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.601 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.5 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4665.
+Total: 4.655000 ms (FindLiveObjects: 0.309600 ms CreateObjectMapping: 0.224600 ms MarkObjects: 3.985500 ms  DeleteObjects: 0.133900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.134 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4668.
+Total: 4.098200 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.168700 ms MarkObjects: 3.501900 ms  DeleteObjects: 0.099000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4671.
+Total: 9.203100 ms (FindLiveObjects: 0.541400 ms CreateObjectMapping: 0.682100 ms MarkObjects: 7.868600 ms  DeleteObjects: 0.109300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001706 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.571 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4674.
+Total: 4.350700 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.224500 ms MarkObjects: 3.648300 ms  DeleteObjects: 0.122000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.435 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4677.
+Total: 4.924900 ms (FindLiveObjects: 0.484200 ms CreateObjectMapping: 0.402900 ms MarkObjects: 3.932900 ms  DeleteObjects: 0.103700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001937 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.462 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4680.
+Total: 4.077300 ms (FindLiveObjects: 0.459300 ms CreateObjectMapping: 0.261900 ms MarkObjects: 3.249000 ms  DeleteObjects: 0.105600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4683.
+Total: 3.943700 ms (FindLiveObjects: 0.327700 ms CreateObjectMapping: 0.169800 ms MarkObjects: 3.349300 ms  DeleteObjects: 0.095900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001704 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4686.
+Total: 7.266100 ms (FindLiveObjects: 0.436500 ms CreateObjectMapping: 0.486600 ms MarkObjects: 6.215500 ms  DeleteObjects: 0.125400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.824 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4689.
+Total: 7.057000 ms (FindLiveObjects: 0.367500 ms CreateObjectMapping: 0.192700 ms MarkObjects: 6.379100 ms  DeleteObjects: 0.116200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.451 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.6 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4692.
+Total: 6.158300 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.178800 ms MarkObjects: 5.544700 ms  DeleteObjects: 0.099700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.403 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4695.
+Total: 25.848400 ms (FindLiveObjects: 2.324300 ms CreateObjectMapping: 0.618200 ms MarkObjects: 22.712200 ms  DeleteObjects: 0.192000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.481 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4698.
+Total: 5.718300 ms (FindLiveObjects: 0.342600 ms CreateObjectMapping: 0.184400 ms MarkObjects: 5.085000 ms  DeleteObjects: 0.105100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.796 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4701.
+Total: 4.218500 ms (FindLiveObjects: 0.452100 ms CreateObjectMapping: 0.377600 ms MarkObjects: 3.285500 ms  DeleteObjects: 0.102200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.614 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4704.
+Total: 5.585500 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.177300 ms MarkObjects: 4.967700 ms  DeleteObjects: 0.097400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.715 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4707.
+Total: 6.397800 ms (FindLiveObjects: 2.307300 ms CreateObjectMapping: 0.335900 ms MarkObjects: 3.651400 ms  DeleteObjects: 0.102100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.987 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4710.
+Total: 6.046700 ms (FindLiveObjects: 0.543200 ms CreateObjectMapping: 0.560700 ms MarkObjects: 4.793000 ms  DeleteObjects: 0.148600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2075.779827 seconds.
+  path: Assets/Prefabs/Props
+  artifactKey: Guid(9ae23876dc6bfc84a9d3e6196ed0fd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props using Guid(9ae23876dc6bfc84a9d3e6196ed0fd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79aeb8a171e627164f8471df46963d8') in 0.015898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.255470 seconds.
+  path: Assets/2D Assets/Textures/lazyUV.psd
+  artifactKey: Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Textures/lazyUV.psd using Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc84f226425cdb7732bd6ee32a99b09f') in 0.109497 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001650 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.551 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4727.
+Total: 4.397700 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.171700 ms MarkObjects: 3.789000 ms  DeleteObjects: 0.104900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.661881 seconds.
+  path: Assets/Scenes/Level Woods/Cave Volume Profile.asset
+  artifactKey: Guid(c68ec32e2a520fc49bed03fc3232e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Woods/Cave Volume Profile.asset using Guid(c68ec32e2a520fc49bed03fc3232e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cc908698ad5c675cebf3bb5f8aa82b') in 0.066103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Scenes/Level Woods/Level Waterfall 1.asset
+  artifactKey: Guid(55104cde4669f9e44b3527856fa94d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Woods/Level Waterfall 1.asset using Guid(55104cde4669f9e44b3527856fa94d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6850de608910daba53f135e5b2bdbbc0') in 0.012627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.198271 seconds.
+  path: Assets/Scenes/Level Woods/Cave Volume Profile.asset
+  artifactKey: Guid(c68ec32e2a520fc49bed03fc3232e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Woods/Cave Volume Profile.asset using Guid(c68ec32e2a520fc49bed03fc3232e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8172f15dfadc7f7bfe50eb2f9a6892f') in 0.008602 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.546 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.2 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4730.
+Total: 4.452800 ms (FindLiveObjects: 0.337200 ms CreateObjectMapping: 0.175800 ms MarkObjects: 3.811000 ms  DeleteObjects: 0.127500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.273995 seconds.
+  path: Assets/Scenes/Level Woods/Cave Volume Profile.asset
+  artifactKey: Guid(c68ec32e2a520fc49bed03fc3232e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Woods/Cave Volume Profile.asset using Guid(c68ec32e2a520fc49bed03fc3232e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd456b17b5d555d29771e82a675656c04') in 0.055462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/Level Woods/Level Waterfall 1.asset
+  artifactKey: Guid(55104cde4669f9e44b3527856fa94d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level Woods/Level Waterfall 1.asset using Guid(55104cde4669f9e44b3527856fa94d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf30f1928bfcd4fa291658250532c14') in 0.006518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 670.182066 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock A.mat
+  artifactKey: Guid(1a28f8fce93976f4cb0090f130c59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock A.mat using Guid(1a28f8fce93976f4cb0090f130c59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ffa643104de5162afe6c0c00a8b647') in 0.910556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock Pebble.mat
+  artifactKey: Guid(44ddc239c8370c14cb7e46a3062f77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock Pebble.mat using Guid(44ddc239c8370c14cb7e46a3062f77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963dbc9fc4765cc9e3d573a44d048dd7') in 0.060522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock B.mat
+  artifactKey: Guid(a2d0486219f02384fb813ac18cad257a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock B.mat using Guid(a2d0486219f02384fb813ac18cad257a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73082260a4ea1fae209853a9915989be') in 0.084658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.832116 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock A.mat
+  artifactKey: Guid(1a28f8fce93976f4cb0090f130c59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock A.mat using Guid(1a28f8fce93976f4cb0090f130c59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4983f4e8738af920ffed537869fd656') in 0.062735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock Pebble.mat
+  artifactKey: Guid(44ddc239c8370c14cb7e46a3062f77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock Pebble.mat using Guid(44ddc239c8370c14cb7e46a3062f77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a50d55d63e0193ee49b7fc32664b9c') in 0.038082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock B.mat
+  artifactKey: Guid(a2d0486219f02384fb813ac18cad257a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock B.mat using Guid(a2d0486219f02384fb813ac18cad257a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252294a22287bb99aa3b9f4f86477754') in 0.035886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.373116 seconds.
+  path: Assets/Prefabs/Waterfall Level/Tree Stump.prefab
+  artifactKey: Guid(67905cdd04f5cdc4cbbc3eabe0d873eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Waterfall Level/Tree Stump.prefab using Guid(67905cdd04f5cdc4cbbc3eabe0d873eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bdb51e3265c65a58a922768ddf685e') in 0.210687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.033785 seconds.
+  path: Assets/Prefabs/Props/Pebble_A.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble_A.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa37233a479c945707272c9e6281b59b') in 0.047489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Prefabs/Props/Rock_A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock_A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75312eea21d1e91cba5e244d7a955136') in 0.045933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Prefabs/Props/Rock_B 1.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock_B 1.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deb3ea0b25e3fdfd3c61e7f3c8d0b59') in 0.039596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Props/Pebble_B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble_B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fd3ce343ee27416a71de5164b52a25') in 0.047632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.788572 seconds.
+  path: Assets/Prefabs/Props/Rock smooth A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8061035f6d73cdfa69167370b7dcabc1') in 0.035519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.073087 seconds.
+  path: Assets/Prefabs/Props/Rock smooth B.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth B.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a270a43f3b28990c7bcb38c9642e17') in 0.031646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.254900 seconds.
+  path: Assets/Prefabs/Props/PebbleA.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/PebbleA.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a94d057e5dba529e91440df3d25db3') in 0.081754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.411645 seconds.
+  path: Assets/Prefabs/Props/Pebble B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ea8ab2a094475c92fc2f05d143e4a0') in 0.121494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.174584 seconds.
+  path: Assets/Prefabs/Props/Pebble A.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble A.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba87110f9379ab9d499978ab9145288') in 0.047964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.938265 seconds.
+  path: Assets/Prefabs/Props/Rock A.prefab
+  artifactKey: Guid(7ba7fb90c67dc4c4ea04e1edd2351482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock A.prefab using Guid(7ba7fb90c67dc4c4ea04e1edd2351482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b376f9599c49f73bbb365e53160ede8') in 0.155049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.810066 seconds.
+  path: Assets/Prefabs/Props/Rock B.prefab
+  artifactKey: Guid(ef49df0ca8f9104488aa8748eb2b187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock B.prefab using Guid(ef49df0ca8f9104488aa8748eb2b187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9294108c424dc7e65e41f5da324949') in 0.046558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 341.188775 seconds.
+  path: Assets/3D Assets/Props/Scatter.fbx
+  artifactKey: Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Scatter.fbx using Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc4e241d99dadc7365ff169f66e21ba') in 0.084506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.288390 seconds.
+  path: Assets/3D Assets/Props/Clover.fbx
+  artifactKey: Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Clover.fbx using Guid(af056d7b66be8fb448bff0be626d16d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae9c6aa9ff9ea7cd1cfc0a0da8d4a27') in 0.213936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/3D Assets/Props/Tree Mushrooms.fbx
+  artifactKey: Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Tree Mushrooms.fbx using Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f74f420100f2bc6bf4194e9a0e6eb1a') in 0.081286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.201495 seconds.
+  path: Assets/3D Assets/Props/Scatter.fbx
+  artifactKey: Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Scatter.fbx using Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee22604b367cab5220f3e69a467dbee') in 0.055263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.120047 seconds.
+  path: Assets/Prefabs/Props/Pebble A.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble A.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffd365c63836c066697af095451540b') in 0.036295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.060047 seconds.
+  path: Assets/Prefabs/Props/Pebble B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4acd9f5fdb07b818aab563608b8818') in 0.032362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.042196 seconds.
+  path: Assets/Prefabs/Props/Pebble B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2af59ed7f6104acdaddc059faf9b919') in 0.030242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 909.993688 seconds.
+  path: Assets/Prefabs/Props/Pebble A.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble A.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedb8d22f011dbb30511ecfe8bc4928a') in 0.059360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Prefabs/Props/Pebble B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c93efe80cd837f9aabf3ded2c5fe73') in 0.040126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.834212 seconds.
+  path: Assets/Prefabs/Props/Pebble A.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble A.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53e88c5f021dfa9113cb73a6fce4a4f') in 0.027609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Prefabs/Props/Pebble B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e3df024b2d024d2a11a8ec3e98e2ad') in 0.024981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.919556 seconds.
+  path: Assets/Prefabs/Props/Rock smooth B.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth B.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673bc44d69030567e16f378d1b1c8c5b') in 0.063555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/Props/Rock smooth A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3173d9f7d76dd4a4afba8de75732a9d') in 0.031951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707771 seconds.
+  path: Assets/Prefabs/Props/Rock smooth B.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth B.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef6c339f6ec30d0b35fae8829645385') in 0.031567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Prefabs/Props/Rock smooth A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539d7e332ddeb10d917bf09da90894d9') in 0.033484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.756348 seconds.
+  path: Assets/Prefabs/Props/Rock smooth B.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth B.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec92eaebb0794e6ae472e2bedc32ed9') in 0.040070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Prefabs/Props/Rock smooth A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c7c58a0467459c32feb990f8f3c8c5') in 0.029954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194155 seconds.
+  path: Assets/Prefabs/Props/Rock smooth B.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth B.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2664e3733ad2c13f9b9bfe4e2e108eb6') in 0.029018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Prefabs/Props/Rock smooth A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe1bd094ac562757a5b8d3af8f3e6ad') in 0.034488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.555829 seconds.
+  path: Assets/Prefabs/Props/Rock smooth B.prefab
+  artifactKey: Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth B.prefab using Guid(7e2cd8b41228e1f4cabb4478b43c9754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b7ccfa0631342cb86c8544385c826c') in 0.031888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefabs/Props/Rock smooth A 1.prefab
+  artifactKey: Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock smooth A 1.prefab using Guid(6b3ba2821ba1ae14d8299b160834b1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a8763998c7b91c3ee75f90078ff2cc') in 0.031371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.829713 seconds.
+  path: Assets/Prefabs/Props/Mush tree a.prefab
+  artifactKey: Guid(81eda63adf7ed654690384a6306474b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Mush tree a.prefab using Guid(81eda63adf7ed654690384a6306474b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eb49cb7bea6e70d63f2bc99849d49e') in 0.029022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006106 seconds.
+  path: Assets/Prefabs/Props/Mush tree b.prefab
+  artifactKey: Guid(73b6bd4424452d54f8519fbb7a7c1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Mush tree b.prefab using Guid(73b6bd4424452d54f8519fbb7a7c1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46b12841e1067f819c8a2f84b7f38bb') in 0.026713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefabs/Props/Pebble A.prefab
+  artifactKey: Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble A.prefab using Guid(cdfafc8a30e9c934ca464191d8f40bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b4d103da4f772e52efa480edee590e') in 0.029515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Prefabs/Props/Rock B.prefab
+  artifactKey: Guid(ef49df0ca8f9104488aa8748eb2b187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock B.prefab using Guid(ef49df0ca8f9104488aa8748eb2b187c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b011edd07566ef70f2ddc4dee7ae07') in 0.025356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Prefabs/Props/Rock A.prefab
+  artifactKey: Guid(7ba7fb90c67dc4c4ea04e1edd2351482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Rock A.prefab using Guid(7ba7fb90c67dc4c4ea04e1edd2351482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5103653fdb17e303175c0e1d4ee1f3b8') in 0.029382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Prefabs/Props/Pebble B.prefab
+  artifactKey: Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Pebble B.prefab using Guid(87aa991d7ef534d45be04fc82fc1dab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630b97ce4e15221005485e4064705379') in 0.028144 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.9 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4836.
+Total: 6.822000 ms (FindLiveObjects: 2.760800 ms CreateObjectMapping: 0.359700 ms MarkObjects: 3.546800 ms  DeleteObjects: 0.153600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.8 MB.
+System memory in use after: 208.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4839.
+Total: 5.529500 ms (FindLiveObjects: 0.482600 ms CreateObjectMapping: 0.262200 ms MarkObjects: 4.575500 ms  DeleteObjects: 0.207900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2929.991052 seconds.
+  path: Assets/3D Assets/Props/Scatter.fbx
+  artifactKey: Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Scatter.fbx using Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c63b3f63317da7307aa49d6cc741cf5') in 1.297652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1031.659848 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock A.mat
+  artifactKey: Guid(1a28f8fce93976f4cb0090f130c59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock A.mat using Guid(1a28f8fce93976f4cb0090f130c59c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e64de41f3f4bc7bcdbeed91b4fdc57f') in 0.170447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock Pebble.mat
+  artifactKey: Guid(44ddc239c8370c14cb7e46a3062f77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock Pebble.mat using Guid(44ddc239c8370c14cb7e46a3062f77d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f95da582c2c445845f3517c225a6ec') in 0.118454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/2D Assets/Waterfall Level/Rock B.mat
+  artifactKey: Guid(a2d0486219f02384fb813ac18cad257a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Waterfall Level/Rock B.mat using Guid(a2d0486219f02384fb813ac18cad257a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3389166a0d589b2b30d0308b3069e2') in 0.079208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.153953 seconds.
+  path: Assets/2D Assets/Test Materials/Watercolour Base.mat
+  artifactKey: Guid(5147e922b12fe1140891779ddaf394c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/Watercolour Base.mat using Guid(5147e922b12fe1140891779ddaf394c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618a816cb21c3bd9c5d77e3f9bd6a7c3') in 0.175114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/2D Assets/Test Materials/Watercolour Grass.mat
+  artifactKey: Guid(202eb5548095ef9408e43b26ae621927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/Watercolour Grass.mat using Guid(202eb5548095ef9408e43b26ae621927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663ab6a01b4bd0cf3275ca68f2861c1b') in 0.058512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/2D Assets/Test Materials/Watercolour Rocks.mat
+  artifactKey: Guid(31f4743068f44384e98643d678eeca6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/Watercolour Rocks.mat using Guid(31f4743068f44384e98643d678eeca6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821d4c998c249c276384e5e54a5f05fb') in 0.234949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002228 seconds.
+  path: Assets/2D Assets/Test Materials/Watercolour Water.mat
+  artifactKey: Guid(34fdfff8d8999874592ef1f83e21e3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/Watercolour Water.mat using Guid(34fdfff8d8999874592ef1f83e21e3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101c41c9200bc9abf1202f8b9ae60f18') in 0.220315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 710.313993 seconds.
+  path: Assets/McCree/McCree Blackwatch.fbx
+  artifactKey: Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/McCree/McCree Blackwatch.fbx using Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfa24d782b38d32fdeefe839e80eeb5') in 0.490464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.885056 seconds.
+  path: Assets/McCree/McCree Blackwatch.fbx
+  artifactKey: Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/McCree/McCree Blackwatch.fbx using Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cff73bc191aab4ef437dc23e90b9574') in 0.105137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.817634 seconds.
+  path: Assets/McCree/McCree Blackwatch.fbx
+  artifactKey: Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/McCree/McCree Blackwatch.fbx using Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05db89616c6a3b52269a10e47aa6ebc') in 0.135493 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.525 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.3 MB.
+System memory in use after: 222.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4946.
+Total: 4.789100 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.177200 ms MarkObjects: 4.135600 ms  DeleteObjects: 0.095100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.035804 seconds.
+  path: Assets/McCree/McCree Blackwatch.fbx
+  artifactKey: Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/McCree/McCree Blackwatch.fbx using Guid(6208443fe2c5ecb4fb9a909b01b3958d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65f5b1a2f18012f4977f26da8024177') in 0.749303 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.055 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.1 MB.
+System memory in use after: 222.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5052.
+Total: 5.355300 ms (FindLiveObjects: 0.460500 ms CreateObjectMapping: 0.298400 ms MarkObjects: 4.488700 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001652 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.594 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5055.
+Total: 13.426400 ms (FindLiveObjects: 0.388200 ms CreateObjectMapping: 0.180000 ms MarkObjects: 12.751600 ms  DeleteObjects: 0.105200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.047 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5058.
+Total: 5.946000 ms (FindLiveObjects: 0.425800 ms CreateObjectMapping: 0.201400 ms MarkObjects: 5.210900 ms  DeleteObjects: 0.106400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.000 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5061.
+Total: 9.313200 ms (FindLiveObjects: 0.427600 ms CreateObjectMapping: 0.379700 ms MarkObjects: 8.334800 ms  DeleteObjects: 0.169700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.067 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5064.
+Total: 4.409400 ms (FindLiveObjects: 0.363500 ms CreateObjectMapping: 0.182500 ms MarkObjects: 3.765700 ms  DeleteObjects: 0.096600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.446 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 222.2 MB.
+System memory in use after: 222.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5067.
+Total: 4.310300 ms (FindLiveObjects: 0.368200 ms CreateObjectMapping: 0.171700 ms MarkObjects: 3.666900 ms  DeleteObjects: 0.102400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1062.189583 seconds.
+  path: Assets/Prefabs/Props/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7a449908e7cf58abaedb9416c69ae4') in 0.777742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.080327 seconds.
+  path: Assets/Prefabs/Props/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92188494f3a2efa2b319cf795faf84ea') in 0.054944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.665386 seconds.
+  path: Assets/Prefabs/Props/Clover Single red.prefab
+  artifactKey: Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Single red.prefab using Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce278b1051263a056610025f1abf3eb') in 0.028855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.456311 seconds.
+  path: Assets/Prefabs/Props/Clover Single red.prefab
+  artifactKey: Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Single red.prefab using Guid(4cca4d0710feae842a3757ccd9d4c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b8cf3e7d9ca67e3f5d01a922ad8bc7') in 0.024870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.710392 seconds.
+  path: Assets/Prefabs/Props/Clover Flower.prefab
+  artifactKey: Guid(aa61c0e46fd54af42afd09678bcb72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Flower.prefab using Guid(aa61c0e46fd54af42afd09678bcb72d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9efc6cf60d834b274dd9e53214aba36') in 0.066508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.313247 seconds.
+  path: Assets/Prefabs/Props/Clover Bundle.prefab
+  artifactKey: Guid(ed09e1ddb386f154380d2381a6f0e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Bundle.prefab using Guid(ed09e1ddb386f154380d2381a6f0e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c3ec507a8fd5623eeed48e78de6723') in 0.031143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.983374 seconds.
+  path: Assets/Prefabs/Props/Clover Bundle red.prefab
+  artifactKey: Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Bundle red.prefab using Guid(c080f00f344dbbd41a79e92ae9e1c624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fe9e89076a49010eb0bc5dfc7c6a95') in 0.039874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 153.565784 seconds.
+  path: Assets/Prefabs/Props/Clover Single 1.prefab
+  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Single 1.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0da5e6f0c8e12c0c21dc8fad1b0b2f') in 0.024928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.343924 seconds.
+  path: Assets/Prefabs/Props/Fern L.prefab
+  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Fern L.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2f7ff3ab1d008e6e8408a3f6250bf4') in 0.027129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.938032 seconds.
+  path: Assets/Prefabs/Props/Fern L.prefab
+  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Fern L.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab214db35b951f87fe63bec87cd24758') in 0.067424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.832461 seconds.
+  path: Assets/Prefabs/Props/Fern L.prefab
+  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Fern L.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0724d0b82c226d2142fbe52fdadaf') in 0.026300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.913735 seconds.
+  path: Assets/Prefabs/Props/Fern L.prefab
+  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Fern L.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25292ba3a4f18b7120b31ef231ae47d4') in 0.025779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.769140 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9077d940ba3853f08731b3cd35355580') in 0.157331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/3D Assets/Props/Tree Mushrooms.fbx
+  artifactKey: Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Tree Mushrooms.fbx using Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03c247fe2b7ced8072f80c1a1f20536') in 0.076120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.532620 seconds.
+  path: Assets/3D Assets/Captain Toad Treasure Tracker/Materials/KinopioBodyMat00.mat
+  artifactKey: Guid(a8e43fcd18bb90d4584360980c0464a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Captain Toad Treasure Tracker/Materials/KinopioBodyMat00.mat using Guid(a8e43fcd18bb90d4584360980c0464a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fde1d8cb0dc896b7befecd7bb8b2716') in 0.087242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.057412 seconds.
+  path: Assets/2D Assets/Test Materials/Player Shadow.mat
+  artifactKey: Guid(4271f97bbd55b2d4b949f529c7b832f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/Player Shadow.mat using Guid(4271f97bbd55b2d4b949f529c7b832f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbc5cf8b20fb54a1cf9c55256ba7075') in 1.730234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/3D Assets/Ganondorf/Materials/render_large.mat
+  artifactKey: Guid(5344aed9297e7ee4abcbe2ce66bd4706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Ganondorf/Materials/render_large.mat using Guid(5344aed9297e7ee4abcbe2ce66bd4706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235e5fee8fbcd092a65b1a8e8b5fe192') in 0.055889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2D Assets/Test Materials/PlayerPlaceholder.mat
+  artifactKey: Guid(2deec71007de2b542ab10683f31b0d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/PlayerPlaceholder.mat using Guid(2deec71007de2b542ab10683f31b0d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b476245b39888b9c6961ea4be139b4f9') in 0.045822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/2D Assets/Test Materials/Player Shadow Decal.mat
+  artifactKey: Guid(85ab7dd937118a84187e86512c72fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Test Materials/Player Shadow Decal.mat using Guid(85ab7dd937118a84187e86512c72fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b260c8fb14977e64a6abe73877b8e6') in 0.033142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.857655 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6ac74da67391a08fb0d443447c79e6') in 0.120778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.856278 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1592972882079f609bac4cb1c816fa08') in 0.083404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.874015 seconds.
+  path: Assets/3D Assets/Props/Scatter.fbx
+  artifactKey: Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Scatter.fbx using Guid(d81f32ee9df03014883af6651e03f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011112343fa12bdd2b9fe9ae0f4b871d') in 0.098850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.965973 seconds.
+  path: Assets/Prefabs/Props/Fern L.prefab
+  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Fern L.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93662523d1f34fb62944e94fd1ea60da') in 0.031377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 393.960771 seconds.
+  path: Assets/Prefabs/Props/Clover Single.prefab
+  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e950a7c6e66b6916c4ba7047332fca') in 0.031581 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LazyUV test moss
-  m_Shader: {fileID: -6465566751694194690, guid: 99df532cf5618ff449105dd8c6b6d930, type: 3}
+  m_Name: LazyUV
+  m_Shader: {fileID: -6465566751694194690, guid: c7210f72662cdf74cb19814c92cb14bc, type: 3}
   m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT _DOUBLESIDED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -17,12 +17,11 @@ Material:
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
-  - DistortionVectors
+  - RayTracingPrepass
   - MOTIONVECTORS
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
-  - RayTracingPrepass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -47,7 +46,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_6aba0decd6c04c31aca5093fd832e14a:
-        m_Texture: {fileID: 2800000, guid: 022c206981b695448bdf3ea0ed81f842, type: 3}
+        m_Texture: {fileID: 2800000, guid: bad408fd3385fef40881e0441c5039bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_AFD13AF9:
@@ -71,7 +70,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_b74661d55f134e4796e5f266f8b5f1f0:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: cbb925344205d0848a499fb14d05d83d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_d564b347e7ba471c983d92ab8998773c:
@@ -362,10 +361,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - Boolean_8D34052F: 0
     - DiffusionProfile_261f48f1fbc94ccbafc421414859c159: 0
     - DiffusionProfile_bfbe0deb8ec4428a9cfcdb968651903c: 0
+    - Saturation: 1
     - Vector1_2D21A623: 0.05
     - Vector1_45446F90: 1
     - Vector1_49C490F5: 0.8
@@ -389,7 +390,7 @@ Material:
     - Vector1_FEA38ABB: 0.5
     - Vector1_a1b9ee8295284cfc9b4c1620b151df59: 1
     - Vector1_bc61604139854834b37a35d8ca484a69: 0.2
-    - Vector1_f8d9deb5f414408c83308d0f6f3c104a: 0.15
+    - Vector1_f8d9deb5f414408c83308d0f6f3c104a: 0.05
     - _AORemapMax: 1
     - _AORemapMax0: 1
     - _AORemapMax1: 1
@@ -691,7 +692,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_62F24D98: {r: 1, g: 1, b: 1, a: 1}
-    - Color_75e4918e12cb4ce09668de15b3fbe529: {r: 1, g: 0.87771446, b: 0, a: 1}
+    - Color_75e4918e12cb4ce09668de15b3fbe529: {r: 1, g: 1, b: 1, a: 1}
     - Color_7657C1FD: {r: 0, g: 0, b: 0, a: 0}
     - Color_76F972A0: {r: 0, g: 0, b: 0, a: 0}
     - Color_83777D09: {r: 0.51886785, g: 0.51886785, b: 0.51886785, a: 0}

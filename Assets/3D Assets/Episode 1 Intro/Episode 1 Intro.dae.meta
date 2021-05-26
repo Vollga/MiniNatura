@@ -1,9 +1,94 @@
 fileFormatVersion: 2
 guid: 1a3a2b681be681241abb1a305a7b450e
 ModelImporter:
-  serializedVersion: 20200
+  serializedVersion: 21100
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DanmenOpLawn01_AI
+    second: {fileID: 2100000, guid: aa97e89574f160a4da4bbec3c8a2be20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DanmenOpStone03_AI
+    second: {fileID: 2100000, guid: ff818be2bef8a47408abfa71e53a547f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DanmenSoilLayer00_S
+    second: {fileID: 2100000, guid: af1ec1bafa21dcb469b4e4e5c01862ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Danmen_Stone00_AI
+    second: {fileID: 2100000, guid: 2b43915920ca8744d80b039678769d0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass00_AI
+    second: {fileID: 2100000, guid: 519c92b46c36b2f4b9503c671bc14e1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lawn01_S
+    second: {fileID: 2100000, guid: c0f7a51b1998c6f4084d724b6000c0ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpGrass_AI
+    second: {fileID: 2100000, guid: f1f9b86101b3e8b42aa2883c9d65f919, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpLawn01_AI
+    second: {fileID: 2100000, guid: 7ec9da8da8c95ba40a25d1de73401ad1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpLawn02_AI
+    second: {fileID: 2100000, guid: e11fb10e919571a4487ae517d2b37e65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpPlant00_AI
+    second: {fileID: 2100000, guid: d4dd502c5aba86d4496c3ed66ace41ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpPlant01_AI
+    second: {fileID: 2100000, guid: d02ce6faa16539a458772527bfe4ae5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpPlant02_AI
+    second: {fileID: 2100000, guid: b7bc0b17cfd9df04a8eb0af5b890a239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpStone00_AI
+    second: {fileID: 2100000, guid: b0e553859299a6e40b1e76be81b49b23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpStone01_AI
+    second: {fileID: 2100000, guid: 06e440df7455a594a9ca8549c11dd049, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpStone03_AI
+    second: {fileID: 2100000, guid: cd9d0572fd3804749b300c8fb68651eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpStone04_AI
+    second: {fileID: 2100000, guid: b7e0a4055d3e8c44c86e3a5c18001ec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OpStone05_AI
+    second: {fileID: 2100000, guid: 5a8ac1b4fe6a0aa4eb3bbba9324b6ff2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -36,7 +121,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
