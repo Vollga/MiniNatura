@@ -77,35 +77,3 @@ MonoBehaviour:
       m_YScaleBool: 1
       m_ZScaleBool: 1
     name: Moss Tesselation
-  - gameObject: {fileID: 1825977635245470487, guid: fd34ba706f35bde41910e48124dca73e, type: 3}
-    settings:
-      m_Strength: 50
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 360, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 0.8, y: 1.25}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 1
-      m_ZRotationBool: 0
-      m_XScaleBool: 1
-      m_YScaleBool: 1
-      m_ZScaleBool: 1
-    name: clusterTest_S
-  - gameObject: {fileID: 6004581750127089783, guid: 3e19f279e3f2ba64ab12433c79e2548a, type: 3}
-    settings:
-      m_Strength: 50
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 360, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 0.8, y: 1.25}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 1
-      m_ZRotationBool: 0
-      m_XScaleBool: 1
-      m_YScaleBool: 1
-      m_ZScaleBool: 1
-    name: clusterTest_L

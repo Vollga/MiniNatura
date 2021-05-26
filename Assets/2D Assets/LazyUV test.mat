@@ -366,6 +366,7 @@ Material:
     - Boolean_8D34052F: 0
     - DiffusionProfile_261f48f1fbc94ccbafc421414859c159: 0
     - DiffusionProfile_bfbe0deb8ec4428a9cfcdb968651903c: 0
+    - Saturation: 0.85
     - Vector1_2D21A623: 0.05
     - Vector1_45446F90: 1
     - Vector1_49C490F5: 0.8
