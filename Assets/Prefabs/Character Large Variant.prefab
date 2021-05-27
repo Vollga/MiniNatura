@@ -160,7 +160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4997764595048105833, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: m_SkinWidth
-      value: 0.05
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4997764595048105833, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
+      propertyPath: m_SlopeLimit
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 4997764595048105833, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: m_StepOffset
