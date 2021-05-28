@@ -502,7 +502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4676799813484379819}
   m_Layer: 0
-  m_Name: Moss patch
+  m_Name: Moss star patch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

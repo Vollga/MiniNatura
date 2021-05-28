@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GlobalVolume
   - SeedGroup
+  - Water
   layers:
   - Default
   - TransparentFX

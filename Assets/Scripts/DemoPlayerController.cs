@@ -26,7 +26,8 @@ public class DemoPlayerController : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     bool groundedPlayer;
     int coyoteTimer;
-    bool hasJumped = false;
+    bool _hasJumped = false;
+    bool _submerged = false;
 
     [Header("Collectibles Indicator")]
     public CollectiblesController collectiblesController;
@@ -56,7 +57,7 @@ public class DemoPlayerController : MonoBehaviour
         if (groundedPlayer)
         {
             coyoteTimer = 0;
-            hasJumped = false;
+            _hasJumped = false;
 
             if(moveDirection.y < 0)
             {
@@ -74,10 +75,10 @@ public class DemoPlayerController : MonoBehaviour
         playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         character.Move(move * Time.deltaTime * speed);
 
-        if (Input.GetButtonDown("Jump") && coyoteTimer <= maxCoyote && !hasJumped)
+        if (Input.GetButtonDown("Jump") && coyoteTimer <= maxCoyote && !_hasJumped && !_submerged)
         {
             moveDirection.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
-            hasJumped = true;       
+            _hasJumped = true;       
         }
 
         moveDirection.y += gravity * Time.deltaTime;
@@ -114,5 +115,20 @@ public class DemoPlayerController : MonoBehaviour
         //moveDirection.y -= gravity * Time.deltaTime;
         //character.Move(moveDirection * Time.deltaTime);
         //playerModel.LookAt(new Vector3(playerModel.position.x + moveDirection.x, playerModel.position.y, playerModel.position.z + moveDirection.z));
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+            _submerged = true;
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+            _submerged = false;
+        }
     }
 }

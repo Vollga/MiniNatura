@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4676799813484379819}
   m_Layer: 0
-  m_Name: Moss single
+  m_Name: Moss star single
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
