@@ -257,6 +257,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 778cc890b64117c4cb81a6ce87d58850, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ParallaxOcclusionMapping_8a94a469cecf444f9f4d2b9d43ba51a9_Heightmap_2:
+        m_Texture: {fileID: 2800000, guid: 2945d8a6d7581e24ab17c4b5a6ce7c90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ParallaxOcclusionMapping_a32590fa08894dda9edb4e1d63435fa9_Heightmap_2:
         m_Texture: {fileID: 2800000, guid: 778cc890b64117c4cb81a6ce87d58850, type: 3}
         m_Scale: {x: 1, y: 1}

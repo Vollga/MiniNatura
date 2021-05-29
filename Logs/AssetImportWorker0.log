@@ -15,11 +15,11 @@ C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50104
+56255
 Successfully changed project path to: C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 112.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 128.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,61 +35,109 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002470 seconds.
+Registered in 0.003685 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 100.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.558 seconds
+- Completed reload, in  1.692 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001663 seconds.
+Registered in 0.002430 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 186.66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 166.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.712 seconds
+- Completed reload, in  1.966 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 2.23 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 225.0 MB.
-System memory in use after: 225.2 MB.
+Unloading 4011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.7 MB.
+System memory in use after: 226.8 MB.
 
-Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4476.
-Total: 6.088600 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.303300 ms MarkObjects: 5.068800 ms  DeleteObjects: 0.307100 ms)
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4479.
+Total: 4.334800 ms (FindLiveObjects: 0.483300 ms CreateObjectMapping: 0.411800 ms MarkObjects: 3.140300 ms  DeleteObjects: 0.298200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/2D Assets/mat_ladybug.mat
-  artifactKey: Guid(ed94761c20ce6cd458109c085cd4ea25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/mat_ladybug.mat using Guid(ed94761c20ce6cd458109c085cd4ea25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
- -> (artifact id: 'e303b02ba5c53d6dedbe08852958ab84') in 2.397725 seconds 
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.59 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+ -> (artifact id: 'd2ae1d900fd5626b2fabc9c526de55d5') in 1.851329 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.425461 seconds.
-  path: Assets/3D Assets/moss test v2.fbx
-  artifactKey: Guid(54291d11be84cbd48921b547e7fea5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/moss test v2.fbx using Guid(54291d11be84cbd48921b547e7fea5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441362fa34376060b5a414297aac47e6') in 0.306668 seconds 
+  Time since last request: 1785.461442 seconds.
+  path: Assets/2D Assets/Textures/lazyUV.psd
+  artifactKey: Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Textures/lazyUV.psd using Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d291c4f587d5b8c7c5701f21446dfc') in 0.064669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1186.521657 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50599d599571ef437347fd40468f5736') in 0.313507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/3D Assets/Props/Tree Mushrooms.fbx
+  artifactKey: Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Tree Mushrooms.fbx using Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0681a37b5745951263d30bd889f89a9') in 0.160989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 523.311417 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c772891a8b9ddedd3218262489bd91') in 0.232011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.222413 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba0c4db494e57c60856bf7abb2953c8') in 0.167742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4584.191376 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2575ce3fda19794834a8594088a3b46') in 0.325519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.699132 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef0c2cc209ab1530dc22397e5c90464') in 0.242662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.203665 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b3333724018e0517eca2cb27db5d7a') in 0.229344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.928705 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090319829b0966d02e6ccfb6862a0ca7') in 0.026877 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002183 seconds.
+Registered in 0.001749 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -101,80 +149,158 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.133 seconds
+- Completed reload, in  1.850 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3674 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.7 MB.
-System memory in use after: 212.9 MB.
+Unloading 3675 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.0 MB.
+System memory in use after: 215.1 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4650.
-Total: 4.539500 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.413100 ms MarkObjects: 3.564000 ms  DeleteObjects: 0.095800 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4669.
+Total: 4.018700 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.170700 ms MarkObjects: 3.400700 ms  DeleteObjects: 0.101300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.886104 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b94af2e2b1d39350a9509311bf5d7da') in 0.094030 seconds 
+  Time since last request: 933.605516 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec034b16f1f5f029d341a96e36bf6bf') in 1.616144 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.739830 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0d4a496aac42c33b481da3871d3d44') in 0.006178 seconds 
+  Time since last request: 2.899119 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a01b32467b9b0f07c6e45dc95804d1') in 0.021906 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 113.833541 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c456639168b0858017b9670cbc2a05') in 0.005718 seconds 
+  Time since last request: 0.727970 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced081be8218543f614a3b4a65c76e4a') in 0.020807 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.079691 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1505e4593db3afab17847f18514d0cdd') in 0.012795 seconds 
+  Time since last request: 292.671645 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd520a065c674a9882c0d3495e7416a') in 0.208733 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1353.286543 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af12eb53531f7d05582a43db513e27ae') in 0.030294 seconds 
+  Time since last request: 653.907828 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44afb6b5657b7cc51ba40bd2f42e304') in 0.238185 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.674904 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8b065e10e4bacd2a91962aca03645d') in 0.005459 seconds 
+  Time since last request: 2.635801 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46a4f43f3e5c36bae6794c73be518f7') in 0.006024 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 804.553563 seconds.
-  path: Assets/3D Assets/moss test v2.fbx
-  artifactKey: Guid(54291d11be84cbd48921b547e7fea5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/moss test v2.fbx using Guid(54291d11be84cbd48921b547e7fea5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae4b730f3856ccc142f44385a7188f4') in 1.514811 seconds 
+  Time since last request: 15.155012 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed57fc25a35837cedd978c7e6c6097e2') in 0.020599 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.940794 seconds.
-  path: Assets/Prefabs/Props/Mush tree a.prefab
-  artifactKey: Guid(81eda63adf7ed654690384a6306474b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Mush tree a.prefab using Guid(81eda63adf7ed654690384a6306474b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbae6b3271149081b6331804580a09e3') in 0.085671 seconds 
+  Time since last request: 1158.677886 seconds.
+  path: Assets/3D Assets/Props/Plants.fbx
+  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330c2bb39b281ccabf359c3ed0036224') in 0.319306 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Prefabs/Props/Mush tree b.prefab
-  artifactKey: Guid(73b6bd4424452d54f8519fbb7a7c1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Mush tree b.prefab using Guid(73b6bd4424452d54f8519fbb7a7c1858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025d4d7554b42ff997104e74e0416e6f') in 0.038382 seconds 
+  Time since last request: 15.502721 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a323a3dacd4978ffc7f036e0ad67d5') in 0.042998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.347120 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A 1.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A 1.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146651744e6d6199fe2ebe07e7f5b9f6') in 0.021533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.703967 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A 2.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A 2.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2511cbbb22a8ef9d702f53a4306d060d') in 0.023575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.336424 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a1480bedae9d62985de173ab911be3') in 0.032833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.836458 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564d30fc6cd76b6138b5c352d7b5ba9b') in 0.025350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.574311 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd45265489a08b38fa4ce6cb24a22ee0') in 0.044371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.971684 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567626cf7d42f1b4eb26e099cf083ff1') in 0.025187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 360.475433 seconds.
+  path: Assets/2D Assets/Textures/lazyUV.psd
+  artifactKey: Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Assets/Textures/lazyUV.psd using Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01161a862d185b8b0278be03571a9980') in 0.028694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.331278 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b770245a0293b5e547cba70ad11007') in 0.021683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000732 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e37d9d104a4234f728dffee876842b4') in 0.015971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c319726cea6773e3f5471fbf0ef4c533') in 0.016464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.830356 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2add07e90a82b26fccb5994e93172555') in 0.016464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece77ddebb14bd0870fcafcb789ebbcb') in 0.020995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafa15c5bd4b613f8645a82f198cca49') in 0.016825 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002793 seconds.
+Registered in 0.001873 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -186,604 +312,173 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.630 seconds
+- Completed reload, in  2.071 seconds
 Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4756.
-Total: 5.952900 ms (FindLiveObjects: 0.340000 ms CreateObjectMapping: 0.172900 ms MarkObjects: 5.327200 ms  DeleteObjects: 0.111200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001651 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in 11.864 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.5 MB.
-System memory in use after: 212.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4759.
-Total: 5.738600 ms (FindLiveObjects: 0.486200 ms CreateObjectMapping: 0.384300 ms MarkObjects: 4.741500 ms  DeleteObjects: 0.124700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001674 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.921 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.4 MB.
-System memory in use after: 212.5 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4762.
-Total: 20.941800 ms (FindLiveObjects: 0.538500 ms CreateObjectMapping: 0.447100 ms MarkObjects: 19.826600 ms  DeleteObjects: 0.128000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1354.424590 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b796a7ef8d5f53b758897b835efe455') in 0.023297 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001932 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.680 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.4 MB.
-System memory in use after: 212.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4765.
-Total: 7.853300 ms (FindLiveObjects: 2.216200 ms CreateObjectMapping: 0.568200 ms MarkObjects: 4.944000 ms  DeleteObjects: 0.122700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 6207.844403 seconds.
-  path: Assets/3D Assets/Waterfall Level/logv2 low.fbx
-  artifactKey: Guid(707ba36ba62888741ac8fd8e64b162ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Waterfall Level/logv2 low.fbx using Guid(707ba36ba62888741ac8fd8e64b162ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdae147692e9386d9f0e89b6f727b8de') in 1.915126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.818896 seconds.
-  path: Assets/Prefabs/Waterfall Level/Log.prefab
-  artifactKey: Guid(c9f4bd0f11e7c644f872a5cd8346762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Log.prefab using Guid(c9f4bd0f11e7c644f872a5cd8346762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1653cb3e4f7a365cfdc7273f1c2cdc6f') in 0.151942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.682939 seconds.
-  path: Assets/Prefabs/Waterfall Level/Hollow Log.prefab
-  artifactKey: Guid(b5f3ab1b5f2f5e448ab57937e12aca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Hollow Log.prefab using Guid(b5f3ab1b5f2f5e448ab57937e12aca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4349c84247bc59633b619e0ed71a573c') in 0.040014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.155259 seconds.
-  path: Assets/Prefabs/Waterfall Level/Hollow Log.prefab
-  artifactKey: Guid(b5f3ab1b5f2f5e448ab57937e12aca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Hollow Log.prefab using Guid(b5f3ab1b5f2f5e448ab57937e12aca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55df0151caf60cc64ababeb9a4bd238') in 0.143632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.007629 seconds.
-  path: Assets/Prefabs/Waterfall Level/Hollow Log.prefab
-  artifactKey: Guid(b5f3ab1b5f2f5e448ab57937e12aca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Waterfall Level/Hollow Log.prefab using Guid(b5f3ab1b5f2f5e448ab57937e12aca53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4ccca355cfc6962292f290bd2cdf34') in 0.055758 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002544 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.778 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 212.7 MB.
-System memory in use after: 212.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4871.
-Total: 4.618500 ms (FindLiveObjects: 0.354000 ms CreateObjectMapping: 0.216800 ms MarkObjects: 3.947000 ms  DeleteObjects: 0.099500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 364.224281 seconds.
-  path: Assets/Prefabs/Props/Clover Bundle.prefab
-  artifactKey: Guid(ed09e1ddb386f154380d2381a6f0e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Clover Bundle.prefab using Guid(ed09e1ddb386f154380d2381a6f0e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dedc4b381a74fe4fa7aa6c4e4c72f7') in 1.002954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001247 seconds.
-  path: Assets/Prefabs/Props/Clover Single.prefab
-  artifactKey: Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Clover Single.prefab using Guid(117c9f3a2c6c74743a64c058de0b0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbff854319a6a44a32ed7b1800bc987e') in 0.028207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Prefabs/Props/Fern L.prefab
-  artifactKey: Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Fern L.prefab using Guid(8fa7291ce5de05e45b3df70ea5ab85b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f668226042d1917b4e7c61cf94cfe3') in 0.029827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.936512 seconds.
-  path: Assets/Prefabs/Props/Moss Star patch.prefab
-  artifactKey: Guid(c4b1c1c38c89987498946da4f5ec1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss Star patch.prefab using Guid(c4b1c1c38c89987498946da4f5ec1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540b645cea82196bd85ff8cd15816f02') in 0.131065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.084577 seconds.
-  path: Assets/Prefabs/Props/Moss star single.prefab
-  artifactKey: Guid(a1873f788737de141aeed8bea8c9a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss star single.prefab using Guid(a1873f788737de141aeed8bea8c9a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380ddcb9c3d29ae70b98c48f4b205b74') in 0.057916 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.249986 seconds.
-  path: Assets/Prefabs/Props/Moss star patch.prefab
-  artifactKey: Guid(c4b1c1c38c89987498946da4f5ec1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss star patch.prefab using Guid(c4b1c1c38c89987498946da4f5ec1223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0ac477289672e0631f43254ec6e683') in 0.023630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.022462 seconds.
-  path: Assets/Prefabs/Props/Moss star single 1.prefab
-  artifactKey: Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss star single 1.prefab using Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f91ade4772f9d18efccdf7665daeb2') in 0.023633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.752004 seconds.
-  path: Assets/Prefabs/Props/Moss fan single 1.prefab
-  artifactKey: Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss fan single 1.prefab using Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba0b33d0191aa84d275462bcef47f45') in 0.020415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.777406 seconds.
-  path: Assets/Prefabs/Props/Moss fan single 1.prefab
-  artifactKey: Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss fan single 1.prefab using Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d91b7faa19788128aa74fb4659bf66f') in 0.031702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.637739 seconds.
-  path: Assets/2D Assets/moss star.mat
-  artifactKey: Guid(2239d28d43d89c24d977da5283082618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/moss star.mat using Guid(2239d28d43d89c24d977da5283082618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5a0c9ec9fd63fd25c248a0b8f7d550') in 0.035551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.570984 seconds.
-  path: Assets/2D Assets/moss pillow.mat
-  artifactKey: Guid(2239d28d43d89c24d977da5283082618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/moss pillow.mat using Guid(2239d28d43d89c24d977da5283082618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31d907ff0aeccb1932c987a851a1507') in 0.024628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.565683 seconds.
-  path: Assets/2D Assets/moss fan.mat
-  artifactKey: Guid(80358abd480d54043a1e7b479038368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/moss fan.mat using Guid(80358abd480d54043a1e7b479038368b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c256a6f05c158929cc18d37093809c88') in 0.021381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.661712 seconds.
-  path: Assets/Prefabs/Props/Moss fan single 1.prefab
-  artifactKey: Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Moss fan single 1.prefab using Guid(3d51e40fd512c734990e3ead271405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3ac59584085b3cf9417c9e77a19aa2') in 0.034390 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 757.781446 seconds.
-  path: Assets/VFX/Star moss.vfx
-  artifactKey: Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Star moss.vfx using Guid(03dc99af69d51124ca17fc446f0d1212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5eb9394fcc730c238d25e99bf38408e') in 0.025233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.411613 seconds.
-  path: Assets/VFX/Fanmoss 1.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Fanmoss 1.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fefa7abe65c5e75d59fd5a9315aa65') in 0.011570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.876986 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabf6a8aa6181dac2d7e9ecd54ab0578') in 0.012605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.051724 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3909693b2072d1f5c17e7d5cf8e827') in 0.005767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.817667 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b4a8ed18c2dc713fcf10e88cc07656') in 0.006790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.126351 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9622feea5bc5dff81458b9a302071c') in 0.008566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 98.445498 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed5cc541970e7a11c9698f258c331d2') in 0.027527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.201626 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84d284425fd289c43e37f7e56058a52') in 0.005597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.577364 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1326a3d298a270bccf82ef78f44f566c') in 0.006024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.190502 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9670f65a54fb304c1a00418c60e021d') in 0.007891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.994418 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d86f1f89fbc445d89683cc1cc537879') in 0.006661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 144.939611 seconds.
-  path: Assets/2D Assets/Textures/moss/moss flipbook.png
-  artifactKey: Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/moss/moss flipbook.png using Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48401256e1a78225d0221c615adec2c') in 0.055450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.523053 seconds.
-  path: Assets/2D Assets/Textures/moss/moss flipbook.png
-  artifactKey: Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/moss/moss flipbook.png using Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfa0079591fb918339c23312c5e55a1') in 0.013580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.020103 seconds.
-  path: Assets/2D Assets/Textures/moss/moss flipbook.png
-  artifactKey: Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/moss/moss flipbook.png using Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960fa950084867fcddab007c788157c1') in 0.017606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.373028 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64aa9da52bfe5922d8935600f9b2de1') in 0.020630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.014030 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da3e8f48c0bb513ecd553a5b2c45b38') in 0.018180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 108.412474 seconds.
-  path: Assets/2D Assets/Textures/moss/moss flipbook.png
-  artifactKey: Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/moss/moss flipbook.png using Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c919fde6a45792c7c83634386b86e') in 0.027825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.166331 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d24b459dcc4a5104891247fa109a0a') in 0.006327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.111320 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831221c4a0c1bfeea8bfd2cf090ef163') in 0.008112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 156.375977 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b48202d5fe8fb837c7d76c7cf2d4185') in 0.025822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.226036 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1f5f7586f265ebf14b9578bef8c5e8') in 0.012271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 95.731748 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f68c419b8c21eafe64e1657410ac218') in 0.226904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 60.174790 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3991022e79cf0b7f107fb41144fde9fb') in 0.022587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.967125 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c807c7153b530bb968aeb6780bb5379') in 0.161144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.366384 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853e4d0c2a00ada38792bb481f8891c6') in 0.012300 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.277129 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6124cf5fb2d994f94dbdb8f7f2f3a3') in 0.023601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.149022 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960f57ca9afcbe8d61b59069f6eafc0c') in 0.035132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.728276 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4caa768b3d3645b0c0ca77c80e4661') in 0.045492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.746962 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964f90ff064b60180292600d34e4e30a') in 0.006617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 67.209361 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3cf703b5510ae03bf738bb0b220ed2') in 0.010243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.437441 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3fae2b7c24fa09150678403a3419f4') in 0.012483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.345695 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dddc53ae5be1a6e0c00dc4650f6a68') in 0.006838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.976765 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ba5e6fd61d010f897b009962ca00af') in 0.006654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.043950 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd18cb684fd90a2fdad96db6edb8671') in 0.007449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.378007 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd10cbdbe4f62d43724b7e3254a46ee7') in 0.006959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.549477 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a69a2f160187606739a5b94226540e') in 0.007948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 93.600713 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee58e3b2ab2aeba44e591ebaac4178f') in 0.008009 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002898 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.90 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.516 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3663 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 215.0 MB.
 System memory in use after: 215.2 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 5038.
-Total: 8.017200 ms (FindLiveObjects: 0.420000 ms CreateObjectMapping: 0.192300 ms MarkObjects: 7.286800 ms  DeleteObjects: 0.115700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4789.
+Total: 8.789300 ms (FindLiveObjects: 0.889400 ms CreateObjectMapping: 0.784300 ms MarkObjects: 7.009900 ms  DeleteObjects: 0.104000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 110.320294 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9c40158d39041c33d664d8f435a6e2') in 0.319246 seconds 
+  Time since last request: 90.492250 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2340d310bb45a56a13e2c874d1a0b2') in 1.041333 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 95.108289 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0efbce981beffa5e8c0e4078a62809') in 0.009005 seconds 
+  Time since last request: 0.000345 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b882435d494c41b2a99031f95a38913e') in 0.024011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.067896 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5e61d8ca1ddb2506e17614aa88054d') in 0.005389 seconds 
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e2dde143a8d4167f6a397469c30e26') in 0.023753 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 68.449180 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d6ced94365c472823d6cd3c581ceaf') in 0.014730 seconds 
+  Time since last request: 9.129571 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6d9fc931838ade13da1999355023e0') in 0.016584 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.634583 seconds.
-  path: Assets/VFX/Fanmoss.vfx
-  artifactKey: Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Fanmoss.vfx using Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c90054c991413fbc036c778db56084e') in 0.030527 seconds 
+  Time since last request: 0.000351 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22472478b1210046d5435d522775a2a3') in 0.017227 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.275317 seconds.
-  path: Assets/VFX/Fanmoss.vfx
-  artifactKey: Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Fanmoss.vfx using Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1136e8eccaae3a10f8589c8d113685ac') in 0.005290 seconds 
+  Time since last request: 0.000280 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4841511e32c4e48d70a268a0f8307c76') in 0.013244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 156.275450 seconds.
-  path: Assets/VFX/Fanmoss.vfx
-  artifactKey: Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Fanmoss.vfx using Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6faf426550f0fddde64ba5dc2d7c8a') in 0.005479 seconds 
+  Time since last request: 0.326171 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903366256ee2b4bee0bde5ae6c96d91e') in 0.039352 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.136764 seconds.
-  path: Assets/VFX/Fanmoss.vfx
-  artifactKey: Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Fanmoss.vfx using Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd5483a4b75a420b868458499ac05ab') in 0.010448 seconds 
+  Time since last request: 0.000387 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb25c4da748c5615682f4ba3ce3defd') in 0.034420 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.211238 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a6d077cdf8a8888d3dcf6d2858de90') in 0.007385 seconds 
+  Time since last request: 0.000387 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd569ee9a775e5b133f06715b95ac1da7') in 0.019960 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.796278 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b4329ca6f58ab227b4d57cd84309b') in 0.044527 seconds 
+  Time since last request: 4.731028 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e7a986679e3fbe65213498ffe87ce') in 0.016036 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.679397 seconds.
-  path: Assets/3D Assets/fanmoss.fbx
-  artifactKey: Guid(ca8a8a45f8d8cb3449cefa11aec5b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/fanmoss.fbx using Guid(ca8a8a45f8d8cb3449cefa11aec5b6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb23a86092f0da1747ad1c309c470a6b') in 0.987481 seconds 
+  Time since last request: 0.000380 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c7b1e60add6de2914b140d459fb17b') in 0.020348 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.936379 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6525f8acfeb22d0d5f8e5d120229ff3e') in 0.248498 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d81a48ddf6487d57d5bb0570f5fb7b') in 0.020853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.406932 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81734a0e4fe5dca158f08760a75bf7dc') in 0.018057 seconds 
+  Time since last request: 6.831562 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6d9095c66052647d38b44f00efd37c') in 0.015465 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 210.780211 seconds.
-  path: Assets/2D Assets/Textures/moss/moss flipbook.png
-  artifactKey: Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/moss/moss flipbook.png using Guid(580b400f190fd034e88b9d23c0cf9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8786467ab19de5f4f1c315f6d2a2be35') in 0.065288 seconds 
+  Time since last request: 0.000152 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ba4f8ad402744601044709bfae4eec') in 0.018985 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.218535 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4b9547aa8aa8b1a33b139328f836c0') in 0.035766 seconds 
+  Time since last request: 0.000247 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174bd497559cd8eaf1a3f5f647f8d939') in 0.018043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.156689 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9031269bc760f9e6774d606a21a11053') in 0.013869 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 30.227914 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c33b09d2cf2e4c5bd1b9e0c4e574d9c') in 0.019577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021793 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c69c56f79abcfabb44492ab2cd80ba') in 0.013617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b130d787e4aa20f42d255ddf1f58ef4') in 0.016286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.359036 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
+  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f72127d4b950f724001af9100ed413') in 0.021575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
+  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b7801ce17b5ddd130ddd5047e92dfc') in 0.018777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
+  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91da41c8bb88cbb0e3a48262eed8459') in 0.028400 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.741 seconds
+Platform modules already initialized, skipping
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.5 MB.
+System memory in use after: 215.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4895.
+Total: 5.193500 ms (FindLiveObjects: 0.376100 ms CreateObjectMapping: 0.182200 ms MarkObjects: 4.529700 ms  DeleteObjects: 0.104200 ms)
+
