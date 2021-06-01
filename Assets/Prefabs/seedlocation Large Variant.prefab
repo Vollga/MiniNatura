@@ -7,50 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Intensity
-      value: 21
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_LightUnit
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_SlopeBias
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_NormalBias
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_ShapeRadius
-      value: 0.0025
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: useVolumetric
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_MinFilterSize
-      value: 0.354
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_ShadowNearPlane
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_BlockerSampleCount
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_ShadowResolution.m_Override
-      value: 128
-      objectReference: {fileID: 0}
-    - target: {fileID: 2419765285970180863, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_ShadowResolution.m_UseOverride
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5039964664192037083, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -95,45 +51,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5039964664192037086, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Radius
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5039964664192037087, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
       propertyPath: m_Name
-      value: seedlocation Large Variant (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5039964664339081745, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Range
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Color.b
-      value: 0.4292453
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Color.r
-      value: 0.9780479
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Intensity
-      value: 262144
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_ShadowRadius
-      value: 0.0025
-      objectReference: {fileID: 0}
-    - target: {fileID: 7853969713497569628, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}
-      propertyPath: m_Shadows.m_Type
-      value: 1
+      value: seedlocation Large Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54f8567091d245b47b9c2cd5f0ed267b, type: 3}

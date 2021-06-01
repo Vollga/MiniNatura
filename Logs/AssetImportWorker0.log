@@ -15,11 +15,11 @@ C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56255
+64911
 Successfully changed project path to: C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 135.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,450 +35,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003685 seconds.
+Registered in 0.001919 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 100.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.692 seconds
+- Completed reload, in  1.647 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002430 seconds.
+Registered in 0.001977 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 166.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 157.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.966 seconds
+- Completed reload, in  2.519 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4011 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 226.7 MB.
-System memory in use after: 226.8 MB.
+Unloading 4049 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.8 MB.
+System memory in use after: 228.9 MB.
 
-Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4479.
-Total: 4.334800 ms (FindLiveObjects: 0.483300 ms CreateObjectMapping: 0.411800 ms MarkObjects: 3.140300 ms  DeleteObjects: 0.298200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.59 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
- -> (artifact id: 'd2ae1d900fd5626b2fabc9c526de55d5') in 1.851329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1785.461442 seconds.
-  path: Assets/2D Assets/Textures/lazyUV.psd
-  artifactKey: Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/lazyUV.psd using Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d291c4f587d5b8c7c5701f21446dfc') in 0.064669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1186.521657 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50599d599571ef437347fd40468f5736') in 0.313507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/3D Assets/Props/Tree Mushrooms.fbx
-  artifactKey: Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Tree Mushrooms.fbx using Guid(3e1e1858438f2304fa7a3d858d3cc11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0681a37b5745951263d30bd889f89a9') in 0.160989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 523.311417 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c772891a8b9ddedd3218262489bd91') in 0.232011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.222413 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba0c4db494e57c60856bf7abb2953c8') in 0.167742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4584.191376 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2575ce3fda19794834a8594088a3b46') in 0.325519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 180.699132 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef0c2cc209ab1530dc22397e5c90464') in 0.242662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 74.203665 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b3333724018e0517eca2cb27db5d7a') in 0.229344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.928705 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090319829b0966d02e6ccfb6862a0ca7') in 0.026877 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001749 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.850 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3675 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.0 MB.
-System memory in use after: 215.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4669.
-Total: 4.018700 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.170700 ms MarkObjects: 3.400700 ms  DeleteObjects: 0.101300 ms)
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4517.
+Total: 11.127800 ms (FindLiveObjects: 1.566600 ms CreateObjectMapping: 0.768000 ms MarkObjects: 8.069400 ms  DeleteObjects: 0.722100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 933.605516 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec034b16f1f5f029d341a96e36bf6bf') in 1.616144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.899119 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a01b32467b9b0f07c6e45dc95804d1') in 0.021906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.727970 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced081be8218543f614a3b4a65c76e4a') in 0.020807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 292.671645 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd520a065c674a9882c0d3495e7416a') in 0.208733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 653.907828 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44afb6b5657b7cc51ba40bd2f42e304') in 0.238185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.635801 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46a4f43f3e5c36bae6794c73be518f7') in 0.006024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.155012 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed57fc25a35837cedd978c7e6c6097e2') in 0.020599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1158.677886 seconds.
-  path: Assets/3D Assets/Props/Plants.fbx
-  artifactKey: Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Assets/Props/Plants.fbx using Guid(0ea558089291ae04fb2f947a94e4e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330c2bb39b281ccabf359c3ed0036224') in 0.319306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.502721 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a323a3dacd4978ffc7f036e0ad67d5') in 0.042998 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.347120 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A 1.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A 1.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146651744e6d6199fe2ebe07e7f5b9f6') in 0.021533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.703967 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A 2.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A 2.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2511cbbb22a8ef9d702f53a4306d060d') in 0.023575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.336424 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a1480bedae9d62985de173ab911be3') in 0.032833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.836458 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564d30fc6cd76b6138b5c352d7b5ba9b') in 0.025350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.574311 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd45265489a08b38fa4ce6cb24a22ee0') in 0.044371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.971684 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567626cf7d42f1b4eb26e099cf083ff1') in 0.025187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 360.475433 seconds.
-  path: Assets/2D Assets/Textures/lazyUV.psd
-  artifactKey: Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Assets/Textures/lazyUV.psd using Guid(bad408fd3385fef40881e0441c5039bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01161a862d185b8b0278be03571a9980') in 0.028694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.331278 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b770245a0293b5e547cba70ad11007') in 0.021683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000732 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e37d9d104a4234f728dffee876842b4') in 0.015971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c319726cea6773e3f5471fbf0ef4c533') in 0.016464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.830356 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2add07e90a82b26fccb5994e93172555') in 0.016464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece77ddebb14bd0870fcafcb789ebbcb') in 0.020995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafa15c5bd4b613f8645a82f198cca49') in 0.016825 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001873 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.071 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.0 MB.
-System memory in use after: 215.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4789.
-Total: 8.789300 ms (FindLiveObjects: 0.889400 ms CreateObjectMapping: 0.784300 ms MarkObjects: 7.009900 ms  DeleteObjects: 0.104000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.492250 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2340d310bb45a56a13e2c874d1a0b2') in 1.041333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b882435d494c41b2a99031f95a38913e') in 0.024011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e2dde143a8d4167f6a397469c30e26') in 0.023753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.129571 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6d9fc931838ade13da1999355023e0') in 0.016584 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22472478b1210046d5435d522775a2a3') in 0.017227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4841511e32c4e48d70a268a0f8307c76') in 0.013244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.326171 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903366256ee2b4bee0bde5ae6c96d91e') in 0.039352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb25c4da748c5615682f4ba3ce3defd') in 0.034420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd569ee9a775e5b133f06715b95ac1da7') in 0.019960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.731028 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904e7a986679e3fbe65213498ffe87ce') in 0.016036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c7b1e60add6de2914b140d459fb17b') in 0.020348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d81a48ddf6487d57d5bb0570f5fb7b') in 0.020853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.831562 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6d9095c66052647d38b44f00efd37c') in 0.015465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ba4f8ad402744601044709bfae4eec') in 0.018985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174bd497559cd8eaf1a3f5f647f8d939') in 0.018043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.227914 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c33b09d2cf2e4c5bd1b9e0c4e574d9c') in 0.019577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021793 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c69c56f79abcfabb44492ab2cd80ba') in 0.013617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b130d787e4aa20f42d255ddf1f58ef4') in 0.016286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.359036 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen A.prefab
-  artifactKey: Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen A.prefab using Guid(833d41c8bf965934081cc8ce94aa508d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f72127d4b950f724001af9100ed413') in 0.021575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen B.prefab
-  artifactKey: Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen B.prefab using Guid(9d46005b3de79614f92dcfe767f0b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b7801ce17b5ddd130ddd5047e92dfc') in 0.018777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Prefabs/Props/Maiglöckchen C.prefab
-  artifactKey: Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Props/Maiglöckchen C.prefab using Guid(c612a35da5e52734abeab8fced8a44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91da41c8bb88cbb0e3a48262eed8459') in 0.028400 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001824 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.741 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3662 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.5 MB.
-System memory in use after: 215.7 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4895.
-Total: 5.193500 ms (FindLiveObjects: 0.376100 ms CreateObjectMapping: 0.182200 ms MarkObjects: 4.529700 ms  DeleteObjects: 0.104200 ms)
-
+  path: Assets/Animation/Seed Collect.anim
+  artifactKey: Guid(8132eea5859f98e4fa5a5326bba0b4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Seed Collect.anim using Guid(8132eea5859f98e4fa5a5326bba0b4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0c3e4dc6843f2ebca6ab966b8267ef') in 0.067854 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
