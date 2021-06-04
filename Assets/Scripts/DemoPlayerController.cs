@@ -14,6 +14,8 @@ public class DemoPlayerController : MonoBehaviour
     public float jumpHeight = 5f;
     public float gravity = 1.0F;
     public int maxCoyote = 5;
+    public float maxAngle = 0.25f;
+    public float flowStrength = 20f;
 
     [Header("Player Model")]
     public Transform playerModel;
@@ -24,10 +26,12 @@ public class DemoPlayerController : MonoBehaviour
     CharacterController character;
     Transform cam;
     Vector3 moveDirection = Vector3.zero;
+    Vector3 collisionDirection = Vector3.zero;
     bool groundedPlayer;
     int coyoteTimer;
     bool _hasJumped = false;
-    bool _submerged = false;
+    bool _allowJump = true;
+    float slopeLimit;
 
     [Header("Collectibles Indicator")]
     public CollectiblesController collectiblesController;
@@ -43,6 +47,7 @@ public class DemoPlayerController : MonoBehaviour
     {
         character = this.GetComponent<CharacterController>();
         cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
+        slopeLimit = character.slopeLimit;
     }
 
     // Update is called once per frame
@@ -68,14 +73,17 @@ public class DemoPlayerController : MonoBehaviour
 
         
         Vector3 move = Quaternion.Euler(0, cam.eulerAngles.y, 0) * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         move = Vector3.ClampMagnitude(move, 1.0f);        //normalise diagonal movement
         
         move *= 1 + Input.GetAxis("Run") * (runMultiplier - 1); //apply dynamic run speed
         
-        playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
+        move += collisionDirection * 0.5f;
+
+        //playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         character.Move(move * Time.deltaTime * speed);
 
-        if (Input.GetButtonDown("Jump") && coyoteTimer <= maxCoyote && !_hasJumped && !_submerged)
+        if (Input.GetButtonDown("Jump") && coyoteTimer <= maxCoyote && !_hasJumped && _allowJump)
         {
             moveDirection.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
             _hasJumped = true;       
@@ -117,18 +125,53 @@ public class DemoPlayerController : MonoBehaviour
         //playerModel.LookAt(new Vector3(playerModel.position.x + moveDirection.x, playerModel.position.y, playerModel.position.z + moveDirection.z));
     }
 
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        //print(hit.normal + ", Mag: " + hit.normal.magnitude);
+        if (hit.collider.CompareTag("Moss"))
+        {
+            //print("somft moss,,,,,");
+            _allowJump = true;
+            collisionDirection = Vector3.zero;
+        }
+        else if (hit.normal.y < maxAngle && hit.normal.y >= 0)
+        {
+            //print("too steep!!");
+            _allowJump = false;
+            collisionDirection = hit.normal;
+            collisionDirection.y = 0f;
+            //character.slopeLimit = slopeLimit;
+        }
+        else if (hit.collider.CompareTag("Water"))
+        {
+            //print("Hehe sploosh");
+            print(hit.normal + ", Mag: " + hit.normal.magnitude);
+            collisionDirection = hit.normal * flowStrength;
+            collisionDirection.y = 0f ;
+            _allowJump = false;
+        }
+        else
+        {
+            _allowJump = true;
+            //character.slopeLimit = 65;
+            collisionDirection = Vector3.zero;
+        }
+    }
+
+    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Water"))
         {
-            _submerged = true;
+            _allowJump = false;
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Water"))
         {
-            _submerged = false;
+            _allowJump = true;
         }
     }
+    */
 }

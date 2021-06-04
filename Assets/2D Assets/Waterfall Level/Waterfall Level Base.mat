@@ -25,6 +25,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Leaf_Scatter_Nrm:
+        m_Texture: {fileID: 2800000, guid: 00031a7278f42f54c80c1b39589d816a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Leaf_Scatter_Tex:
+        m_Texture: {fileID: 2800000, guid: e6c8f5c6ce474ec4faad70332cdfe61b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_195302e797c8467c870a3bdfd828c0dc:
         m_Texture: {fileID: 2800000, guid: 19c434cd9c0f00a4ab397518cec65b0b, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -349,6 +357,7 @@ Material:
     m_Floats:
     - Boolean_9107d35d26a14a0e82ed0e2275388544: 1
     - Boolean_f03b8c262d0745c4a0a585fdb8ef6750: 0
+    - Leaf_Scatter_Tiling: 0.035
     - Vector1_0260f68e80b64aafb5221b30252d97ca: 12.5
     - Vector1_05f491608f21436ab06eb94d386fc1ba: 16.2
     - Vector1_3ef1f6d3208c44a4a4276b02f1f7bf38: 15
@@ -638,6 +647,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_9a64592748a442b091a6d73758fb6af2: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 0}
+    - Leaf_Scatter_Blend: {r: 0.8, g: 0.801, b: 0, a: 0}
     - Vector2_55a0842506ad48328f2b66e1e99f1dc5: {r: 0.3, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 0.43529412, g: 0.37254903, b: 0.27058825, a: 1}
     - _BaseColor0: {r: 1, g: 1, b: 1, a: 1}

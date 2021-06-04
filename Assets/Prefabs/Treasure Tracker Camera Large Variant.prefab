@@ -29,7 +29,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: focusSize
-      value: 60
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 609574479918699146, guid: 0ab90eef29492b8439e70e2474ad1fd8, type: 3}
       propertyPath: zoomStrength

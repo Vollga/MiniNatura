@@ -350,7 +350,7 @@ public class TreasureTrackerCamera : MonoBehaviour
 
         //apply focus distances
         tDOF.nearFocusStart.Override(smoothFocus - Mathf.Lerp(nearFocusStrength, (nearFocusStrength/2)/zoomStrength,smoothZoomLevel));
-        tDOF.nearFocusEnd.Override(smoothFocus - (Mathf.Lerp(focusSize, focusSize/zoomStrength,smoothZoomLevel) / 2));
+        tDOF.nearFocusEnd.Override(smoothFocus - (Mathf.Lerp(focusSize, focusSize*2/zoomStrength,smoothZoomLevel) / 2));
         tDOF.farFocusStart.Override(smoothFocus + (Mathf.Lerp(focusSize, focusSize*2 / zoomStrength, smoothZoomLevel) / 2));
         tDOF.farFocusEnd.Override(smoothFocus + Mathf.Lerp(farFocusStrength, farFocusStrength/zoomStrength, smoothZoomLevel));
 
