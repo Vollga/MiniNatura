@@ -86,6 +86,10 @@ PrefabInstance:
       propertyPath: m_Shadows.m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2693304964677798863, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2693476978075039530, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -142,6 +146,14 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4241089195084390464, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241089195084390464, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4772481665083250379, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: m_Name
       value: Character Large Variant
@@ -161,10 +173,6 @@ PrefabInstance:
     - target: {fileID: 4997764595048105833, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: m_SkinWidth
       value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4997764595048105833, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
-      propertyPath: m_SlopeLimit
-      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 4997764595048105833, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: m_StepOffset
@@ -280,11 +288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6809474024011270513, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: speed
-      value: 3.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6809474024011270513, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: gravity
-      value: -40
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 6809474024011270513, guid: fc22f483edfe52f4b86cab2f8608c83f, type: 3}
       propertyPath: animator

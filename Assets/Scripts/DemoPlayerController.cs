@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.VFX;
 
 
 public class DemoPlayerController : MonoBehaviour
@@ -17,24 +18,31 @@ public class DemoPlayerController : MonoBehaviour
     public float maxAngle = 0.25f;
     public float flowStrength = 20f;
 
-    [Header("Player Model")]
+    [Header("- Player Model -")]
     public Transform playerModel;
-
-    [Header("Player Animator")]
     public Animator animator;
+    public VisualEffect dustVFX;
 
+    [Header("- Collectibles Indicator -")]
+    public CollectiblesController collectiblesController;
+
+    [Header("- Audio Clips -")]
+    public AudioClip[] footstepClips;
+    public AudioClip jumpSound; 
+    public AudioClip landSound;   
+
+    [Header("- Debug Variables -")] 
+    public int coyoteTimer;
+    public bool _hasJumped = false;
+    public bool _allowJump = true;
+    public bool _climbing = false;
     CharacterController character;
     Transform cam;
+    AudioSource playerAudio;
+    Vector3 move = Vector3.zero;
     Vector3 moveDirection = Vector3.zero;
     Vector3 collisionDirection = Vector3.zero;
     bool groundedPlayer;
-    int coyoteTimer;
-    bool _hasJumped = false;
-    bool _allowJump = true;
-    float slopeLimit;
-
-    [Header("Collectibles Indicator")]
-    public CollectiblesController collectiblesController;
 
     private void Awake()
     {
@@ -47,7 +55,7 @@ public class DemoPlayerController : MonoBehaviour
     {
         character = this.GetComponent<CharacterController>();
         cam = GameObject.FindGameObjectWithTag("MainCamera").transform;
-        slopeLimit = character.slopeLimit;
+        playerAudio = this.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -61,6 +69,14 @@ public class DemoPlayerController : MonoBehaviour
         groundedPlayer = character.isGrounded;
         if (groundedPlayer)
         {
+            dustVFX.SetFloat("Velocity", move.magnitude);
+
+            if (_hasJumped) //checks if on landing frame
+            {
+                playerAudio.PlayOneShot(landSound);
+                dustVFX.SendEvent("LandBurst");
+            }
+
             coyoteTimer = 0;
             _hasJumped = false;
 
@@ -70,15 +86,23 @@ public class DemoPlayerController : MonoBehaviour
 
             }
         }
+        else
+        {
+            dustVFX.SetFloat("Velocity", 0);
+        }
 
         
-        Vector3 move = Quaternion.Euler(0, cam.eulerAngles.y, 0) * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        move = Quaternion.Euler(0, cam.eulerAngles.y, 0) * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         move = Vector3.ClampMagnitude(move, 1.0f);        //normalise diagonal movement
         
-        move *= 1 + Input.GetAxis("Run") * (runMultiplier - 1); //apply dynamic run speed
+        if (!_climbing) //disallow running while climbing
+        {
+            move *= 1 + Input.GetAxis("Run") * (runMultiplier - 1); //apply dynamic run speed
+        }
         
-        move += collisionDirection * 0.5f;
+        
+        move += collisionDirection;
 
         //playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         character.Move(move * Time.deltaTime * speed);
@@ -86,7 +110,8 @@ public class DemoPlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && coyoteTimer <= maxCoyote && !_hasJumped && _allowJump)
         {
             moveDirection.y += Mathf.Sqrt(jumpHeight * -3.0f * gravity);
-            _hasJumped = true;       
+            _hasJumped = true;
+            playerAudio.PlayOneShot(jumpSound);
         }
 
         moveDirection.y += gravity * Time.deltaTime;
@@ -128,24 +153,22 @@ public class DemoPlayerController : MonoBehaviour
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         //print(hit.normal + ", Mag: " + hit.normal.magnitude);
-        if (hit.collider.CompareTag("Moss"))
+        if (hit.normal.y < maxAngle && hit.normal.y >= 0 && !_hasJumped)
         {
-            //print("somft moss,,,,,");
-            _allowJump = true;
-            collisionDirection = Vector3.zero;
-        }
-        else if (hit.normal.y < maxAngle && hit.normal.y >= 0)
-        {
+            if (!hit.collider.CompareTag("Moss"))
+            {
+                collisionDirection = hit.normal;
+                collisionDirection.y = 0f;  
+            }
             //print("too steep!!");
             _allowJump = false;
-            collisionDirection = hit.normal;
-            collisionDirection.y = 0f;
             //character.slopeLimit = slopeLimit;
+            _climbing = true;
         }
         else if (hit.collider.CompareTag("Water"))
         {
             //print("Hehe sploosh");
-            print(hit.normal + ", Mag: " + hit.normal.magnitude);
+            //print(hit.normal + ", Mag: " + hit.normal.magnitude);
             collisionDirection = hit.normal * flowStrength;
             collisionDirection.y = 0f ;
             _allowJump = false;
@@ -153,6 +176,7 @@ public class DemoPlayerController : MonoBehaviour
         else
         {
             _allowJump = true;
+            _climbing = false;
             //character.slopeLimit = 65;
             collisionDirection = Vector3.zero;
         }

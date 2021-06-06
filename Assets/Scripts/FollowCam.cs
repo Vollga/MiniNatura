@@ -5,7 +5,7 @@ using UnityEngine.VFX;
 
 public class FollowCam : MonoBehaviour
 {
-    [Header("Camera Controls")]
+    [Header("- Camera Controls -")]
     public bool isTrackingPlayer = true;
     public Vector2 VerticalAngleMinMax = new Vector2(-65, 15);
     [Range(0.0f, 1.0f)]
@@ -18,7 +18,7 @@ public class FollowCam : MonoBehaviour
     public float joystickSensitivity = 1f;
 
 
-    [Header("Zoom Controls")]
+    [Header("- Zoom Controls -")]
     [Range(0.0f, 1.0f)]
     public float zoomLevel;
     [Range(0.0f, 1.0f)]
@@ -31,7 +31,7 @@ public class FollowCam : MonoBehaviour
     public float envSize;
     [SerializeField] private AnimationCurve zoomCurve = AnimationCurve.Linear(0, 0, 1, 1);
 
-    [Header("Autofocus Controls")]
+    [Header("- Autofocus Controls -")]
     public LayerMask afLayers;
     [Range(0.0f, 1.0f)]
     public float autofocusDampen = 0.2f;
@@ -43,7 +43,7 @@ public class FollowCam : MonoBehaviour
     public bool _showAFDebug = false;
     public bool _afOnPlayer;
 
-    [Header("Targets")]
+    [Header("- Targets -")]
     public Transform player;
     public float verticalOffset = 0f;
     [HideInInspector]
@@ -80,7 +80,7 @@ public class FollowCam : MonoBehaviour
     private int focusCoyote = 0;
 
     //Input 
-    [Header("Input")]
+    [Header("- Input -")]
     public string horizontalCamAxis = "Camera Horizontal";
     public string verticalCamAxis = "Camera Vertical";
     public string horizontalCamAxisGamepad = "Camera Horizontal Gamepad";
