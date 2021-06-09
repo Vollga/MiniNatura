@@ -14,6 +14,8 @@ public class DemoPlayerController : MonoBehaviour
     public float runMultiplier = 0.5f;
     public float jumpHeight = 5f;
     public float gravity = 1.0F;
+    public float floatGravity = 0.1F;
+    public float floatAirtimeLoss = 0.1f;
     public int maxCoyote = 5;
     public float maxAngle = 0.25f;
     public float flowStrength = 20f;
@@ -34,15 +36,19 @@ public class DemoPlayerController : MonoBehaviour
     [Header("- Debug Variables -")] 
     public int coyoteTimer;
     public bool _hasJumped = false;
+    public bool _grounded;
     public bool _allowJump = true;
     public bool _climbing = false;
+    public bool _floating = false;
+    public bool _inWater = false;
+    //public bool _onMoss = false;
+    public float tempFloatGrav;
     CharacterController character;
     Transform cam;
     AudioSource playerAudio;
     Vector3 move = Vector3.zero;
     Vector3 moveDirection = Vector3.zero;
     Vector3 collisionDirection = Vector3.zero;
-    bool groundedPlayer;
 
     private void Awake()
     {
@@ -66,12 +72,12 @@ public class DemoPlayerController : MonoBehaviour
             Application.Quit();
         }
 
-        groundedPlayer = character.isGrounded;
-        if (groundedPlayer)
+        _grounded = character.isGrounded;
+        if (_grounded && !_inWater)
         {
             dustVFX.SetFloat("Velocity", move.magnitude);
 
-            if (_hasJumped) //checks if on landing frame
+            if (_hasJumped || character.velocity.y < gravity * 0.25f) //checks if on landing frame
             {
                 playerAudio.PlayOneShot(landSound);
                 dustVFX.SendEvent("LandBurst");
@@ -83,7 +89,6 @@ public class DemoPlayerController : MonoBehaviour
             if(moveDirection.y < 0)
             {
                 moveDirection.y = 0f;
-
             }
         }
         else
@@ -96,7 +101,7 @@ public class DemoPlayerController : MonoBehaviour
         playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         move = Vector3.ClampMagnitude(move, 1.0f);        //normalise diagonal movement
         
-        if (!_climbing) //disallow running while climbing
+        if (!_climbing) //disallow running while climbing or midair
         {
             move *= 1 + Input.GetAxis("Run") * (runMultiplier - 1); //apply dynamic run speed
         }
@@ -113,13 +118,28 @@ public class DemoPlayerController : MonoBehaviour
             _hasJumped = true;
             playerAudio.PlayOneShot(jumpSound);
         }
-
-        moveDirection.y += gravity * Time.deltaTime;
+        else if (!_grounded && Input.GetButtonDown("Jump")) //Midair button Press, start floating
+        {
+            _floating = true;
+            tempFloatGrav = floatGravity;
+        }
+        else if (Input.GetButton("Jump") && !_grounded && _floating)
+        {
+            moveDirection.y = tempFloatGrav * Time.deltaTime;
+            tempFloatGrav *= 1.0f + (floatAirtimeLoss * Time.deltaTime);
+        }
+        else
+        {
+            moveDirection.y += gravity * Time.deltaTime;
+            _floating = false;
+        }
+        
         character.Move(moveDirection * Time.deltaTime);
         coyoteTimer += 1;
 
         animator.SetFloat("velocity", move.magnitude);
         animator.SetFloat("running", Input.GetAxis("Run"));
+        animator.SetBool("gliding", _floating);
 
         //if (character.isGrounded)
         //{
@@ -158,7 +178,8 @@ public class DemoPlayerController : MonoBehaviour
             if (!hit.collider.CompareTag("Moss"))
             {
                 collisionDirection = hit.normal;
-                collisionDirection.y = 0f;  
+                collisionDirection.y = 0f;
+                //_onMoss = true;
             }
             //print("too steep!!");
             _allowJump = false;
@@ -172,9 +193,12 @@ public class DemoPlayerController : MonoBehaviour
             collisionDirection = hit.normal * flowStrength;
             collisionDirection.y = 0f ;
             _allowJump = false;
+            _inWater = true;
         }
         else
         {
+            //_onMoss = false;
+            _inWater = false;
             _allowJump = true;
             _climbing = false;
             //character.slopeLimit = 65;

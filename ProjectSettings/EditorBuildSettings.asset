@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Level Woods.unity
+    guid: ff11dc264159455478c2ba485e7dfed7
+  - enabled: 1
     path: Assets/Scenes/Blockout Waterfall.unity
     guid: b1ce953debf09334c9c5eeb0eb288c17
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Blockout Waterfall x2.unity
     guid: 7647a171b881d95418ed7f1c7e6af70a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Blockout Waterfall Full Scale.unity
     guid: 51552f2ed84e7134d97a1a15ab84e074
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LazyUV Art Test.unity
     guid: bca098874b286bb43b5e8c7bfd957371
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}

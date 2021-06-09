@@ -26,7 +26,7 @@ public class MossVFXBinder : MonoBehaviour
     {
         if (Application.isPlaying)
         {
-            playerFeet = DemoPlayerController.Player.transform.Find("Feet");
+            playerFeet = GameObject.FindGameObjectWithTag("Player").transform.Find("Feet");
         }
         mossVfx = this.GetComponent<VisualEffect>();
         

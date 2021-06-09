@@ -131,7 +131,7 @@ public class TreasureTrackerCamera : MonoBehaviour
             afDebug.GetComponent<SphereCollider>().enabled = false;
         }
 
-        playerModel = player.GetComponent<DemoPlayerController>().playerModel.GetComponent<MeshRenderer>();
+        //playerModel = player.GetComponent<DemoPlayerController>().playerModel.GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame
@@ -308,7 +308,7 @@ public class TreasureTrackerCamera : MonoBehaviour
         }
         else
         {
-            tFindPlayer.LookAt(playerModel.transform.position);
+            tFindPlayer.LookAt(player);
             afRay = new Ray(tFindPlayer.position, tFindPlayer.forward);
         }
 
