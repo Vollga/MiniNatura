@@ -3302,7 +3302,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616325}
   - {fileID: 8926484042661616331}
   - {fileID: 8926484042661617087}
-  m_UIPosition: {x: 2473, y: 1681}
+  m_UIPosition: {x: 2473, y: 1620}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -4332,7 +4332,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616406}
   - {fileID: 8926484042661616403}
   - {fileID: 8926484042661616525}
-  m_UIPosition: {x: 955, y: 1584}
+  m_UIPosition: {x: 955, y: 1569}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
@@ -15065,7 +15065,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.75
+      m_SerializableObject: 0.5
     m_Space: 2147483647
   m_Property:
     name: min
@@ -15099,7 +15099,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2.5
+      m_SerializableObject: 2
     m_Space: 2147483647
   m_Property:
     name: max
