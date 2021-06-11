@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1784952613}
   m_Layer: 5
   m_Name: Collectible Indicator
-  m_TagString: Untagged
+  m_TagString: CollectiblesController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51,14 +51,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enable: 1
-  seedLocations:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   seedSpritePrefab: {fileID: 6710663850818473950, guid: 0260e882895ced94dac6494c4ddf7207, type: 3}
   counter: 0
 --- !u!114 &612982055775915101

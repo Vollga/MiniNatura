@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
             if (_hasJumped || character.velocity.y < gravity * 0.25f) //checks if on landing frame
             {
                 playerAudio.PlayOneShot(landSound);
-                dustVFX.SendEvent("LandBurst");
+                dustVFX.SendEvent("Burst");
             }
 
             coyoteTimer = 0;
@@ -107,7 +107,7 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        move += collisionDirection;
+        move += collisionDirection * 0.5f;
 
         //playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         character.Move(move * Time.deltaTime * speed);
@@ -118,6 +118,7 @@ public class PlayerController : MonoBehaviour
             _hasJumped = true;
             playerAudio.PlayOneShot(jumpSound);
             animator.SetTrigger("Jump");
+            dustVFX.SendEvent("Burst");
         }
         else if (!_grounded && Input.GetButtonDown("Jump")) //Midair button Press, start floating
         {

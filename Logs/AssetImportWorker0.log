@@ -15,11 +15,11 @@ C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55576
+57528
 Successfully changed project path to: C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 C:/Dateien/Projects/MiniNatura/Unity/MiniNatura
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 139.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 146.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,402 +35,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003403 seconds.
+Registered in 0.003222 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 154.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 136.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.410 seconds
+- Completed reload, in  2.089 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002083 seconds.
+Registered in 0.002223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 178.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 254.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.243 seconds
+- Completed reload, in  2.880 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 240.1 MB.
-System memory in use after: 240.3 MB.
+Unloading 4066 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 243.8 MB.
+System memory in use after: 243.9 MB.
 
-Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4535.
-Total: 6.301000 ms (FindLiveObjects: 0.627400 ms CreateObjectMapping: 0.573700 ms MarkObjects: 4.728200 ms  DeleteObjects: 0.369600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx
-  artifactKey: Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx using Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccbf12e2e77d8676810af725d8175e9') in 0.137128 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002068 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.133 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.0 MB.
-System memory in use after: 218.2 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4538.
-Total: 6.659900 ms (FindLiveObjects: 1.610500 ms CreateObjectMapping: 0.981400 ms MarkObjects: 3.967200 ms  DeleteObjects: 0.099100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.644794 seconds.
-  path: Assets/VFX/Dust FX.vfx
-  artifactKey: Guid(8f1c0cc5e1d14314485495a9b2aa2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Dust FX.vfx using Guid(8f1c0cc5e1d14314485495a9b2aa2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667595e51537e401807659ad05a04a96') in 0.174704 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001881 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.794 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.1 MB.
-System memory in use after: 218.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4541.
-Total: 4.316800 ms (FindLiveObjects: 0.527600 ms CreateObjectMapping: 0.401400 ms MarkObjects: 3.294100 ms  DeleteObjects: 0.092300 ms)
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 4538.
+Total: 7.086800 ms (FindLiveObjects: 0.694500 ms CreateObjectMapping: 1.489000 ms MarkObjects: 4.521200 ms  DeleteObjects: 0.380300 ms)
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002746 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.981 seconds
-Platform modules already initialized, skipping
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
 Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 2.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.1 MB.
-System memory in use after: 218.3 MB.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.9 MB.
+System memory in use after: 148.1 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4544.
-Total: 3.569000 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.173300 ms MarkObjects: 2.904400 ms  DeleteObjects: 0.165300 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4538.
+Total: 4.653400 ms (FindLiveObjects: 0.493900 ms CreateObjectMapping: 0.451300 ms MarkObjects: 3.612300 ms  DeleteObjects: 0.094900 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.571 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 218.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4547.
-Total: 5.058500 ms (FindLiveObjects: 0.695300 ms CreateObjectMapping: 0.496200 ms MarkObjects: 3.757600 ms  DeleteObjects: 0.108200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002276 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.898 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 218.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4550.
-Total: 3.256000 ms (FindLiveObjects: 0.314100 ms CreateObjectMapping: 0.170700 ms MarkObjects: 2.626800 ms  DeleteObjects: 0.143300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001673 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.976 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 2.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 218.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4553.
-Total: 12.625900 ms (FindLiveObjects: 1.200300 ms CreateObjectMapping: 0.511300 ms MarkObjects: 10.799200 ms  DeleteObjects: 0.113600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002002 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  8.068 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 3.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 218.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4556.
-Total: 23.832400 ms (FindLiveObjects: 0.665100 ms CreateObjectMapping: 16.117900 ms MarkObjects: 6.897400 ms  DeleteObjects: 0.149200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 663.898607 seconds.
-  path: Assets/VFX/Dig effect.vfx
-  artifactKey: Guid(2b7aa450209ccd24e9455a262b13ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Dig effect.vfx using Guid(2b7aa450209ccd24e9455a262b13ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc43e26e0717e6bd6aaf0efcd6b699f4') in 0.177313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/VFX/Fanmoss.vfx
-  artifactKey: Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Fanmoss.vfx using Guid(770d5973187aa444885819eb6e79cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01142374a206faaf4e1ce3ee4e891013') in 0.013595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/VFX/Dust FX.vfx
-  artifactKey: Guid(8f1c0cc5e1d14314485495a9b2aa2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Dust FX.vfx using Guid(8f1c0cc5e1d14314485495a9b2aa2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9429cd7573296357c869dddbdc41b93f') in 0.012136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 448.393371 seconds.
-  path: Assets/VFX/Dig effect.vfx
-  artifactKey: Guid(2b7aa450209ccd24e9455a262b13ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Dig effect.vfx using Guid(2b7aa450209ccd24e9455a262b13ef49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff1a588c69aef7322f60dc0f65a537a') in 0.007632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/VFX/Dust FX.vfx
-  artifactKey: Guid(8f1c0cc5e1d14314485495a9b2aa2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Dust FX.vfx using Guid(8f1c0cc5e1d14314485495a9b2aa2d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa90768338e6422a111b37d47ba20e7b') in 0.012633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.880447 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5cc4350577fdc9ea98e42f991de485') in 0.062035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.918211 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dace3d9c863c566ebaa3e8e32505037') in 0.016180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.991050 seconds.
-  path: Assets/VFX/Moss Combined.vfx
-  artifactKey: Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Moss Combined.vfx using Guid(aa80eb61cf017054f8ff0d5da72b3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4a73d4acbb570adc4b9bb91ef9513a') in 0.009496 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 113.355887 seconds.
-  path: Assets/Prefabs/Player Character.prefab
-  artifactKey: Guid(7dc4632e4d4528a4490914066611de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player Character.prefab using Guid(7dc4632e4d4528a4490914066611de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
- -> (artifact id: 'e4ba80d9d0f33223c186d59452f17414') in 2.412451 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003885 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.784 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 2.85 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3714 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.8 MB.
-System memory in use after: 240.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4695.
-Total: 8.506900 ms (FindLiveObjects: 0.596400 ms CreateObjectMapping: 0.517100 ms MarkObjects: 7.134400 ms  DeleteObjects: 0.257200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 869.017936 seconds.
-  path: Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx
-  artifactKey: Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx using Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220c7fb560ec5bc09d29938523e00efb') in 0.590848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.972638 seconds.
-  path: Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx
-  artifactKey: Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx using Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31178cc737388ba4d047022afc30ca3') in 0.014571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.522440 seconds.
-  path: Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx
-  artifactKey: Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Mixamo/Brutal To Happy Walking (1).fbx using Guid(739fb41c79ae67044b1e35fbbe4af6f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b196b0b417e9f5dc886adeb26b4f6b9') in 0.028230 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002070 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.749 seconds
-Platform modules already initialized, skipping
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3702 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.1 MB.
-System memory in use after: 239.3 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4698.
-Total: 8.446500 ms (FindLiveObjects: 0.536700 ms CreateObjectMapping: 0.288300 ms MarkObjects: 7.507600 ms  DeleteObjects: 0.111500 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

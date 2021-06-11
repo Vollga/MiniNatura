@@ -8,6 +8,7 @@ TagManager:
   - SeedGroup
   - Water
   - Moss
+  - CollectiblesController
   layers:
   - Default
   - TransparentFX

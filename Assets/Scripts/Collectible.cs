@@ -17,11 +17,13 @@ public class Collectible : MonoBehaviour
     //DecalProjector glowDecal;
     //Light glowLight;
     Animation seedAni;
+    CollectiblesController cController;
     float targetIntensity;
 
     // Start is called before the first frame update
     void Start()
     {
+        cController = GameObject.FindGameObjectWithTag("CollectiblesController").GetComponent<CollectiblesController>();
         seedAni = this.GetComponentInChildren<Animation>();
         //glowDecal = this.GetComponentInChildren<DecalProjector>();
         //glowLight = this.GetComponentInChildren<Light>();
@@ -43,7 +45,7 @@ public class Collectible : MonoBehaviour
             //StartCoroutine(startGlow());
             seedAni.Play();
             this.GetComponent<AudioSource>().PlayOneShot(dig);
-            other.GetComponent<DemoPlayerController>().collectiblesController.CollectSeed();
+            cController.CollectSeed();
             this.GetComponent<SphereCollider>().enabled = false;
             _isCollected = true;
         }
