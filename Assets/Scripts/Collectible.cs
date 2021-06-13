@@ -20,9 +20,13 @@ public class Collectible : MonoBehaviour
     CollectiblesController cController;
     float targetIntensity;
 
+    GameObject uiPrompt;
+
     // Start is called before the first frame update
     void Start()
     {
+        uiPrompt = transform.Find("UI Prompt").gameObject;
+        uiPrompt.SetActive(false);
         cController = GameObject.FindGameObjectWithTag("CollectiblesController").GetComponent<CollectiblesController>();
         seedAni = this.GetComponentInChildren<Animation>();
         //glowDecal = this.GetComponentInChildren<DecalProjector>();
@@ -47,7 +51,24 @@ public class Collectible : MonoBehaviour
             this.GetComponent<AudioSource>().PlayOneShot(dig);
             cController.CollectSeed();
             this.GetComponent<SphereCollider>().enabled = false;
+            uiPrompt.SetActive(false);
             _isCollected = true;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            uiPrompt.SetActive(true);
+        }
+    }
+    
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            uiPrompt.SetActive(false);
         }
     }
 

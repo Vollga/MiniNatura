@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DemoSceneManager : MonoBehaviour
 {
+    public bool allowScreenshot;
     [Header("Make sure to put backslash at the end")]
     public string saveLocation = "C:\\Users\\janca\\Documents\\HKU\\Jaar 4\\Afstudeer\\Screenshots\\";
     public int resolutionMultiplier = 2;
@@ -32,7 +33,7 @@ public class DemoSceneManager : MonoBehaviour
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
-        } else if (Input.GetButtonDown("Screenshot") && Input.GetKey(KeyCode.LeftAlt))
+        } else if (Input.GetButtonDown("Screenshot") && Input.GetKey(KeyCode.LeftAlt) && allowScreenshot)
         {
             ScreenCapture.CaptureScreenshot(saveLocation + System.DateTime.Now.ToString("yyyy-MM-dd").Replace("-", ".") + "_" + System.DateTime.Now.ToString("HH-mm-ss") + "_" + currentScene.name + "_x" + resolutionMultiplier + ".png", resolutionMultiplier);
         }
