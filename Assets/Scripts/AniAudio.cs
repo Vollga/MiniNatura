@@ -7,6 +7,7 @@ public class AniAudio : MonoBehaviour
     AudioSource source;
     PlayerController player;
     AudioClip[] footsteps;
+    AudioClip[] swimClips;
 
     // Start is called before the first frame update
     void Start()
@@ -14,13 +15,19 @@ public class AniAudio : MonoBehaviour
         source = this.GetComponent<AudioSource>();
         player = this.GetComponentInParent<PlayerController>();
         footsteps = player.footstepClips;
+        swimClips = player.swimSound;
     }
 
     void Step()
     {
-        if (player._grounded)
+        if (player._grounded && !player._inWater)
         {
             source.PlayOneShot(footsteps[Random.Range(0, footsteps.Length)]);
         }
+    }
+
+    void Swim()
+    {
+        source.PlayOneShot(swimClips[Random.Range(0, swimClips.Length)]);
     }
 }

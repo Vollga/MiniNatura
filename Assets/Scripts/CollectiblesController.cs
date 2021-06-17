@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class CollectiblesController : MonoBehaviour
 {
     public bool _enable = true;
-    GameObject[] seedLocations;
+    [HideInInspector]
+    public GameObject[] seedLocations;
     public GameObject seedSpritePrefab;
     public int counter = 0;
 
@@ -15,7 +16,7 @@ public class CollectiblesController : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         GameObject seedGroup = GameObject.FindGameObjectWithTag("SeedGroup");
         seedLocations = new GameObject[seedGroup.transform.childCount];

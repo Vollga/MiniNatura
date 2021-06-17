@@ -10,6 +10,7 @@ public class Collectible : MonoBehaviour
     //public bool _useDecal = false;
     public AudioClip dig;
     public AudioClip ding;
+    public AudioClip fanfare;
 
     public VisualEffect digEffect;
     public Animator burstEffect;
@@ -20,13 +21,11 @@ public class Collectible : MonoBehaviour
     CollectiblesController cController;
     float targetIntensity;
 
-    GameObject uiPrompt;
+    public GameObject uiPrompt;
 
     // Start is called before the first frame update
     void Start()
     {
-        uiPrompt = transform.Find("UI Prompt").gameObject;
-        uiPrompt.SetActive(false);
         cController = GameObject.FindGameObjectWithTag("CollectiblesController").GetComponent<CollectiblesController>();
         seedAni = this.GetComponentInChildren<Animation>();
         //glowDecal = this.GetComponentInChildren<DecalProjector>();
@@ -39,6 +38,11 @@ public class Collectible : MonoBehaviour
         //    glowDecal.transform.localPosition = new Vector3(0, -0.01f, 0);
         //    glowDecal.enabled = true;
         //}
+
+        if (_isCollected)
+        {
+            cController.CollectSeed();
+        }
 
     }
 
@@ -53,6 +57,13 @@ public class Collectible : MonoBehaviour
             this.GetComponent<SphereCollider>().enabled = false;
             uiPrompt.SetActive(false);
             _isCollected = true;
+
+            if (cController.counter == cController.seedLocations.Length)
+            {
+                StartCoroutine(FinishLevel());
+                ding = fanfare;
+            }
+
         }
     }
 
@@ -87,6 +98,13 @@ public class Collectible : MonoBehaviour
     { 
         this.GetComponent<AudioSource>().PlayOneShot(ding);
     }
+
+    IEnumerator FinishLevel()
+    {
+        yield return new WaitForSeconds(seedAni.clip.length);
+        GameManager.gameManager.NextScene();
+    }
+
 
     /*
     private void OnTriggerEnter(Collider other)

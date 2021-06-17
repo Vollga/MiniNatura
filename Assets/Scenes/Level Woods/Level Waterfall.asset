@@ -123,7 +123,7 @@ MonoBehaviour:
     max: 1
   m_RaySteps:
     m_OverrideState: 0
-    m_Value: 32
+    m_Value: 64
     min: 16
     max: 128
   m_FullResolutionSS:
@@ -940,11 +940,6 @@ MonoBehaviour:
     m_Value: 1
     min: 0.001
     max: 10
-  m_UpscaleRadius:
-    m_OverrideState: 0
-    m_Value: 2
-    min: 2
-    max: 6
   m_FullResolution:
     m_OverrideState: 0
     m_Value: 0
@@ -956,3 +951,6 @@ MonoBehaviour:
     m_Value: 8
     min: 1
     max: 32
+  m_AffectSmoothSurfaces:
+    m_OverrideState: 0
+    m_Value: 0

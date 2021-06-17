@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 1474165137}
   - component: {fileID: 1474165136}
   - component: {fileID: 1474165139}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Base Collider Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}

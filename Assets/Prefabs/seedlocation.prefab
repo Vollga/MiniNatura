@@ -64,9 +64,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _isCollected: 0
   dig: {fileID: 8300000, guid: 52b9311f187cc6f4f8ed0506cc7f2591, type: 3}
-  ding: {fileID: 8300000, guid: 925cb3ebb6969864ab6c285006ce877e, type: 3}
+  ding: {fileID: 8300000, guid: 55b36225d2dd3674b916ad1418e523c9, type: 3}
+  fanfare: {fileID: 8300000, guid: b009efa09cfc3194fb3f388407a8b63a, type: 3}
   digEffect: {fileID: 8679397636175820645}
   burstEffect: {fileID: 6261559502664490467}
+  uiPrompt: {fileID: 5135275470148452142}
 --- !u!82 &5039964664192037081
 AudioSource:
   m_ObjectHideFlags: 0
@@ -259,7 +261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5371358243776466791
 Transform:
   m_ObjectHideFlags: 0
@@ -369,7 +371,7 @@ Transform:
   m_GameObject: {fileID: 7288870620033422984}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.07, y: -0.75, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.9, z: 0.75}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_Children:
   - {fileID: 8453999353496457732}
   m_Father: {fileID: 5039964664192037083}

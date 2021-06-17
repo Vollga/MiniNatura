@@ -172,7 +172,7 @@ public class TreasureTrackerCamera : MonoBehaviour
         float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, zoomLevel, ref zoomVelocity, zoomToggleSpeed);
         smoothZoomLevel = dampZoom;
         */
-
+        /*
         if (!_usingV2) //Old system
         {
             //Zoom Toggle
@@ -255,7 +255,7 @@ public class TreasureTrackerCamera : MonoBehaviour
             cam.fieldOfView = Mathf.Lerp(maxFoV, maxFoV/zoomStrength, smoothZoomLevel);
         }
         else //new system
-        {
+        { */
             //Zoom V2   
             if (Input.GetButtonDown(zoomToggleButton) && _enableToggle)
             {
@@ -292,7 +292,7 @@ public class TreasureTrackerCamera : MonoBehaviour
             cam.fieldOfView = Mathf.Lerp(maxFoV, (maxFoV / zoomStrength) / (Vector3.Distance(player.position,cam.transform.position)/ envSize), smoothZoomLevel); //Zoom FOV adjusted based on distance of player to camera so player always stays the same size
 
             cam.transform.LookAt(finalTarget);
-        }
+        //}
 
 
 

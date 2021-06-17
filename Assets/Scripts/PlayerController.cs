@@ -30,8 +30,10 @@ public class PlayerController : MonoBehaviour
 
     [Header("- Audio Clips -")]
     public AudioClip[] footstepClips;
+    public AudioClip[] swimSound;
     public AudioClip jumpSound;
     public AudioClip landSound;
+
 
     [Header("- Debug Variables -")]
     public int coyoteTimer;
