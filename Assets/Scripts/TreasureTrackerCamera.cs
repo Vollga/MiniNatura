@@ -17,11 +17,11 @@ public class TreasureTrackerCamera : MonoBehaviour
     [Header("- Camera Controls -")]
     public bool isTrackingPlayer = true;
     public Vector2 VerticalAngleMinMax = new Vector2(-65, 15);
-    [Range(0.0f, 1.0f)]
+    [Range(0.0f, 5.0f)]
     public float horizontalDampen = 0.75f;
-    [Range(0.0f, 1.0f)]
+    [Range(0.0f, 5.0f)]
     public float verticalDampen = 0.75f;
-    [Range(0.0f, 1.0f)]
+    [Range(0.0f, 5.0f)]
     public float mouseDampen = 0.1f;
     public float mouseSensitivity = 0.5f;
     public float joystickSensitivity = 1f;
@@ -30,9 +30,9 @@ public class TreasureTrackerCamera : MonoBehaviour
     [Header("- Zoom Controls -")]
     [Range(0.0f, 1.0f)]
     public float zoomLevel;
-    [Range(0.0f, 1.0f)]
+    [Range(0.0f, 5.0f)]
     public float zoomToggleSpeed = 0.75f;
-    [Range(0.0f, 1.0f)]
+    [Range(0.0f, 5.0f)]
     public float zoomTrackingDampen = 0.25f;
     public float zoomSensitivity = 1.5f;
     public bool _enableToggle = false;
@@ -112,7 +112,7 @@ public class TreasureTrackerCamera : MonoBehaviour
     void Start()
     {
         //cam.transform.LookAt(tOrigin.position + new Vector3(0, verticalOffset, 0));
-
+        
         verticalPos.y = cam.transform.position.y;
         originPos = tOrigin.position;
 
@@ -132,6 +132,7 @@ public class TreasureTrackerCamera : MonoBehaviour
         }
 
         //playerModel = player.GetComponent<DemoPlayerController>().playerModel.GetComponent<MeshRenderer>();
+
     }
 
     // Update is called once per frame
@@ -268,15 +269,22 @@ public class TreasureTrackerCamera : MonoBehaviour
                     zoomLevel = 0.15f;
                 }
             }
-            zoomLevel = Mathf.Clamp(zoomLevel + Input.GetAxis(zoomAxis) * zoomSensitivity, 0f, 1f);
+            zoomLevel += Input.GetAxis(zoomAxis) * zoomSensitivity;
+            zoomLevel = Mathf.Clamp01(zoomLevel);
 
             float dampZoom = Mathf.SmoothDamp(smoothZoomLevel, zoomLevel, ref zoomVelocity, zoomToggleSpeed);
             smoothZoomLevel = dampZoom;
 
-            //Smoothstep pivot rotation
+            /*Smoothstep pivot rotation
             Vector3 finalRot = new Vector3(0, tOrigin.eulerAngles.y + (Input.GetAxis(horizontalCamAxis) * mouseSensitivity) + (Input.GetAxis(horizontalCamAxisGamepad) * joystickSensitivity), 0);
-            Vector3 smoothRot = Vector3.SmoothDamp(finalRot, tOrigin.eulerAngles, ref hVelocity, mouseDampen);
-            smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + (Input.GetAxis(verticalCamAxis) * mouseSensitivity) + (Input.GetAxis(verticalCamAxisGamepad) * joystickSensitivity), VerticalAngleMinMax.x, VerticalAngleMinMax.y);
+            Vector3 smoothRot = Vector3.SmoothDamp(tOrigin.eulerAngles, finalRot, ref hVelocity, mouseDampen);
+            smoothRot.x = ClampAngle(tOrigin.eulerAngles.x + (Input.GetAxis(verticalCamAxis)) + (Input.GetAxis(verticalCamAxisGamepad)), VerticalAngleMinMax.x, VerticalAngleMinMax.y);
+            tOrigin.eulerAngles = smoothRot;*/
+
+            //Smoothstep pivot rotation
+            Vector3 finalRot = new Vector3(tOrigin.eulerAngles.x + (Input.GetAxis(verticalCamAxis) * mouseSensitivity) + (Input.GetAxis(verticalCamAxisGamepad) * joystickSensitivity), tOrigin.eulerAngles.y + (Input.GetAxis(horizontalCamAxis) * mouseSensitivity) + (Input.GetAxis(horizontalCamAxisGamepad) * joystickSensitivity), 0);
+            Vector3 smoothRot = Vector3.SmoothDamp(tOrigin.eulerAngles, finalRot, ref hVelocity, mouseDampen);
+            smoothRot.x = ClampAngle(smoothRot.x, VerticalAngleMinMax.x, VerticalAngleMinMax.y);
             tOrigin.eulerAngles = smoothRot;
 
             //Apply camera position & offset

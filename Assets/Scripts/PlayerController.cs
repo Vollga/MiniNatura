@@ -77,6 +77,7 @@ public class PlayerController : MonoBehaviour
         _grounded = character.isGrounded;
         if (_grounded && !_inWater)
         {
+            animator.ResetTrigger("Jump");
             dustVFX.SetFloat("Velocity", move.magnitude);
 
             if (_hasJumped || character.velocity.y < gravity * 0.25f) //checks if on landing frame
@@ -98,8 +99,9 @@ public class PlayerController : MonoBehaviour
             dustVFX.SetFloat("Velocity", 0);
         }
 
-
+        //move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         move = Quaternion.Euler(0, cam.eulerAngles.y, 0) * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        
         playerModel.LookAt(new Vector3(playerModel.position.x + move.x, playerModel.position.y, playerModel.position.z + move.z));
         move = Vector3.ClampMagnitude(move, 1.0f);        //normalise diagonal movement
 
@@ -146,6 +148,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("gliding", _floating);
         animator.SetBool("swimming", _inWater);
         animator.SetBool("climbing", _climbing);
+        animator.SetBool("grounded", _grounded);
 
         //if (character.isGrounded)
         //{

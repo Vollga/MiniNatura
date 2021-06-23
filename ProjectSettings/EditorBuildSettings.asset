@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LazyUV Art Test.unity
     guid: bca098874b286bb43b5e8c7bfd957371
+  - enabled: 0
+    path: Assets/Scenes/Trailer Cinematic.unity
+    guid: 949004a08c615a64f91495ea6651b52f
   m_configObjects: {}

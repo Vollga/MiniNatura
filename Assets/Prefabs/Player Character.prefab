@@ -412,7 +412,7 @@ MonoBehaviour:
   jumpHeight: 3
   gravity: -50
   floatGravity: -75
-  floatAirtimeLoss: 0.5
+  floatAirtimeLoss: 0.3
   maxCoyote: 30
   maxAngle: 0.5
   flowStrength: 15
@@ -425,7 +425,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 273be4bc88edb2d40b2b27d5a6f91d7d, type: 3}
   - {fileID: 8300000, guid: 24bd9ab9b52b7514e809db618b25077a, type: 3}
   - {fileID: 8300000, guid: 85140b463d907224bb1e4ee5a6db7fbf, type: 3}
-  swimSound: []
+  swimSound:
+  - {fileID: 8300000, guid: 829e0f26b95f35146b73efe3717c4702, type: 3}
+  - {fileID: 8300000, guid: 7076af6e60bb8ef4ca0304288043af23, type: 3}
+  - {fileID: 8300000, guid: 179331ef455cece47901c3f2b04efb7c, type: 3}
   jumpSound: {fileID: 8300000, guid: 8035564cb06cdc643b2bb93dc1be73c8, type: 3}
   landSound: {fileID: 8300000, guid: a178986aef688f343914df14dc55cd3d, type: 3}
   coyoteTimer: 0

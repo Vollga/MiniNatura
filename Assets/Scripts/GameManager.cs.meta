@@ -9,7 +9,7 @@ MonoImporter:
   - fadeOut: {fileID: 7400000, guid: 5058fa730413c2248bc4d4a1e7ded1a2, type: 2}
   - mute: {fileID: -6285190658108129736, guid: 9ebd6d18cf2e47c46bfa8342a369c229, type: 2}
   - unmute: {fileID: 24500006, guid: 9ebd6d18cf2e47c46bfa8342a369c229, type: 2}
-  executionOrder: 0
+  executionOrder: -80
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 

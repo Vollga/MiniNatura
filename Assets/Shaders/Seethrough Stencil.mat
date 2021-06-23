@@ -18,10 +18,10 @@ Material:
     MotionVector: User
     RenderType: Transparent
   disabledShaderPasses:
-  - MOTIONVECTORS
-  - TransparentDepthPrepass
   - TransparentDepthPostpass
+  - TransparentDepthPrepass
   - TransparentBackface
+  - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -43,9 +43,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Fresnel_Strength: 0.4
+    - Fresnel_Strength: 0.18
     - Vector1_c44902d9aeb642aa888841c32a271c16: 2
-    - Vector1_e846258063664c4082ce31e7afb50ba3: 0.5
+    - Vector1_e846258063664c4082ce31e7afb50ba3: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
@@ -53,8 +53,8 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 4
-    - _CullMode: 2
-    - _CullModeForward: 2
+    - _CullMode: 1
+    - _CullModeForward: 1
     - _DepthOffsetEnable: 0
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
@@ -76,7 +76,7 @@ Material:
     - _StencilWriteMaskMV: 40
     - _SurfaceType: 1
     - _TransparentBackfaceEnable: 0
-    - _TransparentCullMode: 2
+    - _TransparentCullMode: 1
     - _TransparentDepthPostpassEnable: 0
     - _TransparentDepthPrepassEnable: 0
     - _TransparentSortPriority: 0

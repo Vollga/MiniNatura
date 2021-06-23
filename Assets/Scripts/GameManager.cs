@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     
 
     public bool _cursorVisible = false;
+    public bool _allowSceneTransition = true;
     public Animation animator;
     public AnimationClip fadeIn;
     public AnimationClip fadeOut;
@@ -52,7 +53,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Screenshot") && Input.GetKey(KeyCode.LeftAlt) && allowScreenshot)
+        if (Input.GetButtonDown("Screenshot") && allowScreenshot)
         {
             ScreenCapture.CaptureScreenshot(saveLocation + System.DateTime.Now.ToString("yyyy-MM-dd").Replace("-", ".") + "_" + System.DateTime.Now.ToString("HH-mm-ss") + "_" + SceneManager.GetActiveScene().name + "_x" + resolutionMultiplier + ".png", resolutionMultiplier);
         }
@@ -62,6 +63,10 @@ public class GameManager : MonoBehaviour
             animator.Play("fade out");
             StartCoroutine(SceneFadeOut(currentScene, fadeOut.length));
 
+        }
+        else if (Input.GetButtonDown("Scene Switch") && _allowSceneTransition)
+        {
+            NextScene();
         }
         else if (Input.GetButtonDown("Scene Switch") && Input.GetKey(KeyCode.LeftAlt))
         {
