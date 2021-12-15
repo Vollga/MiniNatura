@@ -429,6 +429,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 829e0f26b95f35146b73efe3717c4702, type: 3}
   - {fileID: 8300000, guid: 7076af6e60bb8ef4ca0304288043af23, type: 3}
   - {fileID: 8300000, guid: 179331ef455cece47901c3f2b04efb7c, type: 3}
+  gruntClips:
+  - {fileID: 8300000, guid: 72f71e93c8a67de49aa4dc795967f83e, type: 3}
+  - {fileID: 8300000, guid: 64ec776eb2f6a6c4d8a56eadb2bff6de, type: 3}
+  - {fileID: 8300000, guid: 4ccc780d02fc94f428f94e4035201ee1, type: 3}
+  - {fileID: 8300000, guid: 3417a28d3b719fd478052fcc0125227b, type: 3}
+  - {fileID: 8300000, guid: 5e207f248d66ad143978571fdb0bc775, type: 3}
+  squelchClips:
+  - {fileID: 8300000, guid: 55b8239406cecd94c8483d42af8787b8, type: 3}
+  - {fileID: 8300000, guid: a8e0de2ccc9c9f447b5d324cf6813ecd, type: 3}
+  - {fileID: 8300000, guid: 7b61b4d1b1702454980921b50506ccd4, type: 3}
+  - {fileID: 8300000, guid: b847c551f0ccc6b46b1472a51a491bd8, type: 3}
+  - {fileID: 8300000, guid: 6341bab72680119478a23bba572002ec, type: 3}
   jumpSound: {fileID: 8300000, guid: 8035564cb06cdc643b2bb93dc1be73c8, type: 3}
   landSound: {fileID: 8300000, guid: a178986aef688f343914df14dc55cd3d, type: 3}
   coyoteTimer: 0
@@ -438,6 +450,7 @@ MonoBehaviour:
   _climbing: 0
   _floating: 0
   _inWater: 0
+  _onMoss: 0
   tempFloatGrav: 0
 --- !u!81 &6514423124635904827
 AudioListener:

@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     [Header("- Audio Clips -")]
     public AudioClip[] footstepClips;
     public AudioClip[] swimSound;
+    public AudioClip[] gruntClips;
+    public AudioClip[] squelchClips;
     public AudioClip jumpSound;
     public AudioClip landSound;
 
@@ -43,7 +45,7 @@ public class PlayerController : MonoBehaviour
     public bool _climbing = false;
     public bool _floating = false;
     public bool _inWater = false;
-    //public bool _onMoss = false;
+    public bool _onMoss = false;
     public float tempFloatGrav;
     CharacterController character;
     Transform cam;
@@ -204,9 +206,18 @@ public class PlayerController : MonoBehaviour
             _allowJump = false;
             _inWater = true;
         }
+        else if (hit.collider.CompareTag("Moss"))
+        {
+            _onMoss = true;
+            _inWater = false;
+            _allowJump = true;
+            _climbing = false;
+            //character.slopeLimit = 65;
+            collisionDirection = Vector3.zero;
+        }
         else
         {
-            //_onMoss = false;
+            _onMoss = false;
             _inWater = false;
             _allowJump = true;
             _climbing = false;

@@ -14,19 +14,24 @@ public class CollectiblesController : MonoBehaviour
 
     GameObject[] seedSprites;
 
-
-    // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
+        this.GetComponent<Image>().enabled = false;
+    }
+
+    // Create Seed Counter
+    public void CreateSeedCounter()
+    {
+        //find seeds
         GameObject seedGroup = GameObject.FindGameObjectWithTag("SeedGroup");
         seedLocations = new GameObject[seedGroup.transform.childCount];
 
+        //store seeds in array
         for (int i = 0; i < seedLocations.Length; i++)
         {
             seedLocations[i] = seedGroup.transform.GetChild(i).gameObject;
         }
 
-        this.GetComponent<Image>().enabled = false;
         seedSprites = new GameObject[seedLocations.Length];
         for (int i = 0; i < seedSprites.Length; i++)
         {
@@ -34,13 +39,17 @@ public class CollectiblesController : MonoBehaviour
             //seedSprites[i].transform.SetParent(this.transform);
             seedSprites[i].GetComponent<RectTransform>().anchoredPosition3D = new Vector3(75 * i, 0, 0);
             seedSprites[i].GetComponent<Image>().enabled = _enable;
+
+            Color tempColor = seedSprites[i].GetComponent<Image>().color;
+            tempColor.a = 0;
+            seedSprites[i].GetComponent<Image>().color = tempColor;
         }
     }
 
-    public void CollectSeed()
+    public void CollectSeed(int seedNumber)
     {
         
-        seedSprites[counter].GetComponent<Image>().color = Color.white;
+        seedSprites[seedNumber].GetComponent<Image>().color = Color.white;
         counter++;
     }
 }

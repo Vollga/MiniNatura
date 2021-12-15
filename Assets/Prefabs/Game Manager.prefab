@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cursorVisible: 0
-  _allowSceneTransition: 1
+  _allowSceneTransition: 0
   animator: {fileID: 0}
   fadeIn: {fileID: 7400000, guid: decb3a15b88488e49a306e73a287ffe5, type: 2}
   fadeOut: {fileID: 7400000, guid: 5058fa730413c2248bc4d4a1e7ded1a2, type: 2}

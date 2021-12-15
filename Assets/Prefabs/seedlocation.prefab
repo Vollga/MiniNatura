@@ -17,7 +17,7 @@ GameObject:
   m_Layer: 2
   m_Name: seedlocation
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 2800000, guid: bf561fb9b16d32d42a1ec5799cac18ed, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b52ccfd7051ab4c46997820980e17d8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  seedOrderNumber: 0
   _isCollected: 0
   dig: {fileID: 8300000, guid: 52b9311f187cc6f4f8ed0506cc7f2591, type: 3}
   ding: {fileID: 8300000, guid: 55b36225d2dd3674b916ad1418e523c9, type: 3}

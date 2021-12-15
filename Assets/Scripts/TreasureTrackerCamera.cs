@@ -10,11 +10,12 @@ public class TreasureTrackerCamera : MonoBehaviour
     public static TreasureTrackerCamera mainCamera;
     #endregion
     public bool _usingV2 = true;
-    
-    
+
+
     //public bool _isHittingPlayer;
 
     [Header("- Camera Controls -")]
+    public bool lockControls = false;
     public bool isTrackingPlayer = true;
     public Vector2 VerticalAngleMinMax = new Vector2(-65, 15);
     [Range(0.0f, 5.0f)]
@@ -25,7 +26,8 @@ public class TreasureTrackerCamera : MonoBehaviour
     public float mouseDampen = 0.1f;
     public float mouseSensitivity = 0.5f;
     public float joystickSensitivity = 1f;
-    
+    float tempSensivity;
+
 
     [Header("- Zoom Controls -")]
     [Range(0.0f, 1.0f)]
@@ -115,6 +117,8 @@ public class TreasureTrackerCamera : MonoBehaviour
         
         verticalPos.y = cam.transform.position.y;
         originPos = tOrigin.position;
+
+        mouseSensitivity = mouseSensitivity;
 
         if (GameObject.FindGameObjectWithTag("GlobalVolume").GetComponent<Volume>().profile.TryGet<DepthOfField>(out DepthOfField dof))
         {
@@ -366,6 +370,26 @@ public class TreasureTrackerCamera : MonoBehaviour
 
 
     }
+
+    void LockCamera()
+    {
+        if (!lockControls)
+        {
+            tempSensivity = mouseSensitivity;
+            mouseSensitivity = 0;
+        }
+        else
+        {
+            mouseSensitivity = tempSensivity;
+        }
+        lockControls = !lockControls;
+        //print("awoogaa");
+    }
+    void DisplaySeedCounter ()
+    {
+        GameObject.FindGameObjectWithTag("CollectiblesController").GetComponent<CollectiblesController>().CreateSeedCounter();
+    }
+
 
     public static float ClampAngle(float angle, float min, float max)
     {

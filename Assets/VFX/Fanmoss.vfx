@@ -123,20 +123,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: Moss Mesh
-    path: Moss Mesh
-    tooltip: 
-    sheetType: m_NamedObject
-    realType: Mesh
-    defaultValue:
-      m_Type:
-        m_SerializableType: UnityEngine.Mesh, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2234282464574920183,"guid":"ca8a8a45f8d8cb3449cefa11aec5b6b0","type":3}}'
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Spawn Parameters
     path: 
     tooltip: 

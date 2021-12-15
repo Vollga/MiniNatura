@@ -6,6 +6,7 @@ using UnityEngine.VFX;
 
 public class Collectible : MonoBehaviour
 {
+    public int seedOrderNumber;
     public bool _isCollected = false;
     //public bool _useDecal = false;
     public AudioClip dig;
@@ -41,7 +42,7 @@ public class Collectible : MonoBehaviour
 
         if (_isCollected)
         {
-            cController.CollectSeed();
+            cController.CollectSeed(seedOrderNumber - 1);
         }
 
     }
@@ -53,7 +54,7 @@ public class Collectible : MonoBehaviour
             //StartCoroutine(startGlow());
             seedAni.Play();
             this.GetComponent<AudioSource>().PlayOneShot(dig);
-            cController.CollectSeed();
+            cController.CollectSeed(seedOrderNumber - 1);
             this.GetComponent<SphereCollider>().enabled = false;
             uiPrompt.SetActive(false);
             _isCollected = true;
